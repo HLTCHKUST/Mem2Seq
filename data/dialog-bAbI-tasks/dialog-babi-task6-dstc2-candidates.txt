@@ -1,0 +1,2407 @@
+1 bedouin is a nice restaurant in the centre of town serving african food
+1 Did you say you are looking for a restaurant in the west of town?
+1 cambridge_lodge_restaurant is on cambridge_lodge_restaurant_address
+1 You are looking for a steakhouse restaurant right?
+1 la_tasca is a nice place in the centre of town
+1 Sorry there is no belgian restaurant in the expensive price range
+1 Sorry there is no german restaurant in the centre of town
+1 Sure , hotel_du_vin_and_bistro is on hotel_du_vin_and_bistro_address
+1 api_call irish R_location expensive
+1 I'm sorry but there is no restaurant serving moroccan food
+1 meghna is a great restaurant serving indian food and it is in the moderate price range
+1 ali_baba is a nice place in the centre of town
+1 the river bar steakhouse and grill is a great restaurant serving modern_european food and it is in the cheap price range
+1 Sorry there is no vegetarian restaurant in the expensive price range
+1 The phone number of j_restaurant is j_restaurant_phone
+1 Sure , la_raza is on la_raza_address
+1 kymmoy is in the centre part of town .
+1 Sorry there is no japanese restaurant in the east of town
+1 I'm sorry but there is no restaurant serving corsica food
+1 You are looking for a chinese restaurant right?
+1 The phone number of graffiti is graffiti_phone
+1 darrys_cookhouse_and_wine_shop serves modern_european food in the expensive price range
+1 hakka is a nice place in the north of town and the prices are expensive
+1 api_call japanese R_location moderate
+1 Let me confirm , You are looking for a restaurant in the cheap price range right?
+1 There are restaurants serving modern_european food . What price range do you want?
+1 api_call korean north R_price
+1 the_oak_bistro serves british food in the moderate price range
+1 golden_house is a nice restaurant in the centre of town serving chinese food
+1 api_call german R_location R_price
+1 da_vinci_pizzeria is a nice place in the north of town and the prices are cheap
+1 golden_wok is a nice restaurant in the north of town serving chinese food
+1 The price range at zizzi_cambridge is cheap .
+1 darrys_cookhouse_and_wine_shop is in the expensive price range
+1 api_call gastropub north R_price
+1 the_copper_kettle serves british food
+1 Sure , the_nirala is on the_nirala_address
+1 You are looking for a unusual restaurant right?
+1 api_call indian R_location R_price
+1 I'm sorry but there is no british restaurant in the south of town
+1 royal_spice is a great restaurant
+1 api_call italian east R_price
+1 The phone number of hotel_du_vin_and_bistro is hotel_du_vin_and_bistro_phone
+1 api_call asian_oriental R_location expensive
+1 There are restaurants serving portuguese food . What area do you want?
+1 eraina is a nice place in the centre of town serving tasty european food
+1 the_hotpot is a nice place in the north of town
+1 royal_standard is a great restaurant serving gastropub food and it is in the expensive price range
+1 Sorry there is no expensive restaurant in the west of town serving japanese food
+1 There are restaurants serving british food in any part of town . What price range would you like?
+1 api_call turkish centre R_price
+1 la_tasca is in the moderate price range
+1 Sorry there is no jamaican restaurant in the west of town
+1 curry_garden is a great restaurant
+1 Sorry would you like cuban or asian_oriental food?
+1 Sorry there is no portuguese restaurant in the expensive price range
+1 Sorry there is no moderate restaurant in the north of town serving vietnamese food
+1 Sorry there is no welsh restaurant in the north of town
+1 cocum is a nice restaurant in the west of town serving indian food
+1 The post code of restaurant_two_two is restaurant_two_two_post_code
+1 I'm sorry but there is no restaurant serving singaporean food
+1 I'm sorry but there is no restaurant serving scandinavian food
+1 api_call singaporean R_location R_price
+1 I'm sorry but there is no restaurant serving moderate portuguese food
+1 saigon_city serves asian_oriental food in the expensive price range
+1 anatolia serves turkish food in the moderate price range
+1 I am sorry but there is no other japanese restaurant that matches your request
+1 The price range at panahar is expensive .
+1 The price range at bangkok_city is expensive .
+1 la_raza serves spanish food .
+1 la_margherita is in the cheap price range
+1 the_varsity_restaurant is a nice place in the centre of town serving tasty international food
+1 You are looking for a persian restaurant right?
+1 The phone number of rice_house is rice_house_phone
+1 api_call spanish R_location R_price
+1 There are restaurants in the moderate price range . What area do you want?
+1 Sorry would you like danish or english food?
+1 There are restaurants serving thai food . What area do you want?
+1 There are restaurants in the moderate price range and the north of town . What type of food would you like?
+1 Sorry there is no traditional restaurant in the south of town
+1 thanh_binh serves vietnamese food
+1 graffiti is in the expensive price range
+1 nandos is a great restaurant serving portuguese food and it is in the cheap price range
+1 la_margherita is a nice place in the west of town
+1 kohinoor is a nice place in the centre of town
+1 You are looking for a spanish restaurant right?
+1 restaurant_one_seven is a nice place in the centre of town
+1 I'm sorry but there is no restaurant serving german food
+1 api_call australian R_location R_price
+1 charlie_chan is a great restaurant serving chinese food and it is in the cheap price range
+1 shanghai_family_restaurant is a great restaurant serving chinese food and it is in the moderate price range
+1 The phone number of wagamama is wagamama_phone
+1 chiquito_restaurant_bar serves mexican food .
+1 The phone number of nandos_city_centre is nandos_city_centre_phone
+1 saint_johns_chop_house is a nice restaurant in the west of town in the moderate price range
+1 pizza_hut_cherry_hinton is a great restaurant serving moderate italian food in the south of town .
+1 Sure , cote is on cote_address
+1 Sorry there is no steakhouse restaurant in the south of town
+1 api_call caribbean west R_price
+1 hotel_du_vin_and_bistro is a great restaurant serving moderate european food in the centre of town .
+1 restaurant_alimentum is a nice restaurant in the south of town serving modern_european food
+1 Sorry would you like something in the west or in the centre
+1 ugly_duckling is a nice restaurant in the centre of town in the expensive price range
+1 riverside_brasserie serves modern_european food .
+1 api_call basque R_location expensive
+1 The phone number of loch_fyne is loch_fyne_phone
+1 Sure , kohinoor is on kohinoor_address
+1 riverside_brasserie is a great restaurant
+1 Sure , grafton_hotel_restaurant is on grafton_hotel_restaurant_address
+1 j_restaurant serves asian_oriental food
+1 bedouin serves african food in the expensive price range
+1 api_call R_cuisine R_location cheap
+1 The post code of pizza_hut_fen_ditton is pizza_hut_fen_ditton_post_code
+1 bedouin is a great restaurant
+1 the cow pizza kitchen and bar is a nice restaurant in the centre of town serving gastropub food
+1 There are restaurants serving any kind of food in the expensive price range . What area would you like?
+1 api_call swiss north R_price
+1 The post code of nandos is nandos_post_code
+1 pizza_hut_city_centre is a nice place in the centre of town
+1 curry_prince is a nice place in the east of town
+1 I'm sorry but there is no restaurant serving cheap lebanese food
+1 india_house is a nice place in the west of town serving tasty indian food
+1 The post code of backstreet_bistro is backstreet_bistro_post_code
+1 the_golden_curry serves indian food
+1 I'm sorry but there is no turkish restaurant in the north of town
+1 api_call christmas R_location R_price
+1 thanh_binh serves vietnamese food in the cheap price range
+1 The phone number of saigon_city is saigon_city_phone
+1 pizza_hut_cherry_hinton is on pizza_hut_cherry_hinton_address
+1 api_call turkish north R_price
+1 fitzbillies_restaurant is a great restaurant
+1 the_nirala is a nice restaurant in the north of town in the moderate price range
+1 api_call polish R_location cheap
+1 pizza_hut_cherry_hinton is in the south part of town .
+1 Sure , royal_spice is on royal_spice_address
+1 the_varsity_restaurant serves international food .
+1 yippee_noodle_bar is a nice place in the centre of town
+1 Sorry there is no creative restaurant in the north of town
+1 api_call german north R_price
+1 Sure , de_luca_cucina_and_bar is on de_luca_cucina_and_bar_address
+1 Sorry there is no mediterranean restaurant in the moderate price range
+1 You are looking for a irish restaurant right?
+1 The price range at graffiti is expensive .
+1 api_call brazilian R_location R_price
+1 api_call basque east R_price
+1 api_call turkish south R_price
+1 the_lucky_star is a nice place in the south of town
+1 Sorry there is no hungarian restaurant in the moderate price range
+1 There are restaurants serving thai in any price range . What area would you like?
+1 You are looking for a singaporean restaurant right?
+1 golden_house is in the cheap price range
+1 There are restaurants serving italian food . What area do you want?
+1 The phone number of caffe_uno is caffe_uno_phone
+1 Sure , wagamama is on wagamama_address
+1 api_call mexican R_location cheap
+1 j_restaurant is in the cheap price range
+1 The post code of pizza_hut_cherry_hinton is pizza_hut_cherry_hinton_post_code
+1 You are looking for a creative restaurant right?
+1 Sorry there is no lebanese restaurant in the north of town
+1 la_tasca is a great restaurant
+1 the good luck chinese food takeaway is a great restaurant serving expensive chinese food in the south of town .
+1 taj_tandoori is in the expensive price range
+1 api_call venetian R_location R_price
+1 meze_bar_restaurant serves turkish food .
+1 yippee_noodle_bar is a great restaurant
+1 frankie_and_bennys is a nice place in the south of town and the prices are expensive
+1 I'm sorry but there is no restaurant serving polish food
+1 api_call vietnamese R_location moderate
+1 api_call asian_oriental R_location moderate
+1 There are restaurants serving european in any price range . What area would you like?
+1 Sorry there is no australasian restaurant in the west of town
+1 curry_garden is in the centre part of town .
+1 anatolia is a nice place in the centre of town serving tasty turkish food
+1 There are restaurants serving indian in the expensive price range . What area would you like?
+1 The phone number of darrys_cookhouse_and_wine_shop is darrys_cookhouse_and_wine_shop_phone
+1 There are restaurants serving mediterranean food in any part of town . What price range would you like?
+1 cocum serves indian food
+1 little_seoul is a good restaurant on 108 Regent Street City Centre and it is in the expensive price range
+1 The post code of maharajah_tandoori_restaurant is maharajah_tandoori_restaurant_post_code
+1 There are restaurants serving modern_european food in any part of town . What price range would you like?
+1 backstreet_bistro is on backstreet_bistro_address
+1 tandoori_palace is a nice restaurant in the north of town serving indian food
+1 royal_spice is a great restaurant serving cheap indian food in the north of town .
+1 michaelhouse_cafe serves european food
+1 golden_wok is in the moderate price range
+1 cotto serves british food in the moderate price range
+1 la_margherita is a great restaurant serving italian food and it is in the cheap price range
+1 api_call korean R_location expensive
+1 restaurant_alimentum is in the moderate price range
+1 cambridge_lodge_restaurant is a nice restaurant in the west of town in the expensive price range
+1 the_varsity_restaurant is a nice place in the centre of town
+1 da_vinci_pizzeria is a nice place in the north of town serving tasty italian food
+1 There are restaurants serving vietnamese in the cheap price range . What area would you like?
+1 frankie_and_bennys is a great restaurant
+1 api_call australasian R_location moderate
+1 api_call british R_location R_price
+1 api_call french R_location moderate
+1 Sorry there is no scandinavian restaurant in the north of town
+1 api_call vegetarian east R_price
+1 royal_spice is a nice place in the north of town
+1 The price range at galleria is moderate .
+1 golden_house is a great restaurant serving chinese food and it is in the cheap price range
+1 Sorry there is no cheap restaurant in the north of town serving cuban food
+1 Sure , ugly_duckling is on ugly_duckling_address
+1 Sure , the_gardenia is on the_gardenia_address
+1 api_call eritrean R_location cheap
+1 galleria serves european food in the moderate price range
+1 cote is a great restaurant serving french food and it is in the expensive price range
+1 Sorry there is no kosher restaurant in the north of town
+1 api_call creative R_location expensive
+1 api_call vietnamese west R_price
+1 The phone number of the_gardenia is the_gardenia_phone
+1 yippee_noodle_bar is a nice place in the centre of town serving tasty asian_oriental food
+1 Sorry but there is no other italian restaurant in the cheap price range and the north of town
+1 bloomsbury_restaurant is in the moderate price range
+1 I am sorry but there is no crossover restaurant that matches your request
+1 api_call welsh east R_price
+1 api_call jamaican R_location R_price
+1 I am sorry but there is no greek restaurant that matches your request
+1 Sure , la_margherita is on la_margherita_address
+1 api_call caribbean R_location expensive
+1 The post code of cote is cote_post_code
+1 The phone number of saint_johns_chop_house is saint_johns_chop_house_phone
+1 I'm sorry but there is no restaurant serving tuscan food
+1 panahar serves indian food
+1 city_stop_restaurant is a nice restaurant in the north of town in the expensive price range
+1 Sorry would you like spanish or basque food?
+1 There are restaurants serving asian_oriental food in any part of town . What price range would you like?
+1 Sorry would you like something in the cheap price range or in the moderate price range
+1 I am sorry but there is no fusion restaurant that matches your request
+1 the_hotpot is in the expensive price range
+1  you are welcome
+1 You are looking for a afghan restaurant right?
+1 I'm sorry but there is no indian restaurant in the west of town and the cheap price range
+1 I'm sorry but there is no restaurant serving panasian food
+1 api_call danish R_location R_price
+1 Sorry there is no steakhouse restaurant in the cheap price range
+1 Sorry there is no bistro restaurant in the centre of town
+1 taj_tandoori is a nice restaurant in the south of town serving indian food
+1 rajmahal is a great restaurant
+1 There are restaurants serving british in the expensive price range . What area would you like?
+1 Sure , bangkok_city is on bangkok_city_address
+1 curry_queen is in the expensive price range
+1 Sorry would you like fusion or gastropub food?
+1 api_call australian east R_price
+1 api_call austrian north R_price
+1 curry_king is in the expensive price range
+1 pizza_express Fen Ditton is in the centre part of town .
+1 Sorry there is no cuban restaurant in the west of town
+1 I'm sorry but there is no vietnamese restaurant in the centre of town
+1 Ok , a restaurant in any part of town is that right?
+1 api_call north_american R_location expensive
+1 eraina is a great restaurant serving expensive european food in the centre of town .
+1 cotto serves british food
+1 Sorry there is no irish restaurant in the centre of town
+1 Sorry there is no expensive restaurant in the south of town serving unusual food
+1 darrys_cookhouse_and_wine_shop serves modern_european food .
+1 zizzi_cambridge is a nice restaurant in the centre of town serving italian food
+1 ask is a nice restaurant in the centre of town serving italian food
+1 There are restaurants serving mediterranean in the expensive price range . What area would you like?
+1 Sorry there is no cheap restaurant in the north of town serving asian_oriental food
+1 api_call italian south expensive
+1 Sorry would you like turkish or vegetarian food?
+1 The address of the_nirala is 7 Milton Road Chesterton .
+1 michaelhouse_cafe is in the expensive price range
+1 Sorry there is no belgian restaurant in the centre of town
+1 the_missing_sock is a nice place in the east of town serving tasty international food
+1 la_margherita serves italian food .
+1 Sorry but there is no other chinese restaurant in the cheap price range and the south of town
+1 Sorry there is no jamaican restaurant in the south of town
+1 The phone number of da_vinci_pizzeria is da_vinci_pizzeria_phone
+1 midsummer_house_restaurant serves british food in the expensive price range
+1 There are restaurants serving european food in any part of town . What price range would you like?
+1 la_mimosa is a great restaurant
+1 api_call traditional R_location R_price
+1 hotel_du_vin_and_bistro is a great restaurant
+1 j_restaurant is in the centre part of town .
+1 Sure , pipasha_restaurant is on pipasha_restaurant_address
+1 Sorry would you like mediterranean or romanian food?
+1 I am sorry but there is no other french restaurant in the expensive price range
+1 saint_johns_chop_house is a nice restaurant in the west of town serving british food
+1 Sorry would you like korean or corsica food?
+1 Sorry there is no creative restaurant in the moderate price range
+1 The phone number of city_stop_restaurant is city_stop_restaurant_phone
+1 la_margherita is a nice place in the west of town and the prices are cheap
+1 city_stop_restaurant is in the north part of town .
+1 api_call bistro R_location R_price
+1 bloomsbury_restaurant is a great restaurant
+1 the_oak_bistro is in the moderate price range
+1 Sure , restaurant_alimentum is on restaurant_alimentum_address
+1 Sure , caffe_uno is on caffe_uno_address
+1 the_nirala is in the moderate price range
+1 Sorry there is no cantonese restaurant in the moderate price range
+1 The post code of the river bar steakhouse and grill is the_river_bar_steakhouse_and_grill_post_code
+1 Sure , curry_prince is on curry_prince_address
+1 The price range at riverside_brasserie is moderate .
+1 Sorry would you like unusual or european food?
+1 the_gandhi serves indian food in the cheap price range
+1 curry_queen is a great restaurant
+1 chiquito_restaurant_bar serves mexican food in the expensive price range
+1 I'm sorry but there is no restaurant serving moderate french food
+1 You are looking for a swiss restaurant right?
+1 I'm sorry but there is no restaurant serving cheap british food
+1 kohinoor is in the cheap price range
+1 tandoori_palace is a nice restaurant in the north of town in the expensive price range
+1 api_call vegetarian R_location expensive
+1 I'm sorry but there is no japanese restaurant in the west of town
+1 api_call portuguese R_location R_price
+1 The address of thanh_binh is 17 Magdalene Street City Centre .
+1 midsummer_house_restaurant is a nice restaurant in the centre of town serving british food
+1 I'm sorry but there is no turkish restaurant in the east of town
+1 There are restaurants serving thai food . What price range do you want?
+1 hotel_du_vin_and_bistro is a nice place in the centre of town serving tasty european food
+1 api_call vietnamese south R_price
+1 chiquito_restaurant_bar is on chiquito_restaurant_bar_address
+1 maharajah_tandoori_restaurant is a great restaurant serving expensive indian food in the west of town .
+1 Sorry there is no vietnamese restaurant in the moderate price range
+1 Sorry there is no unusual restaurant in the expensive price range
+1 kohinoor is a great restaurant
+1 michaelhouse_cafe is a nice place in the centre of town serving tasty european food
+1 la_mimosa is a nice place in the centre of town
+1 yippee_noodle_bar is a nice place in the centre of town and the prices are moderate
+1 Sorry there is no world restaurant in the moderate price range
+1 Sure , city_stop_restaurant is on city_stop_restaurant_address
+1 pizza_hut_fen_ditton is a nice restaurant in the east of town serving italian food
+1 bangkok_city serves thai food .
+1 Sure , the_slug_and_lettuce is on the_slug_and_lettuce_address
+1 hotel_du_vin_and_bistro is a nice restaurant in the centre of town serving european food
+1 meghna is a great restaurant serving moderate indian food in the north of town .
+1 frankie_and_bennys is on frankie_and_bennys_address
+1 api_call mexican south R_price
+1 The price range at the_oak_bistro is moderate .
+1 Sorry there is no cuban restaurant in the centre of town
+1 the river bar steakhouse and grill is a nice place in the centre of town and the prices are cheap
+1 Sorry would you like something in the east or in the north
+1 little_seoul serves korean food in the expensive price range
+1 gourmet_burger_kitchen serves north_american food
+1 There are restaurants serving spanish food . What area do you want?
+1 I am sorry but there is no german restaurant that matches your request
+1 sitar_tandoori serves indian food
+1 la_mimosa is a great restaurant serving mediterranean food and it is in the expensive price range
+1 The price range at royal_spice is cheap .
+1 galleria is a great restaurant
+1 I am sorry but there is no other italian restaurant in the north of town
+1 I am sorry but there is no other indian restaurant in the east of town
+1 efes_restaurant is in the centre part of town .
+1 dojo_noodle_bar is in the cheap price range
+1 graffiti serves british food .
+1 The phone number of ugly_duckling is ugly_duckling_phone
+1 I am sorry but there is no brazilian restaurant that matches your request
+1 the_copper_kettle is a nice restaurant in the centre of town serving british food
+1 sitar_tandoori is a nice place in the east of town serving tasty indian food
+1 Sorry there is no japanese restaurant in the cheap price range
+1 Sorry there is no catalan restaurant in the south of town
+1 city_stop_restaurant is a nice place in the north of town
+1 You are looking for a polish restaurant right?
+1 Sure , michaelhouse_cafe is on michaelhouse_cafe_address
+1 jinling_noodle_bar is a great restaurant
+1 I'm sorry but there is no restaurant serving venetian food
+1 Let me confirm , You are looking for a restaurant in the moderate price range right?
+1 The phone number of curry_prince is curry_prince_phone
+1 sitar_tandoori is in the expensive price range
+1 There are restaurants serving european food . What price range do you want?
+1 Sorry there is no world restaurant in the cheap price range
+1 bloomsbury_restaurant is in the centre part of town .
+1 There are restaurants serving turkish food . What area do you want?
+1 Sorry there is no vegetarian restaurant in the cheap price range
+1 There are restaurants in the moderate price range and the south of town . What type of food would you like?
+1 backstreet_bistro is in the expensive price range
+1 la_margherita is a nice place in the west of town serving tasty italian food
+1 There are restaurants serving indian in the north of town . What price range would you like?
+1 ugly_duckling serves chinese food .
+1 api_call world R_location moderate
+1 You are looking for a vietnamese restaurant right?
+1 There are restaurants serving european in the cheap price range . What area would you like?
+1 The price range at pizza_hut_city_centre is cheap .
+1 darrys_cookhouse_and_wine_shop is a nice restaurant in the centre of town serving modern_european food
+1 I am sorry but there is no creative restaurant that matches your request
+1 pizza_hut_city_centre is a great restaurant
+1 api_call fusion R_location moderate
+1 kymmoy is a great restaurant serving asian_oriental food and it is in the expensive price range
+1 tandoori_palace is a great restaurant
+1 thanh_binh is in the cheap price range
+1 Sorry there is no moroccan restaurant in the moderate price range
+1 I'm sorry but there is no restaurant serving cheap french food
+1 little_seoul is a nice place in the centre of town
+1 api_call catalan R_location cheap
+1 peking_restaurant is in the south part of town .
+1 You are looking for a caribbean restaurant right?
+1 curry_garden is a nice place in the centre of town
+1 There are restaurants serving french in the moderate price range . What area would you like?
+1 api_call mediterranean R_location expensive
+1 I am sorry but there is no swiss restaurant that matches your request
+1 the_slug_and_lettuce serves gastropub food .
+1 api_call R_cuisine south moderate
+1 ali_baba is a nice restaurant in the centre of town serving lebanese food
+1 sitar_tandoori is on sitar_tandoori_address
+1 ali_baba is in the moderate price range
+1 eraina is a nice place in the centre of town
+1 I am sorry but there is no other vietnamese restaurant that matches your request
+1 Sorry there is no australian restaurant in the moderate price range
+1 I'm sorry but there is no restaurant serving unusual food
+1 restaurant_two_two is a nice restaurant in the north of town serving french food
+1 The phone number of golden_house is golden_house_phone
+1 Sorry there is no irish restaurant in the cheap price range
+1 pizza_hut_fen_ditton is a nice restaurant in the east of town in the moderate price range
+1 wagamama is a nice place in the centre of town serving tasty japanese food
+1 ask is a nice place in the centre of town
+1 royal_spice is a nice restaurant in the north of town in the cheap price range
+1 You are looking for a african restaurant right?
+1 api_call vietnamese R_location R_price
+1 yu_garden is a nice place in the east of town serving tasty chinese food
+1 api_call british west moderate
+1 golden_house is a nice place in the centre of town
+1 api_call hungarian R_location R_price
+1 api_call eritrean R_location R_price
+1 The phone number of golden_wok is golden_wok_phone
+1 api_call R_cuisine south expensive
+1 gourmet_burger_kitchen is a great restaurant serving north_american food and it is in the expensive price range
+1 You are looking for a gastropub restaurant right?
+1 Sorry there is no british restaurant in the north of town
+1 api_call vietnamese west cheap
+1 I am sorry but there is no other french restaurant in the centre of town
+1 frankie_and_bennys serves italian food in the expensive price range
+1 cambridge_lodge_restaurant is a great restaurant serving expensive european food in the west of town .
+1 I am sorry but there is no venetian restaurant that matches your request
+1 caffe_uno is in the expensive price range
+1 maharajah_tandoori_restaurant serves indian food .
+1 la_margherita is a great restaurant
+1 I'm sorry but there is no restaurant serving moderate thai food
+1 kohinoor serves indian food
+1 Sorry would you like something in the moderate price range or you dont care
+1 You are looking for a panasian restaurant right?
+1 api_call italian south R_price
+1 api_call corsica R_location R_price
+1 api_call R_cuisine east cheap
+1 restaurant_alimentum is a nice place in the south of town
+1 nandos is a nice restaurant in the south of town serving portuguese food
+1 I'm sorry but there is no restaurant serving polynesian food
+1 api_call chinese north expensive
+1 Sorry there is no canapes restaurant in the moderate price range
+1 Sure , darrys_cookhouse_and_wine_shop is on darrys_cookhouse_and_wine_shop_address
+1 I'm sorry but there is no international restaurant in the north of town
+1 There are restaurants if you don't care about the food . What price range do you want?
+1 Sure , curry_king is on curry_king_address
+1 There are restaurants in the west of town . What type of food do you want?
+1 michaelhouse_cafe serves european food in the expensive price range
+1 api_call japanese R_location cheap
+1 la_tasca is a great restaurant serving moderate spanish food in the centre of town .
+1 api_call chinese west R_price
+1 api_call chinese north R_price
+1 I'm sorry but there is no restaurant serving cheap mexican food
+1 yu_garden is a nice restaurant in the east of town in the expensive price range
+1 chiquito_restaurant_bar is in the south part of town .
+1 Sorry there is no greek restaurant in the south of town
+1 Sorry there is no moderate restaurant in the east of town serving chinese food
+1 cote is a nice place in the centre of town serving tasty french food
+1 api_call italian north cheap
+1 The price range at rajmahal is moderate .
+1 api_call polish west R_price
+1 api_call italian west cheap
+1 royal_spice is a nice restaurant in the north of town serving indian food
+1 eraina serves european food
+1 api_call international R_location cheap
+1 lan_hong_house is a great restaurant
+1 Sorry there is no greek restaurant in the north of town
+1 The phone number of pizza_express is pizza_express_phone
+1 api_call seafood R_location expensive
+1 Sure , lan_hong_house is on lan_hong_house_address
+1 I'm sorry but there is no restaurant serving steakhouse food
+1 The price range at stazione_restaurant_and_coffee_bar is expensive .
+1 fitzbillies_restaurant serves british food in the expensive price range
+1 The phone number of efes_restaurant is efes_restaurant_phone
+1 little_seoul is in the expensive price range , and their post code is C.B 2, 1 D.P
+1 the cow pizza kitchen and bar serves gastropub food in the moderate price range
+1 anatolia is a great restaurant serving turkish food and it is in the moderate price range
+1 nandos_city_centre serves portuguese food in the cheap price range
+1 Sorry would you like world or mediterranean food?
+1 Sorry there is no french restaurant in the south of town
+1 meghna is a nice restaurant in the north of town in the moderate price range
+1 Sorry there is no vegetarian restaurant in the centre of town
+1 I'm sorry but there is no restaurant serving cheap turkish food
+1 royal_standard is a nice restaurant in the east of town in the expensive price range
+1 The price range at curry_king is expensive .
+1 cocum is a nice place in the west of town serving tasty indian food
+1 Sorry there is no afghan restaurant in the west of town
+1 efes_restaurant is in the moderate price range
+1 api_call turkish R_location expensive
+1 the_oak_bistro is a great restaurant
+1 maharajah_tandoori_restaurant is a nice place in the west of town serving tasty indian food
+1 Sorry there is no unusual restaurant in the centre of town
+1 Sorry there is no cheap restaurant in the north of town serving vietnamese food
+1 I am sorry but there is no tuscan restaurant that matches your request
+1 api_call belgian south R_price
+1 Sorry would you like something in the east or in the west
+1 pipasha_restaurant is a nice place in the east of town serving tasty indian food
+1 darrys_cookhouse_and_wine_shop is a great restaurant
+1 shiraz_restaurant serves mediterranean food
+1 eraina serves european food .
+1 the_nirala is a nice place in the north of town serving tasty indian food
+1 Sure , thanh_binh is on thanh_binh_address
+1 api_call creative R_location moderate
+1 royal_standard is in the east part of town .
+1 prezzo is a great restaurant
+1 The phone number of shiraz_restaurant is shiraz_restaurant_phone
+1 There are restaurants serving thai food in any part of town . What price range would you like?
+1 The phone number of cocum is cocum_phone
+1 The post code of gourmet_burger_kitchen is gourmet_burger_kitchen_post_code
+1 Sorry there is no swiss restaurant in the expensive price range
+1 The post code of yippee_noodle_bar is yippee_noodle_bar_post_code
+1 api_call unusual R_location expensive
+1 darrys_cookhouse_and_wine_shop is on darrys_cookhouse_and_wine_shop_address
+1 The phone number of the_hotpot is the_hotpot_phone
+1 da_vinci_pizzeria serves italian food in the cheap price range
+1 Sorry there is no halal restaurant in the centre of town
+1 cambridge_lodge_restaurant is a nice place in the west of town
+1 api_call portuguese R_location cheap
+1 yippee_noodle_bar is a nice restaurant in the centre of town in the moderate price range
+1 I am sorry but there is no scottish restaurant that matches your request
+1 The post code of bloomsbury_restaurant is bloomsbury_restaurant_post_code
+1 I'm sorry but there is no gastropub restaurant in the north of town
+1 sesame_restaurant_and_bar is a great restaurant
+1 gourmet_burger_kitchen is in the centre part of town .
+1 There are restaurants serving italian in the west of town . What price range would you like?
+1 api_call polynesian R_location R_price
+1 api_call caribbean R_location R_price
+1 Sorry there is no hungarian restaurant in the centre of town
+1 galleria is a nice place in the centre of town serving tasty european food
+1 api_call moroccan R_location R_price
+1 the_gardenia serves mediterranean food
+1 api_call mexican south expensive
+1 galleria serves european food
+1 The phone number of bedouin is bedouin_phone
+1 curry_prince is a nice place in the east of town and the prices are moderate
+1 shiraz_restaurant serves mediterranean food in the expensive price range
+1 meze_bar_restaurant is in the expensive price range
+1 api_call tuscan south R_price
+1 There are restaurants in the north of town . What type of food do you want?
+1 stazione_restaurant_and_coffee_bar is a nice place in the centre of town serving tasty italian food
+1 maharajah_tandoori_restaurant is in the expensive price range
+1 api_call cuban west R_price
+1 Sorry there is no english restaurant in the centre of town
+1 api_call polish R_location expensive
+1 api_call unusual centre expensive
+1 dojo_noodle_bar serves asian_oriental food in the cheap price range
+1 Sorry there is no traditional restaurant in the centre of town
+1 nandos_city_centre is a nice place in the centre of town and the prices are cheap
+1 You are looking for a scottish restaurant right?
+1 la_mimosa serves mediterranean food
+1 api_call russian R_location R_price
+1 Sure , the river bar steakhouse and grill is on the_river_bar_steakhouse_and_grill_address
+1 The post code of the good luck chinese food takeaway is the_good_luck_chinese_food_takeaway_post_code
+1 frankie_and_bennys serves italian food .
+1 api_call italian west expensive
+1 api_call indonesian east R_price
+1 api_call fusion R_location R_price
+1 Sorry there is no tuscan restaurant in the expensive price range
+1 api_call italian west moderate
+1 Sorry, I can't hear you
+1 api_call catalan east R_price
+1 saigon_city serves asian_oriental food .
+1 don_pasquale_pizzeria serves italian food
+1 la_mimosa is a nice restaurant in the centre of town serving mediterranean food
+1 cambridge_lodge_restaurant serves european food
+1 nandos_city_centre is in the cheap price range
+1 There are restaurants in the south of town serving any kind of food . What price range would you like?
+1 peking_restaurant is a nice place in the south of town and the prices are expensive
+1 gourmet_burger_kitchen is in the expensive price range
+1 rice_house is a nice place in the centre of town and the prices are cheap
+1 the_nirala is a great restaurant serving moderate indian food in the north of town .
+1 The post code of taj_tandoori is taj_tandoori_post_code
+1 rajmahal serves indian food in the moderate price range
+1 api_call vietnamese R_location cheap
+1 The phone number of the_missing_sock is the_missing_sock_phone
+1 I am sorry but there is no other north_american restaurant in the expensive price range
+1 Sorry would you like something in the east or in the centre
+1 I'm sorry but there is no chinese restaurant in the east of town and the cheap price range
+1 api_call gastropub R_location expensive
+1 api_call european west expensive
+1 graffiti is a nice place in the west of town
+1 I am sorry but there is no other korean restaurant that matches your request
+1 api_call english R_location expensive
+1 I am sorry but there is no austrian restaurant that matches your request
+1 Sure , la_mimosa is on la_mimosa_address
+1 yu_garden is a great restaurant
+1 The post code of the_slug_and_lettuce is the_slug_and_lettuce_post_code
+1 I'm sorry but there is no indian restaurant in the west of town and the moderate price range
+1 ugly_duckling serves chinese food in the expensive price range
+1 cocum is a nice place in the west of town
+1 nandos_city_centre is a great restaurant serving portuguese food and it is in the cheap price range
+1 Sorry there is no expensive restaurant in the east of town serving italian food
+1 city_stop_restaurant is in the expensive price range
+1 Sure , don_pasquale_pizzeria is on don_pasquale_pizzeria_address
+1 There are restaurants serving world food . What area do you want?
+1 peking_restaurant is a nice restaurant in the south of town serving chinese food
+1 The phone number of pizza_hut_cherry_hinton is pizza_hut_cherry_hinton_phone
+1 golden_wok is a nice restaurant in the north of town in the moderate price range
+1 anatolia is in the centre part of town .
+1 The post code of royal_standard is royal_standard_post_code
+1 the good luck chinese food takeaway is a nice place in the south of town
+1 la_tasca is a great restaurant serving spanish food and it is in the moderate price range
+1 Sorry there is no moderate restaurant in the west of town serving international food
+1 sala_thong is a nice place in the west of town serving tasty thai food
+1 The price range at la_margherita is cheap .
+1 travellers_rest is a nice restaurant in the west of town in the expensive price range
+1 Sure , eraina is on eraina_address
+1 api_call vietnamese west moderate
+1 grafton_hotel_restaurant is a nice place in the east of town and the prices are expensive
+1 The phone number of restaurant_alimentum is restaurant_alimentum_phone
+1 loch_fyne is a nice place in the centre of town
+1 hotel_du_vin_and_bistro serves european food
+1 There are restaurants serving chinese food in any part of town . What price range would you like?
+1 The price range at da_vinci_pizzeria is cheap .
+1 api_call brazilian east moderate
+1 Sorry would you like chinese or afghan food?
+1 Sorry there is no basque restaurant in the centre of town
+1 api_call christmas south R_price
+1 api_call thai R_location moderate
+1 bangkok_city is a nice place in the centre of town serving tasty thai food
+1 the river bar steakhouse and grill is a nice place in the centre of town
+1 api_call mediterranean south R_price
+1 You are looking for a canapes restaurant right?
+1 Sorry there is no caribbean restaurant in the south of town
+1 taj_tandoori is a nice place in the south of town
+1 shiraz_restaurant serves mediterranean food .
+1 You are looking for a christmas restaurant right?
+1 nandos is in the cheap price range
+1 thanh_binh is a great restaurant serving vietnamese food and it is in the cheap price range
+1 api_call african R_location expensive
+1 Sorry there is no expensive restaurant in the north of town serving unusual food
+1 Sorry there is no polish restaurant in the centre of town
+1 la_tasca serves spanish food
+1 You are looking for a traditional restaurant right?
+1 The post code of the_varsity_restaurant is the_varsity_restaurant_post_code
+1 ask is a great restaurant serving italian food and it is in the cheap price range
+1 I'm sorry but there is no asian_oriental restaurant in the west of town
+1 The post code of yu_garden is yu_garden_post_code
+1 pizza_express is a nice restaurant in the centre of town serving italian food
+1 chiquito_restaurant_bar is in the expensive price range
+1 pipasha_restaurant is a nice place in the east of town
+1 I'm sorry but there is no mediterranean restaurant in the north of town
+1 The post code of jinling_noodle_bar is jinling_noodle_bar_post_code
+1 api_call italian R_location R_price
+1 Sorry there is no expensive restaurant in the south of town serving international food
+1 The post code of cambridge_lodge_restaurant is cambridge_lodge_restaurant_post_code
+1 api_call chinese R_location cheap
+1 Sure , anatolia is on anatolia_address
+1 api_call italian south cheap
+1 I am sorry but there is no steakhouse restaurant that matches your request
+1 bedouin is a nice place in the centre of town serving tasty african food
+1 The phone number of prezzo is prezzo_phone
+1 nandos serves portuguese food .
+1 pizza_hut_city_centre serves italian food in the cheap price range
+1 golden_wok is a nice place in the north of town serving tasty chinese food
+1 Sure , fitzbillies_restaurant is on fitzbillies_restaurant_address
+1 the_lucky_star is a nice place in the south of town and the prices are cheap
+1 saint_johns_chop_house is a great restaurant serving moderate british food in the west of town .
+1 Sorry there is no expensive restaurant in the centre of town serving unusual food
+1 shiraz_restaurant is a great restaurant
+1 I'm sorry but there is no restaurant serving expensive vietnamese food
+1 chiquito_restaurant_bar is a nice place in the south of town and the prices are expensive
+1 api_call steakhouse R_location R_price
+1 the_gardenia is a great restaurant serving cheap mediterranean food in the centre of town .
+1 royal_standard serves gastropub food .
+1 gourmet_burger_kitchen is a great restaurant
+1 api_call thai west R_price
+1 There are restaurants in the cheap price range . What type of food do you want?
+1 The phone number of gourmet_burger_kitchen is gourmet_burger_kitchen_phone
+1 sala_thong is a nice restaurant in the west of town serving thai food
+1 travellers_rest is in the expensive price range
+1 zizzi_cambridge is a nice place in the centre of town
+1 api_call unusual centre moderate
+1 The post code of darrys_cookhouse_and_wine_shop is darrys_cookhouse_and_wine_shop_post_code
+1 hk_fusion is a great restaurant serving chinese food and it is in the expensive price range
+1 de_luca_cucina_and_bar is in the moderate price range
+1 api_call creative R_location cheap
+1 dojo_noodle_bar is a great restaurant serving asian_oriental food and it is in the cheap price range
+1 darrys_cookhouse_and_wine_shop is a great restaurant serving modern_european food and it is in the expensive price range
+1 grafton_hotel_restaurant is a nice restaurant in the east of town serving british food
+1 rice_boat is on rice_boat_address
+1 the_copper_kettle serves british food .
+1 Sorry there is no scottish restaurant in the moderate price range
+1 api_call scandinavian north R_price
+1 Sorry there is no jamaican restaurant in the cheap price range
+1 I'm sorry but there is no restaurant serving canapes food
+1 peking_restaurant is on peking_restaurant_address
+1 meghna is a nice place in the north of town serving tasty indian food
+1 api_call european R_location cheap
+1 eraina is a great restaurant
+1 saint_johns_chop_house is a nice place in the west of town and the prices are moderate
+1 The phone number of the_lucky_star is the_lucky_star_phone
+1 Sorry there is no austrian restaurant in the north of town
+1 cambridge_lodge_restaurant is a nice restaurant in the west of town serving european food
+1 Sorry but there is no other restaurant in the cheap price range and the south of town
+1 There are restaurants serving indian in the cheap price range . What area would you like?
+1 Sorry there is no malaysian restaurant in the cheap price range
+1 la_tasca is a nice restaurant in the centre of town serving spanish food
+1 You are looking for a fusion restaurant right?
+1 api_call international R_location moderate
+1 saint_johns_chop_house serves british food .
+1 I'm sorry but there is no restaurant serving malaysian food
+1 api_call greek R_location moderate
+1 api_call halal R_location moderate
+1 I'm sorry but there is no vietnamese restaurant in the east of town
+1 There are restaurants serving french in any price range . What area would you like?
+1 Sorry would you like crossover or modern_european food?
+1 the_lucky_star is a great restaurant serving cheap chinese food in the south of town .
+1 Sorry there is no greek restaurant in the cheap price range
+1 the_gardenia serves mediterranean food in the cheap price range
+1 Can I help you with anything else?
+1 Did you say you are looking for a restaurant in the centre of town?
+1 api_call swiss R_location expensive
+1 api_call european south moderate
+1 j_restaurant is on j_restaurant_address
+1 Sorry would you like unusual or indian food?
+1 rice_house is in the cheap price range
+1 Sorry would you like the west of town or you dont care
+1 backstreet_bistro is a great restaurant serving expensive gastropub food in the centre of town .
+1 tandoori_palace serves indian food
+1 royal_standard is a nice place in the east of town serving tasty gastropub food
+1 api_call R_cuisine west R_price
+1 peking_restaurant is in the expensive price range
+1 You are looking for a brazilian restaurant right?
+1 Sure , sitar_tandoori is on sitar_tandoori_address
+1 I'm sorry but there is no restaurant serving hungarian food
+1 I am sorry but there is no persian restaurant that matches your request
+1 Sorry there is no corsica restaurant in the expensive price range
+1 the_hotpot is a nice restaurant in the north of town serving chinese food
+1 There are restaurants serving international food . What area do you want?
+1 Sorry there is no japanese restaurant in the moderate price range
+1 la_tasca serves spanish food in the moderate price range
+1 The post code of eraina is eraina_post_code
+1 Sorry there is no expensive restaurant in the west of town serving italian food
+1 Sorry but there is no other mediterranean restaurant in the expensive price range and the centre of town
+1 golden_wok is a great restaurant serving chinese food and it is in the moderate price range
+1 api_call mexican R_location R_price
+1 api_call brazilian R_location moderate
+1 api_call turkish R_location cheap
+1 The price range at meghna is moderate .
+1 cocum serves indian food .
+1 I am sorry but there is no irish restaurant that matches your request
+1 meghna is in the north part of town .
+1 There are restaurants serving international in the moderate price range . What area would you like?
+1 royal_spice serves indian food
+1 Sure , charlie_chan is on charlie_chan_address
+1 hk_fusion is a nice restaurant in the centre of town serving chinese food
+1 Sorry there is no english restaurant in the expensive price range
+1 I am sorry but there is no other european restaurant that matches your request
+1 The phone number of hakka is hakka_phone
+1 Sure , chiquito_restaurant_bar is on chiquito_restaurant_bar_address
+1 meghna is on meghna_address
+1 taj_tandoori is a great restaurant serving expensive indian food in the south of town .
+1 api_call french R_location expensive
+1 clowns_cafe is a great restaurant
+1 anatolia is a nice place in the centre of town
+1 api_call vietnamese east cheap
+1 rice_house serves chinese food in the cheap price range
+1 rice_house is a great restaurant
+1 Sorry there is no moderate restaurant in the south of town serving indian food
+1 The phone number of la_tasca is la_tasca_phone
+1 de_luca_cucina_and_bar serves modern_european food .
+1 Sure , pizza_express Fen Ditton is on pizza_express_Fen_Ditton_address
+1 the_missing_sock is in the cheap price range
+1 yu_garden is on yu_garden_address
+1 the_golden_curry serves indian food .
+1 api_call moroccan R_location cheap
+1 curry_queen serves indian food
+1 The phone number of midsummer_house_restaurant is midsummer_house_restaurant_phone
+1 I'm sorry but there is no restaurant serving cheap gastropub food
+1 pizza_hut_cherry_hinton is a nice place in the south of town serving tasty italian food
+1 Sure , shiraz_restaurant is on shiraz_restaurant_address
+1 Sorry there is no gastropub restaurant in the north of town
+1 Sorry there is no expensive restaurant in the south of town serving north_american food
+1 I'm sorry but there is no restaurant serving bistro food
+1 Sure , saigon_city is on saigon_city_address
+1 Sorry there is no french restaurant in the east of town
+1 You are looking for a scandinavian restaurant right?
+1 Sure , maharajah_tandoori_restaurant is on maharajah_tandoori_restaurant_address
+1 The post code of thanh_binh is thanh_binh_post_code
+1 There are restaurants serving gastropub food in any part of town . What price range would you like?
+1 Sorry there is no french restaurant in the moderate price range
+1 The price range at don_pasquale_pizzeria is expensive .
+1 cote serves french food
+1 You are looking for a halal restaurant right?
+1 Sure , curry_queen is on curry_queen_address
+1 Sure , rice_house is on rice_house_address
+1 I'm sorry but there is no restaurant serving afghan food
+1 I'm sorry but there is no restaurant serving cheap japanese food
+1 the_nirala is a nice place in the north of town
+1 api_call world south R_price
+1 michaelhouse_cafe is a great restaurant serving european food and it is in the expensive price range
+1 There are restaurants serving italian food . What price range do you want?
+1 curry_king serves indian food .
+1 Sorry but there is no other restaurant in the cheap price range and the north of town
+1 the_cambridge_chop_house serves british food
+1 the_missing_sock is a nice place in the east of town
+1 The post code of restaurant_alimentum is restaurant_alimentum_post_code
+1 Sorry there is no turkish restaurant in the north of town
+1 Sorry there is no cheap restaurant in the east of town serving vietnamese food
+1 hakka is a nice restaurant in the north of town serving chinese food
+1 j_restaurant is a nice restaurant in the centre of town serving asian_oriental food
+1 api_call R_cuisine south R_price
+1 gourmet_burger_kitchen is a nice restaurant in the centre of town serving north_american food
+1 pizza_hut_fen_ditton is a nice place in the east of town
+1 taj_tandoori is a nice restaurant in the south of town in the expensive price range
+1 Sorry but there is no other restaurant in the moderate price range and the west of town
+1 Sure , the_cambridge_chop_house is on the_cambridge_chop_house_address
+1 rice_boat is in the expensive price range
+1 Sure , ali_baba is on ali_baba_address
+1 yippee_noodle_bar serves asian_oriental food
+1 the_missing_sock is a great restaurant serving international food and it is in the cheap price range
+1 Sorry would you like gastropub or world food?
+1 golden_wok is a great restaurant serving moderate chinese food in the north of town .
+1 Sorry there is no swedish restaurant in the south of town
+1 api_call italian south moderate
+1 Did you say you are looking for a restaurant in the north of town?
+1 pizza_express is a great restaurant
+1 Sorry there is no christmas restaurant in the north of town
+1 The phone number of nandos is nandos_phone
+1 pizza_hut_city_centre is a nice restaurant in the centre of town in the cheap price range
+1 meze_bar_restaurant is a great restaurant serving turkish food and it is in the expensive price range
+1 thanh_binh is a nice place in the west of town and the prices are cheap
+1 Sure , the_lucky_star is on the_lucky_star_address
+1 curry_prince is a nice restaurant in the east of town serving indian food
+1 the_gardenia is a nice restaurant in the centre of town serving mediterranean food
+1 pizza_hut_fen_ditton is in the moderate price range
+1 The phone number of the good luck chinese food takeaway is the_good_luck_chinese_food_takeaway_phone
+1 There are restaurants serving french food . What area do you want?
+1 the_slug_and_lettuce serves gastropub food
+1 The price range at thanh_binh is cheap .
+1 api_call mediterranean R_location moderate
+1 anatolia is a nice restaurant in the centre of town serving turkish food
+1 cambridge_lodge_restaurant is a nice place in the west of town serving tasty european food
+1 I am sorry but there is no polish restaurant that matches your request
+1 stazione_restaurant_and_coffee_bar is in the expensive price range
+1 dojo_noodle_bar is a great restaurant
+1 You are looking for a italian restaurant right?
+1 ask is in the cheap price range
+1 I'm sorry but there is no italian restaurant in the west of town and the expensive price range
+1 There are restaurants serving international food . What price range do you want?
+1 jinling_noodle_bar is a great restaurant serving moderate chinese food in the centre of town .
+1 darrys_cookhouse_and_wine_shop is a nice place in the centre of town serving tasty modern_european food
+1 The phone number of shanghai_family_restaurant is shanghai_family_restaurant_phone
+1 api_call spanish R_location moderate
+1 api_call french south R_price
+1 Sorry there is no caribbean restaurant in the east of town
+1 the_lucky_star is a great restaurant
+1 api_call indian east R_price
+1 You are looking for a world restaurant right?
+1 I am sorry but there is no other indian restaurant in the south of town
+1 The phone number of cotto is cotto_phone
+1 Sorry there is no spanish restaurant in the south of town
+1 taj_tandoori is a great restaurant
+1 The phone number of galleria is galleria_phone
+1 Sure , zizzi_cambridge is on zizzi_cambridge_address
+1 I am sorry but there is no afghan restaurant that matches your request
+1 Sorry there is no fusion restaurant in the centre of town
+1 You are looking for a australasian restaurant right?
+1 The price range at the good luck chinese food takeaway is expensive .
+1 Sorry there is no polynesian restaurant in the south of town
+1 I'm sorry but there is no chinese restaurant in the west of town
+1 Sorry but there is no other restaurant in the moderate price range and the south of town
+1 The price range at saint_johns_chop_house is moderate .
+1 The phone number of mahal_of_cambridge is mahal_of_cambridge_phone
+1 I'm sorry but there is no north_american restaurant in the north of town
+1 Sorry would you like modern_european or european food?
+1 clowns_cafe is in the expensive price range
+1 Sorry there is no moderate restaurant in the west of town serving romanian food
+1 taj_tandoori is a nice place in the south of town and the prices are expensive
+1 pizza_hut_city_centre is in the cheap price range
+1 The phone number of lan_hong_house is lan_hong_house_phone
+1 Sorry would you like romanian or portuguese food?
+1 Sure , india_house is on india_house_address
+1 mahal_of_cambridge is in the cheap price range
+1 There are restaurants serving asian_oriental food . What area do you want?
+1 curry_prince is in the moderate price range
+1 pizza_express Fen Ditton is in the moderate price range
+1 You are looking for a crossover restaurant right?
+1 Sorry but there is no other restaurant in the moderate price range and the east of town
+1 api_call welsh R_location R_price
+1 royal_spice serves indian food in the cheap price range
+1 Did you say you are looking for a restaurant in the east of town?
+1 curry_prince serves indian food in the moderate price range
+1 kohinoor is a nice restaurant in the centre of town in the cheap price range
+1 You are looking for a lebanese restaurant right?
+1 the_gardenia is a great restaurant serving mediterranean food and it is in the cheap price range
+1 I'm sorry but there is no french restaurant in the south of town
+1 Sorry there is no expensive restaurant in the south of town serving mediterranean food
+1 Sure , pizza_hut_fen_ditton is on pizza_hut_fen_ditton_address
+1 You are looking for a british restaurant right?
+1 Sorry there is no polish restaurant in the expensive price range
+1 api_call austrian east R_price
+1 I'm sorry but there is no restaurant serving expensive international food
+1 Sorry there is no romanian restaurant in the centre of town
+1 api_call seafood R_location cheap
+1 I am sorry but there is no hungarian restaurant that matches your request
+1 Sorry there is no russian restaurant in the centre of town
+1 ask is on ask_address
+1 hk_fusion is a nice restaurant in the centre of town in the expensive price range
+1 The phone number of the cow pizza kitchen and bar is the_cow_pizza_kitchen_and_bar_phone
+1 The phone number of fitzbillies_restaurant is fitzbillies_restaurant_phone
+1 grafton_hotel_restaurant is a great restaurant serving expensive british food in the east of town .
+1 Sure , efes_restaurant is on efes_restaurant_address
+1 nandos is a great restaurant serving cheap portuguese food in the south of town .
+1 clowns_cafe serves italian food in the expensive price range
+1 There are restaurants in the expensive price range and the east of town . What type of food would you like?
+1 pizza_express Fen Ditton is a great restaurant
+1 There are restaurants in the expensive price range and the south of town . What type of food would you like?
+1 api_call hungarian R_location cheap
+1 thanh_binh is a nice restaurant in the west of town serving vietnamese food
+1 Sorry there is no bistro restaurant in the west of town
+1 The phone number of india_house is india_house_phone
+1 api_call thai north R_price
+1 api_call cuban R_location moderate
+1 The phone number of bangkok_city is bangkok_city_phone
+1 api_call spanish centre R_price
+1 pizza_hut_city_centre is in the centre part of town .
+1 anatolia is in the moderate price range
+1 The phone number of the_gandhi is the_gandhi_phone
+1 Sure , the_oak_bistro is on the_oak_bistro_address
+1 sitar_tandoori is a nice place in the east of town and the prices are expensive
+1 The price range at cocum is expensive .
+1 api_call african north R_price
+1 the_nirala is a nice restaurant in the north of town serving indian food
+1 The post code of hakka is hakka_post_code
+1 The post code of pipasha_restaurant is pipasha_restaurant_post_code
+1 I'm sorry but there is no north_american restaurant in the east of town
+1 restaurant_alimentum is a nice place in the south of town and the prices are moderate
+1 cocum is in the expensive price range
+1 api_call R_cuisine west cheap
+1 the river bar steakhouse and grill serves modern_european food
+1 grafton_hotel_restaurant is a nice place in the east of town
+1 the_gandhi is a great restaurant serving indian food and it is in the cheap price range
+1 Sorry would you like something in the south or in the east
+1 Sorry there is no turkish restaurant in the cheap price range
+1 the_cambridge_chop_house serves british food in the expensive price range
+1 galleria is on galleria_address
+1 api_call british north R_price
+1 api_call italian north moderate
+1 mahal_of_cambridge serves indian food in the cheap price range
+1 api_call unusual R_location R_price
+1 api_call greek east R_price
+1 api_call mexican R_location expensive
+1 kymmoy is on kymmoy_address
+1 api_call basque west R_price
+1 pipasha_restaurant is a nice restaurant in the east of town serving indian food
+1 gourmet_burger_kitchen is a nice place in the centre of town serving tasty north_american food
+1 nandos_city_centre is a nice place in the centre of town serving tasty portuguese food
+1 pipasha_restaurant is in the east part of town .
+1 mahal_of_cambridge is a great restaurant serving indian food and it is in the cheap price range
+1 galleria is in the moderate price range
+1 da_vinci_pizzeria is a nice restaurant in the north of town serving italian food
+1 There are restaurants serving spanish in the centre of town . What price range would you like?
+1 meghna is a nice place in the north of town and the prices are moderate
+1 api_call bistro west R_price
+1 I am sorry but there is no other japanese restaurant in the centre of town
+1 api_call british east expensive
+1 Sure , graffiti is on graffiti_address
+1 royal_standard is a nice place in the east of town and the prices are expensive
+1 prezzo is on prezzo_address
+1 the_gardenia is in the cheap price range
+1 da_vinci_pizzeria is a great restaurant serving cheap italian food in the north of town .
+1 The post code of saint_johns_chop_house is saint_johns_chop_house_post_code
+1 api_call french centre R_price
+1 The phone number of dojo_noodle_bar is dojo_noodle_bar_phone
+1 api_call basque R_location R_price
+1 The price range at bedouin is expensive .
+1 There are restaurants serving european food . What area do you want?
+1 restaurant_one_seven is in the moderate price range
+1 There are restaurants in the west of town serving any kind of food . What price range would you like?
+1 I am sorry but there is no other european restaurant in the west of town
+1 Sorry there is no tuscan restaurant in the east of town
+1 The post code of saigon_city is saigon_city_post_code
+1 There are restaurants serving asian_oriental in the centre of town . What price range would you like?
+1 Sorry there is no kosher restaurant in the south of town
+1 The price range at restaurant_one_seven is moderate .
+1 rice_house is on rice_house_address
+1 the_nirala is in the north part of town .
+1 the_missing_sock is a nice restaurant in the east of town in the cheap price range
+1 prezzo is in the west part of town .
+1 api_call belgian R_location R_price
+1 wagamama is a nice restaurant in the centre of town serving japanese food
+1 I'm sorry but there is no restaurant serving romanian food
+1 kymmoy is a nice restaurant in the centre of town serving asian_oriental food
+1 dojo_noodle_bar serves asian_oriental food
+1 the_varsity_restaurant is a great restaurant
+1 api_call swiss R_location moderate
+1 cotto is in the moderate price range
+1 Sorry there is no turkish restaurant in the south of town
+1 There are restaurants serving turkish food . What price range do you want?
+1 michaelhouse_cafe is a great restaurant
+1 curry_prince is in the east part of town .
+1 Sorry would you like the east of town or you dont care
+1 The post code of wagamama is wagamama_post_code
+1 the_varsity_restaurant is a nice restaurant in the centre of town serving international food
+1 api_call canapes R_location moderate
+1 Sure , frankie_and_bennys is on frankie_and_bennys_address
+1 ugly_duckling serves chinese food
+1 I am sorry but there is no world restaurant that matches your request
+1 Sorry would you like something in the moderate price range or in the cheap price range
+1 I'm sorry but there is no chinese restaurant in the east of town and the moderate price range
+1 You are looking for a basque restaurant right?
+1 api_call austrian R_location moderate
+1 api_call french north R_price
+1 api_call chinese R_location R_price
+1 The price range at fitzbillies_restaurant is expensive .
+1 api_call portuguese south R_price
+1 nandos is a nice place in the south of town
+1 the river bar steakhouse and grill serves modern_european food in the cheap price range
+1 da_vinci_pizzeria is a nice place in the north of town
+1 Sorry there is no brazilian restaurant in the moderate price range
+1 There are restaurants serving italian in the cheap price range . What area would you like?
+1 prezzo is a nice restaurant in the west of town in the moderate price range
+1 ask serves italian food
+1 cambridge_lodge_restaurant is a great restaurant serving european food and it is in the expensive price range
+1 caffe_uno is a great restaurant
+1 travellers_rest is in the west part of town .
+1 restaurant_alimentum is in the south part of town .
+1 api_call thai centre R_price
+1 I'm sorry but there is no restaurant serving eritrean food
+1 I'm sorry but there is no thai restaurant in the east of town
+1 I am sorry but there is no christmas restaurant that matches your request
+1 stazione_restaurant_and_coffee_bar is a nice place in the centre of town
+1 There are restaurants in all parts of town . What type of pricerange do you want?
+1 pipasha_restaurant is in the expensive price range
+1 api_call swedish south R_price
+1 I am sorry but there is no other chinese restaurant in the east of town
+1 prezzo is a nice place in the west of town serving tasty italian food
+1 api_call british R_location moderate
+1 The price range at the_missing_sock is cheap .
+1 the_gardenia is in the centre part of town .
+1 shiraz_restaurant is in the expensive price range
+1 zizzi_cambridge is a great restaurant
+1 little_seoul is a nice place in the centre of town serving tasty korean food
+1 The post code of meghna is meghna_post_code
+1 Sorry but there is no other indian restaurant in the expensive price range and the south of town
+1 I am sorry but there is no cantonese restaurant that matches your request
+1 The post code of ali_baba is ali_baba_post_code
+1 Sorry there is no cantonese restaurant in the expensive price range
+1 Sorry there is no steakhouse restaurant in the north of town
+1 The post code of peking_restaurant is peking_restaurant_post_code
+1 j_restaurant serves asian_oriental food in the cheap price range
+1 restaurant_alimentum is a nice place in the south of town serving tasty modern_european food
+1 The post code of cocum is cocum_post_code
+1 I'm sorry but there is no restaurant serving irish food
+1 restaurant_one_seven is a great restaurant
+1 I am sorry but there is no romanian restaurant that matches your request
+1 api_call world R_location R_price
+1 api_call cuban R_location R_price
+1 the_hotpot is a nice place in the north of town and the prices are expensive
+1 travellers_rest is a nice place in the west of town serving tasty british food
+1 stazione_restaurant_and_coffee_bar is a nice restaurant in the centre of town serving italian food
+1 meghna is a nice place in the north of town
+1 The price range at mahal_of_cambridge is cheap .
+1 backstreet_bistro serves gastropub food
+1 little_seoul is in the centre part of town .
+1 I am sorry but there is no other indian restaurant in the moderate price range
+1 bloomsbury_restaurant is a nice restaurant in the centre of town serving international food
+1 I am sorry but there is no english restaurant that matches your request
+1 j_restaurant is a great restaurant
+1 I am sorry but there is no jamaican restaurant that matches your request
+1 Sorry would you like mexican or asian_oriental food?
+1 Sure , j_restaurant is on j_restaurant_address
+1 pizza_hut_cherry_hinton is in the moderate price range
+1 The phone number of maharajah_tandoori_restaurant is maharajah_tandoori_restaurant_phone
+1 I'm sorry but there is no lebanese restaurant in the east of town
+1 cambridge_lodge_restaurant is in the west part of town .
+1 Sure , ask is on ask_address
+1 I am sorry but there is no polynesian restaurant that matches your request
+1 The post code of frankie_and_bennys is frankie_and_bennys_post_code
+1 There are restaurants serving international in the centre of town . What price range would you like?
+1 api_call unusual west moderate
+1 You are looking for a mexican restaurant right?
+1 pizza_hut_fen_ditton is a great restaurant serving italian food and it is in the moderate price range
+1 Sorry there is no mexican restaurant in the moderate price range
+1 There are restaurants serving mediterranean in the centre of town . What price range would you like?
+1 There are restaurants serving british in the centre of town . What price range would you like?
+1 don_pasquale_pizzeria is a nice place in the centre of town
+1 hotel_du_vin_and_bistro is on hotel_du_vin_and_bistro_address
+1 I am sorry but there is no other portuguese restaurant that matches your request
+1 saint_johns_chop_house serves british food in the moderate price range
+1 don_pasquale_pizzeria is a nice place in the centre of town serving tasty italian food
+1 Sure , the_missing_sock is on the_missing_sock_address
+1 Sorry I am a bit confused ; please tell me again what you are looking for .
+1 loch_fyne serves seafood food .
+1 da_vinci_pizzeria is in the north part of town .
+1 hotel_du_vin_and_bistro is a nice place in the centre of town
+1 api_call canapes R_location cheap
+1 I'm sorry but there is no gastropub restaurant in the west of town
+1 api_call R_cuisine R_location R_price
+1 The phone number of yippee_noodle_bar is yippee_noodle_bar_phone
+1 tandoori_palace is in the expensive price range , and their post code is C.B 4, 3 L.E
+1 api_call turkish east R_price
+1 Sorry there is no australian restaurant in the east of town
+1 yippee_noodle_bar is in the moderate price range
+1 api_call japanese R_location expensive
+1 eraina is a nice restaurant in the centre of town serving european food
+1 The phone number of bloomsbury_restaurant is bloomsbury_restaurant_phone
+1 the_copper_kettle is in the moderate price range
+1 bedouin is on bedouin_address
+1 Sorry there is no gastropub restaurant in the cheap price range
+1 I'm sorry but there is no restaurant serving cheap thai food
+1 city_stop_restaurant is a great restaurant
+1 golden_wok serves chinese food in the moderate price range
+1 Sorry there is no korean restaurant in the east of town
+1 la_mimosa is a great restaurant serving expensive mediterranean food in the centre of town .
+1 api_call swedish R_location R_price
+1 api_call R_cuisine east R_price
+1 tandoori_palace is in the expensive price range
+1 rajmahal is a nice place in the east of town and the prices are moderate
+1 restaurant_one_seven serves british food in the moderate price range
+1 Sorry would you like scandinavian or thai food?
+1 bloomsbury_restaurant serves international food
+1 Sorry there is no persian restaurant in the north of town
+1 la_mimosa serves mediterranean food .
+1 I'm sorry but there is no restaurant serving english food
+1 There are restaurants serving asian_oriental in the cheap price range . What area would you like?
+1 la_raza is in the cheap price range
+1 chiquito_restaurant_bar is a great restaurant
+1 pizza_hut_cherry_hinton is a nice restaurant in the south of town in the moderate price range
+1 the cow pizza kitchen and bar is a great restaurant
+1 I'm sorry but there is no restaurant serving cuban food
+1 the_missing_sock is a nice place in the east of town and the prices are cheap
+1 I'm sorry but there is no gastropub restaurant in the south of town
+1 api_call chinese R_location moderate
+1 api_call indian north moderate
+1 the_hotpot is a nice place in the north of town serving tasty chinese food
+1 taj_tandoori serves indian food
+1 There are restaurants serving chinese in the cheap price range . What area would you like?
+1 restaurant_one_seven is a great restaurant serving british food and it is in the moderate price range
+1 You are looking for a romanian restaurant right?
+1 Sure , peking_restaurant is on peking_restaurant_address
+1 michaelhouse_cafe is a great restaurant serving expensive european food in the centre of town .
+1 api_call indian west R_price
+1 I am sorry but there is no other british restaurant in the east of town
+1 Sorry there is no halal restaurant in the west of town
+1 api_call creative R_location R_price
+1 pizza_hut_cherry_hinton is a nice restaurant in the south of town serving italian food
+1 api_call lebanese north R_price
+1 Sure , saint_johns_chop_house is on saint_johns_chop_house_address
+1 rice_boat is a nice place in the west of town
+1 Sorry there is no german restaurant in the north of town
+1 efes_restaurant is a nice place in the centre of town serving tasty turkish food
+1 I'm sorry but there is no turkish restaurant in the west of town
+1 caffe_uno is a nice place in the centre of town serving tasty italian food
+1 I'm sorry but there is no restaurant serving moderate seafood food
+1 graffiti is a great restaurant serving british food and it is in the expensive price range
+1 Sorry there is no international restaurant in the south of town
+1 de_luca_cucina_and_bar is a nice place in the centre of town serving tasty modern_european food
+1 api_call european north R_price
+1 sesame_restaurant_and_bar serves chinese food .
+1 api_call lebanese west R_price
+1 Sorry would you like chinese or russian food?
+1 Sorry would you like the south of town or you dont care
+1 The post code of little_seoul is little_seoul_post_code
+1 api_call cantonese R_location moderate
+1 The post code of curry_prince is curry_prince_post_code
+1 la_mimosa is in the centre part of town .
+1 Sorry there is no international restaurant in the west of town
+1 I am sorry but there is no other spanish restaurant in the cheap price range
+1 You are looking for a asian_oriental restaurant right?
+1 api_call thai R_location expensive
+1 There are restaurants in the cheap price range and the south of town . What type of food would you like?
+1 the_lucky_star serves chinese food in the cheap price range
+1 peking_restaurant is a nice place in the south of town
+1 the_gandhi is in the cheap price range
+1 Sure , la_tasca is on la_tasca_address
+1 You are looking for a eritrean restaurant right?
+1 I am sorry but there is no australasian restaurant that matches your request
+1 bangkok_city is in the expensive price range
+1 nandos_city_centre serves portuguese food
+1 Sorry there is no seafood restaurant in the moderate price range
+1 golden_house serves chinese food in the cheap price range
+1 sala_thong serves thai food in the expensive price range
+1 api_call italian west R_price
+1 the_golden_curry is a great restaurant
+1 sala_thong serves thai food .
+1 api_call unusual R_location moderate
+1 the_gandhi is in the centre part of town .
+1 The post code of anatolia is anatolia_post_code
+1 There are restaurants serving british food . What price range do you want?
+1 The price range at pizza_express Fen Ditton is moderate .
+1 pizza_hut_fen_ditton serves italian food
+1 Sure , the cow pizza kitchen and bar is on the_cow_pizza_kitchen_and_bar_address
+1 The phone number of grafton_hotel_restaurant is grafton_hotel_restaurant_phone
+1 nandos is a nice place in the south of town and the prices are cheap
+1 hakka is a nice place in the north of town serving tasty chinese food
+1 bloomsbury_restaurant is a great restaurant serving international food and it is in the moderate price range
+1 Sorry there is no swedish restaurant in the moderate price range
+1 api_call swiss east R_price
+1 Sorry there is no european restaurant in the cheap price range
+1 There are restaurants serving modern_european in the moderate price range . What area would you like?
+1 There are restaurants serving gastropub food . What area do you want?
+1 Sorry there is no irish restaurant in the west of town
+1 Sorry there is no seafood restaurant in the cheap price range
+1 api_call world east R_price
+1 The phone number of taj_tandoori is taj_tandoori_phone
+1 Sorry there is no expensive restaurant in the south of town serving kosher food
+1 The post code of the_nirala is the_nirala_post_code
+1 I am sorry but there is no australian restaurant that matches your request
+1 charlie_chan is a nice place in the centre of town
+1 I am sorry but there is no bistro restaurant that matches your request
+1 don_pasquale_pizzeria is a nice restaurant in the centre of town in the expensive price range
+1 rajmahal is a nice restaurant in the east of town serving indian food
+1 meghna serves indian food
+1 I'm sorry but there is no restaurant serving kosher food
+1 Sorry there is no austrian restaurant in the moderate price range
+1 The price range at golden_house is cheap .
+1 api_call english west R_price
+1 api_call mediterranean R_location R_price
+1 api_call irish south R_price
+1 I am sorry but there is no other turkish restaurant in the expensive price range
+1 rice_boat serves indian food .
+1 pizza_hut_fen_ditton is a great restaurant
+1 restaurant_alimentum serves modern_european food .
+1 api_call international north R_price
+1 little_seoul is on little_seoul_address
+1 api_call brazilian R_location cheap
+1 I am sorry but there is no other asian_oriental restaurant in the moderate price range
+1 I'm sorry but there is no french restaurant in the west of town
+1 api_call portuguese R_location expensive
+1 api_call indian south R_price
+1 I'm sorry but there is no mediterranean restaurant in the west of town
+1 I'm sorry but there is no restaurant serving moderate japanese food
+1 api_call chinese south expensive
+1 There are restaurants serving any kind of food in the moderate price range . What area would you like?
+1 The phone number of restaurant_one_seven is restaurant_one_seven_phone
+1 You are looking for a hungarian restaurant right?
+1 the_gardenia serves mediterranean food .
+1 the_cambridge_chop_house is a nice place in the centre of town serving tasty british food
+1 api_call scandinavian R_location R_price
+1 I am sorry but there is no other thai restaurant in the west of town
+1 restaurant_two_two serves french food .
+1 bangkok_city is a nice restaurant in the centre of town serving thai food
+1 Sorry there is no japanese restaurant in the south of town
+1 There are restaurants serving international food in any part of town . What price range would you like?
+1 You are looking for a european restaurant right?
+1 The post code of la_margherita is la_margherita_post_code
+1 api_call european west R_price
+1 api_call greek north R_price
+1 nandos is a nice restaurant in the south of town in the cheap price range
+1 Sorry but there is no other restaurant in the moderate price range and the north of town
+1 the_gardenia is a nice place in the centre of town serving tasty mediterranean food
+1 curry_prince is a nice place in the east of town serving tasty indian food
+1 There are restaurants serving turkish in the moderate price range . What area would you like?
+1 The post code of rajmahal is rajmahal_post_code
+1 Sorry there is no swedish restaurant in the centre of town
+1 api_call kosher R_location R_price
+1 I'm sorry but there is no restaurant serving vegetarian food
+1 There are restaurants serving chinese food . What area do you want?
+1 Sorry there is no barbeque restaurant in the cheap price range
+1 The phone number of the_varsity_restaurant is the_varsity_restaurant_phone
+1 efes_restaurant serves turkish food in the moderate price range
+1 restaurant_two_two is a nice place in the north of town serving tasty french food
+1 kohinoor is a nice restaurant in the centre of town serving indian food
+1 curry_garden is a nice restaurant in the centre of town serving indian food
+1 I'm sorry but there is no restaurant serving cheap european food
+1 There are restaurants serving any kind of food in the cheap price range . What area would you like?
+1 There are restaurants in the cheap price range and the centre of town . What type of food would you like?
+1 don_pasquale_pizzeria is a great restaurant serving italian food and it is in the expensive price range
+1 de_luca_cucina_and_bar is in the centre part of town .
+1 the_slug_and_lettuce is in the expensive price range
+1 I'm sorry but there is no mediterranean restaurant in the east of town
+1 api_call indian north R_price
+1 api_call R_cuisine R_location expensive
+1 nandos serves portuguese food in the cheap price range
+1 loch_fyne serves seafood food
+1 little_seoul serves korean food
+1 The phone number of pipasha_restaurant is pipasha_restaurant_phone
+1 rice_house serves chinese food
+1 Sure , cocum is on cocum_address
+1 Sorry there is no caribbean restaurant in the centre of town
+1 Sure , royal_standard is on royal_standard_address
+1 Sorry there is no korean restaurant in the north of town
+1 royal_standard is a nice place in the east of town
+1 api_call african R_location moderate
+1 jinling_noodle_bar is in the moderate price range
+1 You are looking for a restaurant is that right?
+1 I'm sorry but there is no spanish restaurant in the south of town
+1 I'm sorry but there is no restaurant serving basque food
+1 shanghai_family_restaurant is a great restaurant
+1 saigon_city is a nice place in the north of town serving tasty asian_oriental food
+1 nandos_city_centre serves portuguese food .
+1 la_raza serves spanish food in the cheap price range
+1 hakka is a great restaurant
+1 api_call corsica R_location expensive
+1 There are restaurants serving italian in the south of town . What price range would you like?
+1 Sorry there is no venetian restaurant in the expensive price range
+1 api_call afghan R_location expensive
+1 lan_hong_house is a nice restaurant in the centre of town serving chinese food
+1 pizza_hut_cherry_hinton serves italian food
+1 tandoori_palace is a nice place in the north of town
+1 The phone number of sala_thong is sala_thong_phone
+1 I am sorry but there is no other turkish restaurant in the moderate price range
+1 There are restaurants serving chinese in the moderate price range . What area would you like?
+1 ali_baba is a nice place in the centre of town serving tasty lebanese food
+1 Sorry there is no vietnamese restaurant in the south of town
+1 Sorry there is no expensive restaurant in the north of town serving north_american food
+1 Sorry there is no halal restaurant in the moderate price range
+1 I am sorry but there is no unusual restaurant that matches your request
+1 anatolia is a great restaurant serving moderate turkish food in the centre of town .
+1 peking_restaurant is a great restaurant
+1 the_varsity_restaurant serves international food
+1 I'm sorry but there is no restaurant serving crossover food
+1 I'm sorry but there is no restaurant serving catalan food
+1 The phone number of kymmoy is kymmoy_phone
+1 The price range at curry_garden is expensive .
+1 api_call japanese south R_price
+1 michaelhouse_cafe is a nice place in the centre of town
+1 api_call swiss R_location R_price
+1 Sorry there is no danish restaurant in the south of town
+1 Sorry there is no moderate restaurant in the east of town serving halal food
+1 I'm sorry but there is no vietnamese restaurant in the north of town
+1 Sorry there is no german restaurant in the cheap price range
+1 anatolia is on anatolia_address
+1 The price range at the_lucky_star is cheap .
+1 de_luca_cucina_and_bar is a great restaurant serving modern_european food and it is in the moderate price range
+1 I'm sorry but there is no restaurant serving moderate korean food
+1 api_call lebanese R_location moderate
+1 shiraz_restaurant is in the centre part of town .
+1 la_raza is a nice place in the centre of town serving tasty spanish food
+1 Sure , the_varsity_restaurant is on the_varsity_restaurant_address
+1 the good luck chinese food takeaway serves chinese food
+1 There are restaurants in the centre of town serving any kind of food . What price range would you like?
+1 Sorry would you like the north of town or you dont care
+1 pipasha_restaurant serves indian food
+1 meze_bar_restaurant is on meze_bar_restaurant_address
+1 hotel_du_vin_and_bistro serves european food in the moderate price range
+1 prezzo is a nice restaurant in the west of town serving italian food
+1 You are looking for a bistro restaurant right?
+1 ali_baba serves lebanese food .
+1 galleria serves european food .
+1 backstreet_bistro is a great restaurant
+1 Sure , nandos is on nandos_address
+1 There are restaurants serving thai in the expensive price range . What area would you like?
+1 dojo_noodle_bar is a nice restaurant in the centre of town serving asian_oriental food
+1 The price range at hotel_du_vin_and_bistro is moderate .
+1 Sorry there is no cuban restaurant in the cheap price range
+1 pipasha_restaurant is a nice place in the east of town and the prices are expensive
+1 Sorry there is no french restaurant in the cheap price range
+1 api_call caribbean R_location moderate
+1 da_vinci_pizzeria is a great restaurant
+1 There are restaurants serving modern_european food . What area do you want?
+1 Sorry would you like something in the north or in the east
+1 restaurant_two_two is a great restaurant serving french food and it is in the expensive price range
+1 the_hotpot is a great restaurant serving expensive chinese food in the north of town .
+1 You are looking for a malaysian restaurant right?
+1 the_lucky_star is a nice restaurant in the south of town serving chinese food
+1 rice_boat is a nice restaurant in the west of town serving indian food
+1 api_call european south expensive
+1 thanh_binh is on thanh_binh_address
+1 Sure , rice_boat is on rice_boat_address
+1 Sorry there is no jamaican restaurant in the east of town
+1 the_lucky_star serves chinese food
+1 Sorry but there is no other italian restaurant in the cheap price range and the west of town
+1 Sorry would you like creative or thai food?
+1 thanh_binh serves vietnamese food .
+1 api_call afghan west R_price
+1 api_call polynesian west R_price
+1 Sorry would you like modern_european or christmas food?
+1 You are looking for a russian restaurant right?
+1 taj_tandoori is a nice place in the south of town serving tasty indian food
+1 I'm sorry but there is no mediterranean restaurant in the south of town
+1 the_copper_kettle serves british food in the moderate price range
+1 There are restaurants in the north of town serving any kind of food . What price range would you like?
+1 dojo_noodle_bar is a nice place in the centre of town serving tasty asian_oriental food
+1 Sure , dojo_noodle_bar is on dojo_noodle_bar_address
+1 riverside_brasserie serves modern_european food in the moderate price range
+1 Sure , cambridge_lodge_restaurant is on cambridge_lodge_restaurant_address
+1 saigon_city is a great restaurant
+1 api_call vietnamese north moderate
+1 pizza_express is a great restaurant serving italian food and it is in the moderate price range
+1 There are restaurants serving european in the centre of town . What price range would you like?
+1 The phone number of the_oak_bistro is the_oak_bistro_phone
+1 saigon_city is a great restaurant serving asian_oriental food and it is in the expensive price range
+1 Sorry there is no hungarian restaurant in the south of town
+1 Sorry would you like something in the south or in the north
+1 loch_fyne is a great restaurant
+1 api_call japanese west R_price
+1 Sure , golden_house is on golden_house_address
+1 I'm sorry but there is no british restaurant in the north of town
+1 I'm sorry but there is no korean restaurant in the east of town
+1 Sorry but there is no other indian restaurant in the cheap price range and the north of town
+1 the_slug_and_lettuce serves gastropub food in the expensive price range
+1 I'm sorry but there is no thai restaurant in the north of town
+1 The price range at cote is expensive .
+1 curry_garden serves indian food .
+1 The price range at restaurant_alimentum is moderate .
+1 api_call cuban south R_price
+1 bangkok_city is on bangkok_city_address
+1 loch_fyne is in the expensive price range
+1 nandos is a nice place in the south of town serving tasty portuguese food
+1 pizza_express serves italian food
+1 api_call traditional R_location moderate
+1 I am sorry but there is no danish restaurant that matches your request
+1 I'm sorry but there is no restaurant serving the_americas food
+1 I'm sorry but there is no spanish restaurant in the north of town
+1 shiraz_restaurant is a nice place in the centre of town serving tasty mediterranean food
+1 india_house is a nice place in the west of town
+1 the_copper_kettle is a nice place in the centre of town
+1 Sorry there is no jamaican restaurant in the expensive price range
+1 There are restaurants serving chinese in the north of town . What price range would you like?
+1 meghna serves indian food in the moderate price range
+1 I'm sorry but there is no restaurant serving greek food
+1 Sorry would you like jamaican food or you dont care
+1 Sorry there is no european restaurant in the south of town
+1 lan_hong_house is a great restaurant serving chinese food and it is in the moderate price range
+1 api_call persian R_location expensive
+1 pizza_hut_cherry_hinton is a nice place in the south of town
+1 saigon_city is a great restaurant serving expensive asian_oriental food in the north of town .
+1 wagamama is in the expensive price range
+1 I am sorry but there is no traditional restaurant that matches your request
+1 Sorry would you like venetian or asian_oriental food?
+1 The post code of loch_fyne is loch_fyne_post_code
+1 I am sorry but there is no other lebanese restaurant that matches your request
+1 Sorry would you like something in the west or in the north
+1 maharajah_tandoori_restaurant is a great restaurant
+1 I'm sorry but there is no restaurant serving jamaican food
+1 tandoori_palace is in the north part of town .
+1 restaurant_one_seven serves british food
+1 You are looking for a kosher restaurant right?
+1 I'm sorry but there is no indian restaurant in the east of town and the cheap price range
+1 There are restaurants serving british in the west of town . What price range would you like?
+1 I am sorry but there is no other chinese restaurant in the south of town
+1 I'm sorry but there is no restaurant serving swiss food
+1 Sure , bloomsbury_restaurant is on bloomsbury_restaurant_address
+1 midsummer_house_restaurant is a nice place in the centre of town serving tasty british food
+1 travellers_rest is a great restaurant
+1 I'm sorry but there is no restaurant serving halal food
+1 I'm sorry but there is no european restaurant in the east of town
+1 There are restaurants serving portuguese in the cheap price range . What area would you like?
+1 I am sorry but there is no other spanish restaurant that matches your request
+1 Sorry would you like something in the south or in the west
+1 api_call catalan R_location R_price
+1 The phone number of zizzi_cambridge is zizzi_cambridge_phone
+1 bloomsbury_restaurant is a nice place in the centre of town serving tasty international food
+1 Sorry would you like modern_european or cuban food?
+1 peking_restaurant is a nice restaurant in the south of town in the expensive price range
+1 The phone number of peking_restaurant is peking_restaurant_phone
+1 The phone number of sitar_tandoori is sitar_tandoori_phone
+1 Sorry there is no lebanese restaurant in the west of town
+1 bangkok_city is a great restaurant
+1 curry_king is a great restaurant
+1 Sorry but there is no other italian restaurant in the moderate price range and the south of town
+1 There are restaurants serving turkish food in any part of town . What price range would you like?
+1 da_vinci_pizzeria is a great restaurant serving italian food and it is in the cheap price range
+1 prezzo is a great restaurant serving moderate italian food in the west of town .
+1 Sorry would you like russian or korean food?
+1 I'm sorry but there is no restaurant serving traditional food
+1 rajmahal is in the moderate price range
+1 Sure , backstreet_bistro is on backstreet_bistro_address
+1 Sorry there is no mexican restaurant in the cheap price range
+1 Sorry there is no moroccan restaurant in the cheap price range
+1 Sorry there is no creative restaurant in the expensive price range
+1 galleria is a nice place in the centre of town
+1 Sorry there is no chinese restaurant in the west of town
+1 Sure , restaurant_two_two is on restaurant_two_two_address
+1 midsummer_house_restaurant serves british food .
+1 Sorry there is no basque restaurant in the west of town
+1 The phone number of chiquito_restaurant_bar is chiquito_restaurant_bar_phone
+1 The phone number of the_copper_kettle is the_copper_kettle_phone
+1 The phone number of pizza_hut_fen_ditton is pizza_hut_fen_ditton_phone
+1 Sure , curry_garden is on curry_garden_address
+1 Sorry would you like world or jamaican food?
+1 frankie_and_bennys is a great restaurant serving expensive italian food in the south of town .
+1 stazione_restaurant_and_coffee_bar is a great restaurant serving italian food and it is in the expensive price range
+1 efes_restaurant is a great restaurant serving moderate turkish food in the centre of town .
+1 api_call mediterranean R_location cheap
+1 I'm sorry but there is no spanish restaurant in the east of town
+1 panahar is a nice place in the centre of town
+1 api_call jamaican west R_price
+1 The post code of j_restaurant is j_restaurant_post_code
+1 The phone number of la_margherita is la_margherita_phone
+1 Sure , rajmahal is on rajmahal_address
+1 api_call tuscan R_location expensive
+1 Sorry there is no christmas restaurant in the west of town
+1 curry_garden is a great restaurant serving indian food and it is in the expensive price range
+1 I'm sorry but there is no international restaurant in the west of town
+1 shiraz_restaurant is a nice place in the centre of town
+1 I'm sorry but there is no north_american restaurant in the south of town
+1 chiquito_restaurant_bar is a nice place in the south of town serving tasty mexican food
+1 the_oak_bistro is a nice place in the centre of town serving tasty british food
+1 thanh_binh is a great restaurant serving cheap vietnamese food in the west of town .
+1 The phone number of thanh_binh is thanh_binh_phone
+1 grafton_hotel_restaurant serves british food
+1 The phone number of pizza_hut_city_centre is pizza_hut_city_centre_phone
+1 The post code of charlie_chan is charlie_chan_post_code
+1 yippee_noodle_bar is a great restaurant serving asian_oriental food and it is in the moderate price range
+1 The phone number of the river bar steakhouse and grill is the_river_bar_steakhouse_and_grill_phone
+1 api_call italian north R_price
+1 The post code of the_missing_sock is the_missing_sock_post_code
+1 Sure , pizza_hut_city_centre is on pizza_hut_city_centre_address
+1 eraina serves european food in the expensive price range
+1 shiraz_restaurant is a great restaurant serving expensive mediterranean food in the centre of town .
+1 the_slug_and_lettuce is a nice place in the centre of town
+1 sesame_restaurant_and_bar is in the expensive price range
+1 rice_boat is a great restaurant
+1 The post code of meze_bar_restaurant is meze_bar_restaurant_post_code
+1 saint_johns_chop_house is a nice place in the west of town
+1 The post code of the cow pizza kitchen and bar is the_cow_pizza_kitchen_and_bar_post_code
+1 Sure , jinling_noodle_bar is on jinling_noodle_bar_address
+1 pizza_hut_fen_ditton is a nice place in the east of town serving tasty italian food
+1 Let me confirm , You are looking for a restaurant in the expensive price range right?
+1 api_call belgian R_location cheap
+1 api_call creative west R_price
+1 lan_hong_house is in the moderate price range
+1 Sure , loch_fyne is on loch_fyne_address
+1 golden_wok is a great restaurant
+1 api_call international west R_price
+1 You are looking for a indonesian restaurant right?
+1 api_call moroccan R_location moderate
+1 royal_spice is in the north part of town .
+1 The phone number of la_mimosa is la_mimosa_phone
+1 Sure , sala_thong is on sala_thong_address
+1 There are restaurants if you don't care about the food . What area do you want?
+1 the_oak_bistro serves british food
+1 Sure , restaurant_one_seven is on restaurant_one_seven_address
+1 api_call mediterranean north R_price
+1 Sorry there is no german restaurant in the west of town
+1 Sure , hakka is on hakka_address
+1 api_call vietnamese south cheap
+1 You are looking for a austrian restaurant right?
+1 api_call unusual north expensive
+1 There are restaurants serving european in the moderate price range . What area would you like?
+1 maharajah_tandoori_restaurant is a nice place in the west of town
+1 saigon_city is a nice restaurant in the north of town serving asian_oriental food
+1 I'm sorry but there is no restaurant serving cantonese food
+1 frankie_and_bennys is a nice restaurant in the south of town serving italian food
+1 I am sorry but there is no other mediterranean restaurant in the cheap price range
+1 the_nirala is a nice place in the north of town and the prices are moderate
+1 da_vinci_pizzeria serves italian food
+1 I'm sorry but there is no restaurant serving persian food
+1 da_vinci_pizzeria is in the cheap price range
+1 Sorry there is no traditional restaurant in the north of town
+1 api_call lebanese R_location R_price
+1 the_lucky_star is a nice place in the south of town serving tasty chinese food
+1 Sorry there is no bistro restaurant in the moderate price range
+1 The price range at the river bar steakhouse and grill is cheap .
+1 the_cambridge_chop_house is a great restaurant
+1 api_call malaysian R_location expensive
+1 api_call corsica R_location moderate
+1 caffe_uno serves italian food
+1 riverside_brasserie is in the moderate price range
+1 little_seoul is a nice restaurant in the centre of town serving korean food
+1 api_call swedish north R_price
+1 I'm sorry but there is no restaurant serving indonesian food
+1 What part of town do you have in mind?
+1 cote is a nice restaurant in the centre of town serving french food
+1 You are looking for a indian restaurant right?
+1 la_margherita is a nice restaurant in the west of town serving italian food
+1 I'm sorry but there is no spanish restaurant in the west of town
+1 api_call romanian R_location R_price
+1 the cow pizza kitchen and bar is in the moderate price range
+1 graffiti is a nice place in the west of town serving tasty british food
+1 yippee_noodle_bar is a nice restaurant in the centre of town serving asian_oriental food
+1 kymmoy serves asian_oriental food in the expensive price range
+1 api_call lebanese east R_price
+1 royal_standard is in the expensive price range
+1 You are looking for a barbeque restaurant right?
+1 Sorry there is no barbeque restaurant in the centre of town
+1 The price range at la_raza is cheap .
+1 The post code of royal_spice is royal_spice_post_code
+1 You are looking for a turkish restaurant right?
+1 The phone number of ali_baba is ali_baba_phone
+1 api_call italian R_location moderate
+1 I'm sorry but there is no restaurant serving caribbean food
+1 You are looking for a australian restaurant right?
+1 Sorry there is no european restaurant in the east of town
+1 shiraz_restaurant is a great restaurant serving mediterranean food and it is in the expensive price range
+1 The post code of sitar_tandoori is sitar_tandoori_post_code
+1 api_call european R_location expensive
+1 You are looking for a north_american restaurant right?
+1 the river bar steakhouse and grill is in the cheap price range
+1 You are looking for a danish restaurant right?
+1 bangkok_city is a nice place in the centre of town
+1 bedouin is a great restaurant serving african food and it is in the expensive price range
+1 Sorry there is no eritrean restaurant in the south of town
+1 sala_thong is a great restaurant
+1 Let me confirm , You are looking for a restaurant and you dont care about the price range right?
+1 saint_johns_chop_house is in the moderate price range
+1 The phone number of little_seoul is little_seoul_phone
+1 I am sorry but there is no other asian_oriental restaurant in the centre of town
+1 The post code of galleria is galleria_post_code
+1 ask is in the centre part of town .
+1 I'm sorry but there is no restaurant serving middle_eastern food
+1 I'm sorry but there is no african restaurant in the north of town
+1 I'm sorry but there is no restaurant serving cheap korean food
+1 Sure , nandos_city_centre is on nandos_city_centre_address
+1 There are restaurants in the cheap price range and the west of town . What type of food would you like?
+1 The post code of chiquito_restaurant_bar is chiquito_restaurant_bar_post_code
+1 There are restaurants serving british in the moderate price range . What area would you like?
+1 efes_restaurant is a great restaurant serving turkish food and it is in the moderate price range
+1 The phone number of curry_king is curry_king_phone
+1 The post code of curry_queen is curry_queen_post_code
+1 royal_standard serves gastropub food in the expensive price range
+1 Would you like something in the cheap , moderate , or expensive price range?
+1 saint_johns_chop_house is a nice place in the west of town serving tasty british food
+1 The post code of kymmoy is kymmoy_post_code
+1 api_call R_cuisine north cheap
+1 api_call turkish R_location R_price
+1 la_tasca is a nice place in the centre of town serving tasty spanish food
+1 rajmahal serves indian food
+1 the good luck chinese food takeaway is a nice place in the south of town serving tasty chinese food
+1 Hello , welcome to the Cambridge restaurant system . You can ask for restaurants by area , price range or food type . How may I help you ?
+1 api_call gastropub east R_price
+1 The post code of michaelhouse_cafe is michaelhouse_cafe_post_code
+1 the_hotpot is a great restaurant
+1 api_call mexican centre R_price
+1 meze_bar_restaurant is a nice place in the centre of town serving tasty turkish food
+1 I'm sorry but there is no mexican restaurant in the centre of town
+1 la_margherita is a great restaurant serving cheap italian food in the west of town .
+1 golden_wok is on golden_wok_address
+1 the river bar steakhouse and grill is a great restaurant
+1 Sorry there is no tuscan restaurant in the moderate price range
+1 There are restaurants if you don't care about the area or the type of food . What price range would you like?
+1 api_call portuguese north R_price
+1 little_seoul is a great restaurant
+1 api_call venetian R_location expensive
+1 api_call vietnamese north cheap
+1 api_call british east R_price
+1 api_call british west R_price
+1 chiquito_restaurant_bar is a nice place in the south of town
+1 frankie_and_bennys is in the expensive price range
+1 You are looking for a seafood restaurant right?
+1 api_call cuban R_location cheap
+1 There are restaurants in the centre of town . What type of food do you want?
+1 I'm sorry but there is no restaurant serving expensive spanish food
+1 api_call romanian R_location cheap
+1 wagamama is a nice restaurant in the centre of town in the expensive price range
+1 There are restaurants serving turkish in the centre of town . What price range would you like?
+1 caffe_uno is a nice place in the centre of town
+1 golden_house serves chinese food
+1 ali_baba serves lebanese food
+1 Sorry there is no danish restaurant in the moderate price range
+1 fitzbillies_restaurant is a nice restaurant in the centre of town serving british food
+1 the_lucky_star is a great restaurant serving chinese food and it is in the cheap price range
+1 I'm sorry but there is no restaurant serving moderate mediterranean food
+1 Sorry would you like something in the north or in the south
+1 hk_fusion serves chinese food in the expensive price range
+1 api_call indian R_location cheap
+1 cotto is a nice place in the centre of town and the prices are moderate
+1 saigon_city is a nice place in the north of town
+1 I'm sorry but there is no restaurant serving christmas food
+1 cote is a great restaurant
+1 little_seoul serves korean food .
+1 Sorry there is no cheap restaurant in the centre of town serving vietnamese food
+1 The phone number of travellers_rest is travellers_rest_phone
+1 nandos serves portuguese food
+1 api_call caribbean east R_price
+1 I'm sorry but there is no restaurant serving welsh food
+1 Sorry would you like polynesian or vietnamese food?
+1 Sorry there is no australian restaurant in the expensive price range
+1 api_call chinese east expensive
+1 midsummer_house_restaurant is a great restaurant
+1 cotto is a nice place in the centre of town serving tasty british food
+1 la_raza is a nice place in the centre of town
+1 api_call polynesian R_location moderate
+1 The price range at jinling_noodle_bar is moderate .
+1 Sure , kymmoy is on kymmoy_address
+1 the cow pizza kitchen and bar is a great restaurant serving gastropub food and it is in the moderate price range
+1 Sorry there is no afghan restaurant in the cheap price range
+1 hk_fusion serves chinese food .
+1 Sorry would you like vietnamese food or you dont care
+1 api_call indian south expensive
+1 curry_prince serves indian food
+1 rice_boat serves indian food
+1 api_call scottish R_location R_price
+1 You are looking for a corsica restaurant right?
+1 travellers_rest serves british food
+1 thanh_binh is a nice place in the west of town
+1 api_call chinese south cheap
+1 The phone number of curry_garden is curry_garden_phone
+1 la_raza is a great restaurant
+1 jinling_noodle_bar is a great restaurant serving chinese food and it is in the moderate price range
+1 Sorry there is no moderate restaurant in the east of town serving vietnamese food
+1 little_seoul is a great restaurant serving expensive korean food in the centre of town .
+1 Sorry there is no persian restaurant in the expensive price range
+1 api_call australian north R_price
+1 Sorry there is no thai restaurant in the north of town
+1 da_vinci_pizzeria is a nice restaurant in the north of town in the cheap price range
+1 The phone number of charlie_chan is charlie_chan_phone
+1 Sorry there is no lebanese restaurant in the south of town
+1 anatolia serves turkish food
+1 fitzbillies_restaurant serves british food .
+1 I am sorry but there is no other gastropub restaurant in the east of town
+1 frankie_and_bennys serves italian food
+1 I am sorry but there is no other international restaurant in the moderate price range
+1 api_call gastropub R_location cheap
+1 There are restaurants serving european in the expensive price range . What area would you like?
+1 peking_restaurant is a nice place in the south of town serving tasty chinese food
+1 chiquito_restaurant_bar is a nice restaurant in the south of town serving mexican food
+1 Sorry there is no moderate restaurant in the east of town serving australian food
+1 pizza_hut_city_centre serves italian food .
+1 restaurant_alimentum is a nice restaurant in the south of town in the moderate price range
+1 Sorry but there is no other mexican restaurant in the expensive price range and the south of town
+1 the_cambridge_chop_house is in the expensive price range
+1 You are looking for a swedish restaurant right?
+1 I am sorry but there is no other modern_european restaurant in the cheap price range
+1 I am sorry but there is no other lebanese restaurant in the centre of town
+1 Sorry there is no polynesian restaurant in the moderate price range
+1 curry_prince is a great restaurant
+1 I'm sorry but there is no seafood restaurant in the north of town
+1 api_call italian R_location expensive
+1 la_mimosa is a nice place in the centre of town serving tasty mediterranean food
+1 Sorry would you like polynesian or chinese food?
+1 charlie_chan is in the cheap price range
+1 I am sorry but there is no other vietnamese restaurant in the west of town
+1 bangkok_city serves thai food
+1 I am sorry but there is no swedish restaurant that matches your request
+1 nandos_city_centre is a great restaurant
+1 Sorry there is no world restaurant in the east of town
+1 travellers_rest serves british food in the expensive price range
+1 The price range at nandos_city_centre is cheap .
+1 dojo_noodle_bar serves asian_oriental food .
+1 There are restaurants serving indian in the moderate price range . What area would you like?
+1 There are restaurants serving indian food in any part of town . What price range would you like?
+1 anatolia serves turkish food .
+1 nandos_city_centre is a nice place in the centre of town
+1 I'm sorry but there is no restaurant serving cheap seafood food
+1 api_call korean centre R_price
+1 I am sorry but there is no welsh restaurant that matches your request
+1 Sorry would you like something in the west or in the east
+1 saint_johns_chop_house is a great restaurant
+1 There are restaurants serving gastropub in the expensive price range . What area would you like?
+1 api_call tuscan east R_price
+1 I'm sorry but there is no chinese restaurant in the south of town and the moderate price range
+1 Sorry but there is no other italian restaurant in the expensive price range and the south of town
+1 graffiti is a nice restaurant in the west of town serving british food
+1 api_call persian north R_price
+1 The post code of cotto is cotto_post_code
+1 michaelhouse_cafe is a nice restaurant in the centre of town serving european food
+1 nandos_city_centre is a nice restaurant in the centre of town serving portuguese food
+1 the_copper_kettle is a great restaurant
+1 the good luck chinese food takeaway is a nice place in the south of town and the prices are expensive
+1 api_call scandinavian R_location expensive
+1 the_varsity_restaurant is in the moderate price range
+1 cocum is a great restaurant
+1 yu_garden is a nice place in the east of town and the prices are expensive
+1 frankie_and_bennys is a nice restaurant in the south of town in the expensive price range
+1 The phone number of riverside_brasserie is riverside_brasserie_phone
+1 yu_garden is in the expensive price range
+1 Sure , taj_tandoori is on taj_tandoori_address
+1 The post code of da_vinci_pizzeria is da_vinci_pizzeria_post_code
+1 chiquito_restaurant_bar serves mexican food
+1 api_call italian R_location cheap
+1 I'm sorry but there is no chinese restaurant in the north of town and the cheap price range
+1 api_call chinese north cheap
+1 saint_johns_chop_house is a great restaurant serving british food and it is in the moderate price range
+1 Sorry there is no vegetarian restaurant in the north of town
+1 bangkok_city is in the centre part of town .
+1 Sorry would you like mediterranean or greek food?
+1 api_call bistro R_location moderate
+1 I am sorry but there is no other french restaurant that matches your request
+1 The phone number of the_golden_curry is the_golden_curry_phone
+1 saffron_brasserie serves indian food
+1 city_stop_restaurant is a nice place in the north of town and the prices are expensive
+1 stazione_restaurant_and_coffee_bar serves italian food in the expensive price range
+1 saigon_city is in the north part of town .
+1 loch_fyne serves seafood food in the expensive price range
+1 The phone number of eraina is eraina_phone
+1 mahal_of_cambridge is in the centre part of town .
+1 clowns_cafe is a nice place in the centre of town
+1 Sorry there is no cantonese restaurant in the west of town
+1 I am sorry but there is no other thai restaurant in the centre of town
+1 Sure , hk_fusion is on hk_fusion_address
+1 frankie_and_bennys is a nice place in the south of town serving tasty italian food
+1 Sorry there is no kosher restaurant in the expensive price range
+1 Sorry would you like something in the cheap price range or you dont care
+1 ask is a nice place in the centre of town serving tasty italian food
+1 I'm sorry but there is no turkish restaurant in the south of town
+1 There are restaurants in the moderate price range and the west of town . What type of food would you like?
+1 rice_house is a nice restaurant in the centre of town in the cheap price range
+1 There are restaurants serving portuguese in any price range . What area would you like?
+1 rice_house is a great restaurant serving chinese food and it is in the cheap price range
+1 api_call polynesian south R_price
+1 Sorry there is no austrian restaurant in the east of town
+1 I am sorry but there is no barbeque restaurant that matches your request
+1 royal_standard is a great restaurant
+1 india_house serves indian food
+1 the_lucky_star is in the south part of town .
+1 api_call R_cuisine west moderate
+1 sitar_tandoori is a great restaurant
+1 I am sorry but there is no canapes restaurant that matches your request
+1 api_call hungarian R_location moderate
+1 Sure , midsummer_house_restaurant is on midsummer_house_restaurant_address
+1 curry_garden is in the expensive price range
+1 la_margherita is on la_margherita_address
+1 Sorry there is no the_americas restaurant in the centre of town
+1 rajmahal is a nice place in the east of town
+1 Did you say you are looking for a restaurant in the south of town?
+1 bloomsbury_restaurant is a nice place in the centre of town
+1 chiquito_restaurant_bar is a great restaurant serving mexican food and it is in the expensive price range
+1 royal_spice is on royal_spice_address
+1 I'm sorry but there is no restaurant serving belgian food
+1 la_mimosa serves mediterranean food in the expensive price range
+1 api_call english R_location R_price
+1 curry_prince is a nice restaurant in the east of town in the moderate price range
+1 The price range at the_copper_kettle is moderate .
+1 cote is a nice place in the centre of town
+1 Sorry there is no moderate restaurant in the south of town serving mediterranean food
+1 Sorry there is no german restaurant in the expensive price range
+1 graffiti is a nice place in the west of town and the prices are expensive
+1 bangkok_city serves thai food in the expensive price range
+1 restaurant_alimentum is on restaurant_alimentum_address
+1 I am sorry but there is no other international restaurant in the centre of town
+1 sala_thong serves thai food
+1 The post code of sala_thong is sala_thong_post_code
+1 darrys_cookhouse_and_wine_shop serves modern_european food
+1 grafton_hotel_restaurant is a nice restaurant in the east of town in the expensive price range
+1 galleria is a great restaurant serving european food and it is in the moderate price range
+1 Sorry would you like asian_oriental or christmas food?
+1 la_tasca is in the centre , at C.B 2, 1 U.F
+1 the_missing_sock serves international food in the cheap price range
+1 There are restaurants serving indian in the west of town . What price range would you like?
+1 Sorry there is no belgian restaurant in the south of town
+1 Sorry would you like corsica or asian_oriental food?
+1 the_nirala serves indian food
+1 the_gardenia is a great restaurant
+1 I'm sorry but there is no restaurant serving fusion food
+1 api_call eritrean east R_price
+1 You are looking for a moroccan restaurant right?
+1 Sorry there is no moderate restaurant in the centre of town serving mediterranean food
+1 The phone number of rajmahal is rajmahal_phone
+1 api_call R_cuisine south cheap
+1 la_tasca serves spanish food .
+1 There are restaurants serving italian in the expensive price range . What area would you like?
+1 hakka is in the north part of town .
+1 graffiti is a great restaurant
+1 The phone number of anatolia is anatolia_phone
+1 restaurant_alimentum serves modern_european food in the moderate price range
+1 Sorry would you like french or german food?
+1 Sorry there is no basque restaurant in the east of town
+1 The phone number of restaurant_two_two is restaurant_two_two_phone
+1 rajmahal is a great restaurant serving moderate indian food in the east of town .
+1 little_seoul is a great restaurant serving korean food and it is in the expensive price range
+1 Sorry there is no hungarian restaurant in the west of town
+1 I'm sorry but there is no restaurant serving expensive portuguese food
+1 The phone number of de_luca_cucina_and_bar is de_luca_cucina_and_bar_phone
+1 The phone number of royal_spice is royal_spice_phone
+1 the good luck chinese food takeaway is on the_good_luck_chinese_food_takeaway_address
+1 curry_king serves indian food
+1 prezzo is in the moderate price range
+1 kymmoy is a nice place in the centre of town serving tasty asian_oriental food
+1 There are restaurants serving portuguese food in any part of town . What price range would you like?
+1 la_raza serves spanish food
+1 cote serves french food in the expensive price range
+1 Sure , cotto is on cotto_address
+1 api_call european R_location moderate
+1 api_call kosher north R_price
+1 The post code of efes_restaurant is efes_restaurant_post_code
+1 the good luck chinese food takeaway is a great restaurant
+1 pizza_hut_cherry_hinton is a great restaurant serving italian food . Their phone number is 01223 323737 .
+1 api_call chinese east cheap
+1 golden_wok serves chinese food
+1 Sorry there is no swiss restaurant in the east of town
+1 You are looking for a polynesian restaurant right?
+1 There are restaurants in the cheap price range and the north of town . What type of food would you like?
+1 api_call french R_location R_price
+1 golden_wok is in the north part of town .
+1 api_call kosher south R_price
+1 pizza_express Fen Ditton is a nice place in the centre of town
+1 You are looking for a mediterranean restaurant right?
+1 pizza_express Fen Ditton is a nice restaurant in the centre of town in the moderate price range
+1 bedouin is a nice place in the centre of town
+1 I am sorry but there is no other mexican restaurant that matches your request
+1 There are restaurants serving chinese in the south of town . What price range would you like?
+1 la_margherita is a nice restaurant in the west of town in the cheap price range
+1 de_luca_cucina_and_bar is a nice restaurant in the centre of town serving modern_european food
+1 Sorry there is no expensive restaurant in the east of town serving international food
+1 curry_queen serves indian food .
+1 Sorry there is no basque restaurant in the expensive price range
+1 api_call R_cuisine north R_price
+1 la_mimosa is in the expensive price range
+1 Sorry but there is no other restaurant in the expensive price range and the south of town
+1 The post code of bedouin is bedouin_post_code
+1 You are looking for a cuban restaurant right?
+1 api_call korean R_location R_price
+1 api_call international R_location R_price
+1 thanh_binh is a nice place in the west of town serving tasty vietnamese food
+1 grafton_hotel_restaurant is on grafton_hotel_restaurant_address
+1 chiquito_restaurant_bar is a nice restaurant in the south of town in the expensive price range
+1 api_call spanish south R_price
+1 Sure , little_seoul is on little_seoul_address
+1 Sorry there is no moderate restaurant in the centre of town serving vietnamese food
+1 There are restaurants in the east of town serving any kind of food . What price range would you like?
+1 api_call chinese south R_price
+1 api_call african R_location R_price
+1 Sure , tandoori_palace is on tandoori_palace_address
+1 sala_thong is in the expensive price range
+1 The post code of the_gardenia is the_gardenia_post_code
+1 I'm sorry but there is no restaurant serving russian food
+1 pizza_hut_fen_ditton is a nice place in the east of town and the prices are moderate
+1 There are restaurants serving asian_oriental in the expensive price range . What area would you like?
+1 I'm sorry but there is no japanese restaurant in the east of town
+1 peking_restaurant is a great restaurant serving expensive chinese food in the south of town .
+1 zizzi_cambridge serves italian food in the cheap price range
+1 I'm sorry but there is no restaurant serving swedish food
+1 cote is in the expensive price range
+1 I am sorry but there is no other african restaurant that matches your request
+1 Sorry there is no greek restaurant in the east of town
+1 ask serves italian food in the cheap price range
+1 sala_thong is a nice place in the west of town
+1 api_call vietnamese east moderate
+1 frankie_and_bennys is in the south part of town .
+1 pizza_hut_city_centre serves italian food
+1 There are restaurants serving french food in any part of town . What price range would you like?
+1 The phone number of yu_garden is yu_garden_phone
+1 Sure , the_gandhi is on the_gandhi_address
+1 Sorry would you like asian_oriental or german food?
+1 Sorry there is no irish restaurant in the south of town
+1 I'm sorry but there is no restaurant serving moderate mexican food
+1 The phone number of kohinoor is kohinoor_phone
+1 caffe_uno serves italian food in the expensive price range
+1 I'm sorry but there is no north_american restaurant in the west of town
+1 pizza_express is a nice place in the centre of town
+1 The phone number of don_pasquale_pizzeria is don_pasquale_pizzeria_phone
+1 The phone number of clowns_cafe is clowns_cafe_phone
+1 api_call scandinavian R_location cheap
+1 There are restaurants serving modern_european in the centre of town . What price range would you like?
+1 cotto is a great restaurant
+1 the_varsity_restaurant serves international food in the moderate price range
+1 Sorry would you like something in the expensive price range or in the moderate price range
+1 royal_spice is a great restaurant serving indian food and it is in the cheap price range
+1 mahal_of_cambridge is a great restaurant
+1 royal_spice is a nice place in the north of town serving tasty indian food
+1 What kind of food would you like?
+1 api_call german east R_price
+1 You are looking for a thai restaurant right?
+1 api_call hungarian west R_price
+1 the_nirala serves indian food in the moderate price range
+1 There are restaurants in all parts of town . What type of food do you want?
+1 api_call mexican R_location moderate
+1 api_call R_cuisine east moderate
+1 I am sorry but there is no caribbean restaurant that matches your request
+1 saigon_city is in the expensive price range
+1 the_nirala is on the_nirala_address
+1 Sorry there is no irish restaurant in the expensive price range
+1 gourmet_burger_kitchen serves north_american food .
+1 There are restaurants serving international in any price range . What area would you like?
+1 Sorry there is no lebanese restaurant in the cheap price range
+1 api_call R_cuisine R_location moderate
+1 the good luck chinese food takeaway is a nice restaurant in the south of town serving chinese food
+1 I am sorry but there is no cuban restaurant that matches your request
+1 The phone number of la_raza is la_raza_phone
+1 The post code of dojo_noodle_bar is dojo_noodle_bar_post_code
+1 restaurant_two_two serves french food
+1 jinling_noodle_bar serves chinese food .
+1 rajmahal is a nice restaurant in the east of town in the moderate price range
+1 saffron_brasserie is a great restaurant
+1 api_call halal R_location R_price
+1 api_call australian R_location moderate
+1 I'm sorry but there is no korean restaurant in the north of town
+1 I'm sorry but there is no restaurant serving moderate vietnamese food
+1 bloomsbury_restaurant is on bloomsbury_restaurant_address
+1 Sorry there is no catalan restaurant in the moderate price range
+1 Sorry there is no vietnamese restaurant in the centre of town
+1 hakka is a nice place in the north of town
+1 I am sorry but there is no corsica restaurant that matches your request
+1 Sorry there is no cuban restaurant in the south of town
+1 There are restaurants serving irish food . What area do you want?
+1 You are looking for a international restaurant right?
+1 I'm sorry but there is no european restaurant in the south of town
+1 The price range at dojo_noodle_bar is cheap .
+1 I'm sorry but there is no restaurant serving northern_european food
+1 You are looking for a catalan restaurant right?
+1 I'm sorry but there is no indian restaurant in the south of town and the moderate price range
+1 efes_restaurant serves turkish food .
+1 Sorry there is no caribbean restaurant in the moderate price range
+1 api_call christmas west R_price
+1 royal_spice is a nice place in the north of town and the prices are cheap
+1 clowns_cafe is a nice place in the centre of town serving tasty italian food
+1 meze_bar_restaurant serves turkish food in the expensive price range
+1 I am sorry but there is no other japanese restaurant in the expensive price range
+1 Sorry there is no creative restaurant in the cheap price range
+1 api_call traditional east R_price
+1 Sure , mahal_of_cambridge is on mahal_of_cambridge_address
+1 There are restaurants serving french food . What price range do you want?
+1 the_hotpot is a nice restaurant in the north of town in the expensive price range
+1 api_call catalan R_location moderate
+1 tandoori_palace is a nice place in the north of town serving tasty indian food
+1 shiraz_restaurant is a nice restaurant in the centre of town serving mediterranean food
+1 the_golden_curry is in the expensive price range
+1 The phone number of frankie_and_bennys is frankie_and_bennys_phone
+1 sitar_tandoori is a nice place in the east of town
+1 don_pasquale_pizzeria is in the expensive price range
+1 api_call cantonese R_location expensive
+1 There are restaurants serving indian in the east of town . What price range would you like?
+1 the_varsity_restaurant is a great restaurant serving international food and it is in the moderate price range
+1 api_call afghan R_location R_price
+1 api_call indian east moderate
+1 efes_restaurant is a nice restaurant in the centre of town serving turkish food
+1 api_call tuscan R_location cheap
+1 api_call R_cuisine north moderate
+1 I'm sorry but there is no lebanese restaurant in the north of town
+1 api_call asian_oriental north R_price
+1 golden_wok is a nice place in the north of town and the prices are moderate
+1 The post code of the_copper_kettle is the_copper_kettle_post_code
+1 grafton_hotel_restaurant is in the east part of town .
+1 Sorry there is no cheap restaurant in the east of town serving chinese food
+1 The post code of grafton_hotel_restaurant is grafton_hotel_restaurant_post_code
+1 Sorry there is no mediterranean restaurant in the south of town
+1 I'm sorry but there is no restaurant serving austrian food
+1 Sure , the_copper_kettle is on the_copper_kettle_address
+1 Sorry would you like something in the west or in the south
+1 rice_house serves chinese food .
+1 curry_king is in the centre part of town .
+1 prezzo is a nice place in the west of town and the prices are moderate
+1 api_call indian west expensive
+1 grafton_hotel_restaurant serves british food in the expensive price range
+1 rajmahal is a great restaurant serving indian food and it is in the moderate price range
+1 The address of yu_garden is 529 Newmarket Road Fen Ditton .
+1 zizzi_cambridge serves italian food .
+1 kymmoy is a great restaurant
+1 zizzi_cambridge serves italian food
+1 The price range at city_stop_restaurant is expensive .
+1 meghna is a nice restaurant in the north of town serving indian food
+1 The phone number of cote is cote_phone
+1 Sorry there is no australian restaurant in the north of town
+1 The phone number of cambridge_lodge_restaurant is cambridge_lodge_restaurant_phone
+1 Sure , yippee_noodle_bar is on yippee_noodle_bar_address
+1 You are looking for a venetian restaurant right?
+1 I'm sorry but there is no portuguese restaurant in the east of town
+1 api_call japanese north R_price
+1 Sure , the_hotpot is on the_hotpot_address
+1 cotto is a nice restaurant in the centre of town serving british food
+1 riverside_brasserie is a great restaurant serving moderate modern_european food in the centre of town .
+1 loch_fyne is a nice restaurant in the centre of town serving seafood food
+1 Sorry would you like crossover food or you dont care
+1 grafton_hotel_restaurant is a great restaurant
+1 Sorry there is no tuscan restaurant in the cheap price range
+1 tandoori_palace is a nice place in the north of town and the prices are expensive
+1 api_call seafood R_location R_price
+1 cote serves french food .
+1 ali_baba is a great restaurant
+1 pipasha_restaurant is a great restaurant serving expensive indian food in the east of town .
+1 yu_garden serves chinese food
+1 fitzbillies_restaurant is in the expensive price range
+1 api_call russian R_location moderate
+1 The price range at prezzo is moderate .
+1 india_house is a nice restaurant in the west of town serving indian food
+1 api_call scottish R_location moderate
+1 Sure , bedouin is on bedouin_address
+1 The post code of hk_fusion is hk_fusion_post_code
+1 api_call european south R_price
+1 thanh_binh is a nice restaurant in the west of town in the cheap price range
+1 api_call international east R_price
+1 Sorry there is no christmas restaurant in the centre of town
+1 I'm sorry but there is no portuguese restaurant in the north of town
+1 jinling_noodle_bar serves chinese food in the moderate price range
+1 api_call lebanese south R_price
+1 api_call tuscan R_location moderate
+1 api_call asian_oriental R_location R_price
+1 api_call R_cuisine north expensive
+1 The phone number of royal_standard is royal_standard_phone
+1 api_call persian R_location moderate
+1 Sorry there is no african restaurant in the north of town
+1 I'm sorry but there is no korean restaurant in the south of town
+1 michaelhouse_cafe is on michaelhouse_cafe_address
+1 anatolia is a great restaurant
+1 restaurant_two_two is on restaurant_two_two_address
+1 There are restaurants serving christmas food . What area do you want?
+1 Sorry there is no japanese restaurant in the north of town
+1 api_call caribbean south R_price
+1 Sorry there is no basque restaurant in the moderate price range
+1 Sorry but there is no other restaurant in the cheap price range and the east of town
+1 wagamama is a great restaurant
+1 api_call portuguese west R_price
+1 midsummer_house_restaurant is in the expensive price range
+1 saigon_city is a nice place in the north of town and the prices are expensive
+1 don_pasquale_pizzeria serves italian food in the expensive price range
+1 the_gandhi is a great restaurant
+1 api_call north_american R_location R_price
+1 panahar is a nice restaurant in the centre of town in the expensive price range
+1 The post code of golden_wok is golden_wok_post_code
+1 hakka is a great restaurant serving expensive chinese food in the north of town .
+1 loch_fyne is a great restaurant serving seafood food and it is in the expensive price range
+1 The phone number of michaelhouse_cafe is michaelhouse_cafe_phone
+1 I'm sorry but there is no restaurant serving australasian food
+1 restaurant_alimentum serves modern_european food
+1 the_varsity_restaurant is in the centre part of town .
+1 hotel_du_vin_and_bistro is a great restaurant serving european food and it is in the moderate price range
+1 ask is a great restaurant
+1 Sorry there is no unusual restaurant in the moderate price range
+1 You are looking for a welsh restaurant right?
+1 api_call european R_location R_price
+1 meze_bar_restaurant serves turkish food
+1 Sorry there is no barbeque restaurant in the west of town
+1 curry_garden serves indian food
+1 I am sorry but there is no other turkish restaurant that matches your request
+1 saigon_city is a nice restaurant in the north of town in the expensive price range
+1 yu_garden is a nice place in the east of town
+1 la_raza is a great restaurant serving spanish food and it is in the cheap price range
+1 sitar_tandoori is in the east part of town .
+1 Sorry would you like cantonese or halal food?
+1 yu_garden is in the east part of town .
+1 grafton_hotel_restaurant is in the expensive price range
+1 The price range at ugly_duckling is expensive .
+1 bangkok_city is a great restaurant serving expensive thai food in the centre of town .
+1 The post code of hotel_du_vin_and_bistro is hotel_du_vin_and_bistro_post_code
+1 dojo_noodle_bar is a nice restaurant in the centre of town in the cheap price range
+1 There are restaurants serving british food . What area do you want?
+1 eraina is a great restaurant serving european food and it is in the expensive price range
+1 I'm sorry but there is no restaurant serving brazilian food
+1 api_call thai R_location R_price
+1 Sorry there is no creative restaurant in the west of town
+1 the cow pizza kitchen and bar is a nice place in the centre of town
+1 golden_wok is a nice place in the north of town
+1 api_call asian_oriental R_location cheap
+1 There are restaurants serving portuguese food . What price range do you want?
+1 zizzi_cambridge is in the cheap price range
+1 Sorry would you like something in the expensive price range or in the cheap price range
+1 Sorry but there is no other british restaurant in the expensive price range and the east of town
+1 meghna is a great restaurant
+1 lan_hong_house serves chinese food in the moderate price range
+1 eraina is in the expensive price range
+1 Sorry but there is no other restaurant in the cheap price range and the west of town
+1 Sure , stazione_restaurant_and_coffee_bar is on stazione_restaurant_and_coffee_bar_address
+1 There are restaurants serving italian food in any part of town . What price range would you like?
+1 Sorry there is no english restaurant in the west of town
+1 Sorry would you like creative or korean food?
+1 prezzo is a nice place in the west of town
+1 restaurant_two_two is a great restaurant
+1 You are looking for a greek restaurant right?
+1 the_missing_sock serves international food
+1 api_call cantonese west R_price
+1 api_call R_cuisine centre R_price
+1 golden_house is in the centre part of town .
+1 the_gandhi serves indian food
+1 the_oak_bistro is a nice place in the centre of town
+1 api_call japanese R_location R_price
+1 restaurant_two_two is in the north part of town .
+1 I'm sorry but there is no italian restaurant in the south of town and the cheap price range
+1 api_call unusual south expensive
+1 api_call creative north R_price
+1 Sure , pizza_hut_cherry_hinton is on pizza_hut_cherry_hinton_address
+1 cambridge_lodge_restaurant is a great restaurant
+1 restaurant_two_two is a nice place in the north of town
+1 galleria is a nice restaurant in the centre of town serving european food
+1 I am sorry but there is no belgian restaurant that matches your request
+1 api_call indian east expensive
+1 api_call vegetarian R_location cheap
+1 mahal_of_cambridge is a nice restaurant in the centre of town serving indian food
+1 The phone number of jinling_noodle_bar is jinling_noodle_bar_phone
+1 The price range at saffron_brasserie is expensive .
+1 api_call swedish R_location moderate
+1 I am sorry but there is no other italian restaurant in the east of town
+1 bedouin serves african food .
+1 saffron_brasserie is a nice restaurant in the centre of town in the expensive price range
+1 rajmahal is a nice place in the east of town serving tasty indian food
+1 de_luca_cucina_and_bar serves modern_european food
+1 the_missing_sock serves international food .
+1 michaelhouse_cafe serves european food .
+1 the_slug_and_lettuce is a great restaurant
+1 kymmoy serves asian_oriental food
+1 There are restaurants in the south of town . What type of food do you want?
+1 api_call asian_oriental north expensive
+1 The phone number of the_cambridge_chop_house is the_cambridge_chop_house_phone
+1 travellers_rest is a nice place in the west of town
+1 Sorry would you like something in the south or in the centre
+1 kohinoor is a great restaurant serving indian food and it is in the cheap price range
+1 royal_spice is in the cheap price range
+1 the good luck chinese food takeaway is in the expensive price range
+1 cotto is a great restaurant serving british food and it is in the moderate price range
+1 api_call jamaican R_location cheap
+1 pizza_hut_cherry_hinton is a nice place in the south of town and the prices are moderate
+1 the_missing_sock is a great restaurant
+1 la_margherita serves italian food in the cheap price range
+1 api_call malaysian south R_price
+1 peking_restaurant serves chinese food
+1 Sorry there is no corsica restaurant in the centre of town
+1 graffiti serves british food in the expensive price range
+1 Sorry but there is no other chinese restaurant in the moderate price range and the north of town
+1 api_call halal west R_price
+1 Sure , shanghai_family_restaurant is on shanghai_family_restaurant_address
+1 I'm sorry but there is no restaurant serving scottish food
+1 maharajah_tandoori_restaurant serves indian food
+1 restaurant_two_two is a nice place in the north of town and the prices are expensive
+1 I am sorry but there is no catalan restaurant that matches your request
+1 Sorry there is no european restaurant in the north of town
+1 I am sorry but there is no other korean restaurant in the centre of town
+1 api_call tuscan R_location R_price
+1 restaurant_alimentum is a great restaurant
+1 The phone number of the_nirala is the_nirala_phone
+1 Sorry there is no panasian restaurant in the centre of town
+1 api_call turkish R_location moderate
+1 the cow pizza kitchen and bar serves gastropub food
+1 the_nirala is a great restaurant
+1 rajmahal is in the east part of town .
+1 kymmoy is a great restaurant serving expensive asian_oriental food in the centre of town .
+1 api_call british R_location expensive
+1 the_copper_kettle is a nice place in the centre of town serving tasty british food
+1 The phone number of tandoori_palace is tandoori_palace_phone
+1 Sorry would you like bistro or turkish food?
+1 ali_baba is a great restaurant serving lebanese food and it is in the moderate price range
+1 I'm sorry but there is no vietnamese restaurant in the south of town
+1 The post code of la_raza is la_raza_post_code
+1 golden_house is a great restaurant
+1 There are restaurants serving mediterranean food . What price range do you want?
+1 charlie_chan serves chinese food in the cheap price range
+1 The price range at golden_wok is moderate .
+1 The price range at grafton_hotel_restaurant is expensive .
+1 Sure , the good luck chinese food takeaway is on the_good_luck_chinese_food_takeaway_address
+1 the_missing_sock is a nice restaurant in the east of town serving international food
+1 the_missing_sock is on the_missing_sock_address
+1 The post code of nandos_city_centre is nandos_city_centre_post_code
+1 saint_johns_chop_house serves british food
+1 There are restaurants serving mediterranean in any price range . What area would you like?
+1 efes_restaurant serves turkish food
+1 There are restaurants serving indian food . What area do you want?
+1 zizzi_cambridge is a great restaurant serving italian food and it is in the cheap price range
+1 Sorry there is no russian restaurant in the moderate price range
+1 ugly_duckling is a great restaurant
+1 the_slug_and_lettuce is a great restaurant serving expensive gastropub food in the centre of town .
+1 You are looking for a portuguese restaurant right?
+1 Sorry there is no danish restaurant in the west of town
+1 Sorry there is no scandinavian restaurant in the cheap price range
+1 The post code of prezzo is prezzo_post_code
+1 You are looking for a tuscan restaurant right?
+1 bedouin is in the expensive price range
+1 Sure , travellers_rest is on travellers_rest_address
+1 Sorry there is no moderate restaurant in the north of town serving italian food
+1 frankie_and_bennys is a nice place in the south of town
+1 shanghai_family_restaurant is a nice restaurant in the centre of town serving chinese food
+1 pizza_express is in the moderate price range
+1 royal_standard serves gastropub food
+1 the_lucky_star is in the cheap price range
+1 cambridge_lodge_restaurant is in the expensive price range
+1 The price range at backstreet_bistro is expensive .
+1 kymmoy is a nice place in the centre of town
+1 I am sorry but there is no other thai restaurant that matches your request
+1 You are looking for a the_americas restaurant right?
+1 You are looking for a modern_european restaurant right?
+1 riverside_brasserie is a great restaurant serving modern_european food and it is in the moderate price range
+1 api_call chinese east R_price
+1 Sorry but there is no other spanish restaurant in the moderate price range and the centre of town
+1 la_margherita serves italian food
+1 api_call danish R_location moderate
+1 I am sorry but there is no other spanish restaurant in the moderate price range
+1 There are restaurants serving chinese food . What price range do you want?
+1 api_call greek R_location cheap
+1 I'm sorry but there is no european restaurant in the north of town
+1 Sorry there is no bistro restaurant in the east of town
+1 mahal_of_cambridge serves indian food
+1 I'm sorry but there is no restaurant serving world food
+1 You are looking for a cantonese restaurant right?
+1 kymmoy is in the expensive price range
+1 Sorry there is no cantonese restaurant in the east of town
+1 api_call greek R_location R_price
+1 pizza_hut_cherry_hinton is a great restaurant
+1 The phone number of the_slug_and_lettuce is the_slug_and_lettuce_phone
+1 Sorry there is no indonesian restaurant in the east of town
+1 meghna is in the moderate price range
+1 I am sorry but there is no other european restaurant in the expensive price range
+1 Sure , golden_wok is on golden_wok_address
+1 Sorry there is no world restaurant in the south of town
+1 api_call gastropub R_location R_price
+1 midsummer_house_restaurant is a nice place in the centre of town
+1 I am sorry but there is no malaysian restaurant that matches your request
+1 You are looking for a jamaican restaurant right?
+1 india_house is a great restaurant
+1 I am sorry but there is no vegetarian restaurant that matches your request
+1 I'm sorry but there is no restaurant serving creative food
+1 gourmet_burger_kitchen serves north_american food in the expensive price range
+1 The phone number of backstreet_bistro is backstreet_bistro_phone
+1 Sorry there is no hungarian restaurant in the north of town
+1 api_call korean south R_price
+1 I am sorry but there is no scandinavian restaurant that matches your request
+1 yu_garden is a nice restaurant in the east of town serving chinese food
+1 rice_boat is a nice place in the west of town serving tasty indian food
+1 the_oak_bistro is a nice restaurant in the centre of town serving british food
+1 the good luck chinese food takeaway is a nice restaurant in the south of town in the expensive price range
+1 The price range at wagamama is expensive .
+1 wagamama serves japanese food in the expensive price range
+1 wagamama serves japanese food
+1 the_lucky_star is a nice restaurant in the south of town in the cheap price range
+1 api_call danish south R_price
+1 The post code of la_tasca is la_tasca_post_code
+1 Could you please repeat that?
+1 The phone number of meghna is meghna_phone
+1 royal_standard is a nice restaurant in the east of town serving gastropub food
+1 restaurant_two_two serves french food in the expensive price range
+1 I'm sorry but there is no indian restaurant in the south of town and the cheap price range
+1 Sorry there is no kosher restaurant in the centre of town
+1 The post code of de_luca_cucina_and_bar is de_luca_cucina_and_bar_post_code
+1 india_house is in the expensive price range
+1 caffe_uno is a great restaurant serving italian food and it is in the expensive price range
+1 pipasha_restaurant is a great restaurant
+1 api_call japanese east R_price
+1 riverside_brasserie is a nice restaurant in the centre of town serving modern_european food
+1 Sorry there is no international restaurant in the north of town
+1 I'm sorry but there is no restaurant serving australian food
+1 little_seoul is in the expensive price range
+1 backstreet_bistro serves gastropub food in the expensive price range
+1 sitar_tandoori is a nice restaurant in the east of town in the expensive price range
+1 Sorry there is no korean restaurant in the south of town
+1 You are looking for a japanese restaurant right?
+1 thanh_binh is a great restaurant
+1 curry_prince is a great restaurant serving moderate indian food in the east of town .
+1 The price range at anatolia is moderate .
+1 Sure , gourmet_burger_kitchen is on gourmet_burger_kitchen_address
+1 api_call chinese east moderate
+1 efes_restaurant is a great restaurant
+1 restaurant_two_two is in the expensive price range
+1 Sorry would you like scottish or corsica food?
+1 api_call R_cuisine east expensive
+1 Sure , da_vinci_pizzeria is on da_vinci_pizzeria_address
+1 api_call japanese west expensive
+1 shanghai_family_restaurant serves chinese food in the moderate price range
+1 Sorry there is no cheap restaurant in the north of town serving chinese food
+1 saigon_city serves asian_oriental food
+1 api_call malaysian R_location cheap
+1 pizza_hut_city_centre is a nice restaurant in the centre of town serving italian food
+1 There are restaurants serving spanish food in any part of town . What price range would you like?
+1 The price range at ask is cheap .
+1 There are restaurants serving mediterranean food . What area do you want?
+1 Sure , galleria is on galleria_address
+1 The post code of la_mimosa is la_mimosa_post_code
+1 api_call german R_location cheap
+1 bedouin serves african food
+1 You are looking for a german restaurant right?
+1 api_call indian R_location moderate
+1 galleria is a great restaurant serving moderate european food in the centre of town .
+1 eraina is a nice restaurant in the centre of town in the expensive price range
+1 sesame_restaurant_and_bar serves chinese food
+1 Sorry would you like something in the east or in the south
+1 grafton_hotel_restaurant is a nice place in the east of town serving tasty british food
+1 meze_bar_restaurant is in the expensive price range , and their post code is C.B 1, 3 N.F
+1 Sorry there is no polish restaurant in the west of town
+1 api_call spanish R_location cheap
+1 There are restaurants serving tuscan in the expensive price range . What area would you like?
+1 Sorry there is no mexican restaurant in the centre of town
+1 There are restaurants in the moderate price range and the east of town . What type of food would you like?
+1 da_vinci_pizzeria serves italian food .
+1 There are restaurants serving asian_oriental food . What price range do you want?
+1 Sure , riverside_brasserie is on riverside_brasserie_address
+1 Sure , yu_garden is on yu_garden_address
+1 You are looking for a restaurant serving any kind of food right?
+1 la_raza is a nice restaurant in the centre of town serving spanish food
+1 j_restaurant is a nice place in the centre of town serving tasty asian_oriental food
+1 There are restaurants in the moderate price range . What type of food do you want?
+1 api_call persian R_location R_price
+1 There are restaurants serving french in the expensive price range . What area would you like?
+1 Sorry there is no scandinavian restaurant in the expensive price range
+1 api_call polish R_location R_price
+1 You are looking for a korean restaurant right?
+1 api_call irish R_location R_price
+1 Sorry would you like chinese or polynesian food?
+1 wagamama is a great restaurant serving japanese food and it is in the expensive price range
+1 api_call gastropub R_location moderate
+1 I'm sorry but there is no restaurant serving moderate african food
+1 Sorry there is no danish restaurant in the centre of town
+1 I'm sorry but there is no portuguese restaurant in the west of town
+1 Sure , prezzo is on prezzo_address
+1 meze_bar_restaurant is a great restaurant
+1 You are looking for a english restaurant right?
+1 india_house is in the west part of town .
+1 api_call traditional south R_price
+1 cambridge_lodge_restaurant serves european food in the expensive price range
+1 the_hotpot is on the_hotpot_address
+1 pipasha_restaurant is a nice restaurant in the east of town in the expensive price range
+1 The post code of bangkok_city is bangkok_city_post_code
+1 There are restaurants . That area would you like?
+1 bloomsbury_restaurant serves international food in the moderate price range
+1 the_oak_bistro is a great restaurant serving british food and it is in the moderate price range
+1 api_call greek south R_price
+1 I'm sorry but there is no international restaurant in the south of town
+1 Sorry would you like british food or you dont care
+1 The phone number of ask is ask_phone
+1 The phone number of stazione_restaurant_and_coffee_bar is stazione_restaurant_and_coffee_bar_phone
+1 Sorry there is no australasian restaurant in the moderate price range
+1 ali_baba serves lebanese food in the moderate price range
+1 nandos is in the south part of town .
+1 The post code of the_lucky_star is the_lucky_star_post_code
+1 Sorry there is no welsh restaurant in the east of town
+1 I'm sorry but there is no restaurant serving danish food
+1 Sorry would you like chinese or english food?
+1 don_pasquale_pizzeria is a great restaurant
+1 api_call danish west R_price
+1 backstreet_bistro is a great restaurant serving gastropub food and it is in the expensive price range
+1 midsummer_house_restaurant serves british food
+1 Sorry there is no cuban restaurant in the moderate price range
+1 hotel_du_vin_and_bistro is in the moderate price range
+1 api_call cantonese R_location R_price
+1 There are restaurants in the east of town . What type of food do you want?
+1 Sure , meze_bar_restaurant is on meze_bar_restaurant_address
+1 Sorry would you like something in the north or in the centre
+1 Sorry would you like korean or belgian food?
+1 The post code of shiraz_restaurant is shiraz_restaurant_post_code
+1 api_call unusual west expensive
+1 charlie_chan is a great restaurant
+1 Sure , meghna is on meghna_address
+1 prezzo serves italian food
+1 You are looking for a vegetarian restaurant right?
+1 the_varsity_restaurant is on the_varsity_restaurant_address
+1 wagamama serves japanese food .
+1 nandos is a great restaurant
+1 Sorry there is no swiss restaurant in the north of town
+1 You are looking for a french restaurant right?
+1 You are looking for a belgian restaurant right?
+1 sitar_tandoori is a nice restaurant in the east of town serving indian food
+1 There are restaurants in the expensive price range . What type of food do you want?
+1 Sorry would you like asian_oriental or brazilian food?
+1 yippee_noodle_bar serves asian_oriental food in the moderate price range
+1 cambridge_lodge_restaurant serves european food .
+1 The phone number of rice_boat is rice_boat_phone
+1 Sorry but there is no other restaurant in the expensive price range and the east of town
+1 I'm sorry but there is no restaurant serving barbeque food

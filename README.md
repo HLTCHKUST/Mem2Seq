@@ -1,4 +1,8 @@
-# Mem2Seq: Effectively Incorporating Knowledge Bases into End-to-End Task-Oriented Dialog Systems
+# Mem2Seq 
+**Mem2Seq: Effectively Incorporating Knowledge Bases into End-to-End Task-Oriented Dialog Systems** (2018), Madotto, A., Wu, CS., Fung, P.. Accepted at ***ACL 2018***. Preprint available at: [http://arxiv.org/abs/1804.08217](http://arxiv.org/abs/1804.08217).
+
+Andrea Madotto and Chien-Sheng Wu contribute equally at this work.  
+
 
 ## Mem2Seq in pytorch 
 In this repository we implemented Mem2Seq and several baseline in pytorch (Version 0.2). To make the code more reusable we diveded each model in a separated files (obivuosly there is a large code overlap). In the folder models you can find the following:

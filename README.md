@@ -3,6 +3,9 @@
 
 Andrea Madotto and Chien-Sheng Wu contribute equally at this work.  
 
+<p align="center">
+<img src="img/mem2seq.png" width="100%" />
+</p>
 
 ## Mem2Seq in pytorch 
 In this repository we implemented Mem2Seq and several baseline in pytorch (Version 0.2). To make the code more reusable we diveded each model in a separated files (obivuosly there is a large code overlap). In the folder models you can find the following:
@@ -53,3 +56,9 @@ the option you can choose are:
 
 
 While training, the model with the best validation is saved. If you want to reuse a model add `-path=path_name_model` to the function call. The model is evaluated by using per responce accuracy, WER, F1 and BLEU.
+
+## Visualization Memory Access
+
+<p align="center">
+<img src="img/viz.png" width="75%" />
+</p>

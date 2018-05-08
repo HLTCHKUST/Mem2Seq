@@ -1,6 +1,7 @@
 # Mem2Seq 
 **Mem2Seq: Effectively Incorporating Knowledge Bases into End-to-End Task-Oriented Dialog Systems** (ACL 2018), Madotto, A., Wu, CS., Fung, P.. Accepted at ***ACL 2018***. Preprint available at: [http://arxiv.org/abs/1804.08217](http://arxiv.org/abs/1804.08217).
 
+
 Andrea Madotto and Chien-Sheng Wu contribute equally at this work.  
 
 <p align="center">

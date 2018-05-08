@@ -3,10 +3,10 @@ import logging
 import argparse
 from tqdm import tqdm
 
-PAD_token = 1
-SOS_token = 3
-EOS_token = 2
 UNK_token = 0
+PAD_token = 1
+EOS_token = 2
+SOS_token = 3
 
 if (os.cpu_count() > 8):
     USE_CUDA = True

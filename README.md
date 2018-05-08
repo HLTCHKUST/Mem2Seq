@@ -1,5 +1,5 @@
 # Mem2Seq 
-**Mem2Seq: Effectively Incorporating Knowledge Bases into End-to-End Task-Oriented Dialog Systems** (2018), Madotto, A., Wu, CS., Fung, P.. Accepted at ***ACL 2018***. Preprint available at: [http://arxiv.org/abs/1804.08217](http://arxiv.org/abs/1804.08217).
+**Mem2Seq: Effectively Incorporating Knowledge Bases into End-to-End Task-Oriented Dialog Systems** (ACL 2018), Madotto, A., Wu, CS., Fung, P.. Accepted at ***ACL 2018***. Preprint available at: [http://arxiv.org/abs/1804.08217](http://arxiv.org/abs/1804.08217).
 
 Andrea Madotto and Chien-Sheng Wu contribute equally at this work.  
 
@@ -20,13 +20,13 @@ All of these file share the same structure, which is: a class that builds an enc
 Under the utils folder, we have the script to import and batch the data for each dataset. 
 
 ## Basic example
-Mem2Seq is a general sequence to sequence model. We prepared a very basic implementation (including data preprocessing and model) for a English to France translation task. Obviusly there is not much to copy from the input in this small corpus, so it is just to show how the model works in a general sequence to sequence task. Run:
+Mem2Seq can be considered as a general sequence to sequence model with the ability to address external memories. We prepared a very basic implementation (including data preprocessing and model) for a English to France translation task. Obviusly there is not much to copy from the input in this small corpus, so it is just to show how the model works in a general sequence to sequence task. Run:
 ```console
 ❱❱❱ python3 main_nmt.py
 ```
 This version uses a flat memory instead of triple as described in the paper. 
 
-## Train a model for dialog
+## Train a model for task-oriented dialog datasets
 We created  `main_train.py` to train models. You can see there is a notation, `globals()[args['decoder']]`, it is converting a string into a fuction. So to train a model you can run:
 Mem2Seq bAbI t1-t6:
 ```console

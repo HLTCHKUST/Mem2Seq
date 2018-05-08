@@ -20,7 +20,7 @@ class Lang:
     def __init__(self):
         self.word2index = {}
         self.word2count = {}
-        self.index2word = {1: "PAD", 3: "SOS", 2: "EOS", 0: 'UNK'}
+        self.index2word = {UNK_token: 'UNK', PAD_token: "PAD", EOS_token: "EOS",  SOS_token: "SOS"}
         self.n_words = 4# Count default tokens
       
     def index_words(self, sentence):

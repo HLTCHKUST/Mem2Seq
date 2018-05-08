@@ -132,10 +132,6 @@ class LuongSeqToSeq(nn.Module):
         self.decoder_optimizer.step()
         self.loss += loss.data[0]
 
-
-
-
-
     def evaluate_batch(self,batch_size,input_batches, input_lengths, target_batches):  
         # Set to not-training mode to disable dropout
         self.encoder.train(False)

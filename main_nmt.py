@@ -1,16 +1,5 @@
-import unicodedata
-import string
-import re
-import random
-import time
-import math
-import torch
-import torch.nn as nn
-from torch.autograd import Variable
-from torch import optim
-import torch.nn.functional as F
 from utils.config import *
-from models.Mem2SeqFLAT import Mem2Seq
+from models.Mem2Seq_NMT import Mem2Seq
 import numpy as np
 import logging 
 from tqdm import tqdm

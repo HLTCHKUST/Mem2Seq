@@ -1,32 +1,21 @@
-import unicodedata
-import string
-import re
-import random
-import time
-import math
-import torch
-import torch.nn as nn
-from torch.autograd import Variable
-from torch import optim
-import torch.nn.functional as F
+import numpy as np
+import logging 
+from tqdm import tqdm
+
 from utils.config import *
 from models.enc_vanilla import *
 from models.enc_Luong import *
 from models.enc_PTRUNK import *
 from models.Mem2Seq import *
-import numpy as np
-import logging 
-import argparse
-from tqdm import tqdm
 
 BLEU = False
 
 if (args['decoder'] == "Mem2Seq"):
     if args['dataset']=='kvr':
-        from utils.utils_kvr_seq2mem import *
+        from utils.utils_kvr_mem2seq import *
         BLEU = True
     elif args['dataset']=='babi':
-        from utils.utils_babi_seq2mem import *
+        from utils.utils_babi_mem2seq import *
     else: 
         print("You need to provide the --dataset information")
 else:
@@ -34,7 +23,7 @@ else:
         from utils.utils_kvr import *
         BLEU = True
     elif args['dataset']=='babi':
-        from utils.utils_seqtoseq import *
+        from utils.utils_babi import *
     else: 
         print("You need to provide the --dataset information")
 
@@ -78,8 +67,10 @@ for epoch in range(300):
         pbar.set_description(model.print_loss())
     if((epoch+1) % int(args['evalp']) == 0):    
         acc = model.evaluate(dev,avg_best, BLEU)
+        
         if 'Mem2Seq' in args['decoder']:
             model.scheduler.step(acc)
+
         if(acc >= avg_best):
             avg_best = acc
             cnt=0

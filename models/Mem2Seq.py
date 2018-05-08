@@ -71,7 +71,7 @@ class Mem2Seq(nn.Module):
     
     def save_model(self, dec_type):
         name_data = "KVR/" if self.task=='' else "BABI/"
-        directory = 'save/mem2seq_KB-'+name_data+str(self.task)+'HDD'+str(self.hidden_size)+'BSZ'+str(self.batch_size)+'DR'+str(self.dropout)+'L'+str(self.n_layers)+'lr'+str(self.lr)+str(dec_type)                 
+        directory = 'save/mem2seq-'+name_data+str(self.task)+'HDD'+str(self.hidden_size)+'BSZ'+str(self.batch_size)+'DR'+str(self.dropout)+'L'+str(self.n_layers)+'lr'+str(self.lr)+str(dec_type)                 
         if not os.path.exists(directory):
             os.makedirs(directory)
         torch.save(self.encoder, directory+'/enc.th')

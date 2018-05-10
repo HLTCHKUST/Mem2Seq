@@ -75,7 +75,12 @@ class LuongSeqToSeq(nn.Module):
 
     def train_batch(self, input_batches, input_lengths, target_batches, 
                     target_lengths, target_index, target_gate, batch_size, clip,
-                    teacher_forcing_ratio):    
+                    teacher_forcing_ratio, reset):    
+        if reset:
+            self.loss = 0
+            self.loss_vac = 0  
+            self.print_every = 1
+            
         # Zero gradients of both optimizers
         self.encoder_optimizer.zero_grad()
         self.decoder_optimizer.zero_grad()

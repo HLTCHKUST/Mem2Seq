@@ -52,7 +52,6 @@ class Mem2Seq(nn.Module):
         self.scheduler = lr_scheduler.ReduceLROnPlateau(self.decoder_optimizer,mode='max',factor=0.5,patience=1,min_lr=0.0001, verbose=True)
         self.criterion = nn.MSELoss()
         self.loss = 0
-        self.loss_gate = 0
         self.loss_ptr = 0
         self.loss_vac = 0
         self.print_every = 1
@@ -79,7 +78,13 @@ class Mem2Seq(nn.Module):
         
     def train_batch(self, input_batches, input_lengths, target_batches, 
                     target_lengths, target_index, target_gate, batch_size, clip,
-                    teacher_forcing_ratio, conv_seqs, conv_lengths):  
+                    teacher_forcing_ratio, conv_seqs, conv_lengths, reset):  
+
+        if reset:
+            self.loss = 0
+            self.loss_ptr = 0
+            self.loss_vac = 0
+            self.print_every = 1
 
         self.batch_size = batch_size
         # Zero gradients of both optimizers
@@ -150,7 +155,6 @@ class Mem2Seq(nn.Module):
         self.encoder_optimizer.step()
         self.decoder_optimizer.step()
         self.loss += loss.data[0]
-        #self.loss_gate += loss_gate.data[0] 
         self.loss_ptr += loss_Ptr.data[0]
         self.loss_vac += loss_Vocab.data[0]
         

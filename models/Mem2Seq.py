@@ -407,7 +407,7 @@ class DecoderrMemNN(nn.Module):
             C.weight.data.normal_(0, 0.1)
             self.add_module("C_{}".format(hop), C)
         self.C = AttrProxy(self, "C_")
-        self.softmax = nn.Softmax()
+        self.softmax = nn.Softmax(dim=1)
         self.W = nn.Linear(embedding_dim,1)
         self.W1 = nn.Linear(2*embedding_dim,self.num_vocab)
         self.gru = nn.GRU(embedding_dim, embedding_dim, dropout=dropout)

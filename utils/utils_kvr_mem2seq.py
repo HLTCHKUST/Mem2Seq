@@ -222,7 +222,7 @@ def read_langs(file_name, max_line = None):
                         ent_index_navigation = gold
 
                     ent_index = list(set(ent_index_calendar + ent_index_navigation + ent_index_weather))
-                    data.append([contex_arr_temp,r,r_index,gate,ent_index,list(set(ent_index_calendar)),list(set(ent_index_navigation)),list(set(ent_index_weather)), conversation_arr])
+                    data.append([contex_arr_temp,r,r_index,gate,ent_index,list(set(ent_index_calendar)),list(set(ent_index_navigation)),list(set(ent_index_weather)), list(conversation_arr)])
                     
                     gen_r = generate_memory(r, "$s", str(nid)) 
                     contex_arr += gen_r
@@ -251,7 +251,13 @@ def read_langs(file_name, max_line = None):
     logging.info("Avg. KB results: {}".format(KB_counter*1.0/dialog_counter))
     logging.info("Avg. responce Len: {}".format(system_res_counter*1.0/system_counter))
     
-    print('Sample: ',data[1][0],data[1][1],data[1][2],data[1][3],data[1][4])
+    #print('Sample: ',data[1][0],data[1][1],data[1][2],data[1][3],data[1][4])
+    print(data[0],'\n')
+    print(data[4],'\n')
+    print(data[8],'\n')
+    print(data[12],'\n')
+    print(data[16],'\n')
+    exit(1)
     return data, max_len, max_r_len
 
 def generate_memory(sent, speaker, time):

@@ -222,7 +222,7 @@ def read_langs(file_name, entity, max_line = None):
                         if(key in entity):
                             ent.append(key)
 
-                    data.append([contex_arr_temp,r,r_index,gate,conversation_arr,ent])
+                    data.append([contex_arr_temp,r,r_index,gate,list(conversation_arr),ent])
                     gen_r = generate_memory(r, "$s", str(time_counter)) 
                     contex_arr += gen_r
                     conversation_arr += gen_r

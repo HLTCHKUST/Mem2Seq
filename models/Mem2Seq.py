@@ -128,7 +128,7 @@ class Mem2Seq(nn.Module):
                 all_decoder_outputs_vocab[t] = decoder_vacab
                 all_decoder_outputs_ptr[t] = decoder_ptr
                 ## get the correspective word in input
-                top_ptr_i = torch.gather(input_batches[:,:,0],0,toppi.view(1, -1))
+                top_ptr_i = torch.gather(input_batches[:,:,0],0,Variable(toppi.view(1, -1)))
                 next_in = [top_ptr_i.squeeze()[i].data[0] if(toppi.squeeze()[i] < input_lengths[i]-1) else topvi.squeeze()[i] for i in range(batch_size)]
                 decoder_input = Variable(torch.LongTensor(next_in)) # Chosen word is next input
                 if USE_CUDA: decoder_input = decoder_input.cuda()
@@ -163,7 +163,7 @@ class Mem2Seq(nn.Module):
         self.encoder.train(False)
         self.decoder.train(False)  
         # Run words through encoder
-        decoder_hidden = self.encoder(conv_seqs).unsqueeze(0)
+        decoder_hidden = self.encoder(input_batches).unsqueeze(0)
         self.decoder.load_memory(input_batches.transpose(0,1))
 
         # Prepare input and output variables
@@ -195,7 +195,7 @@ class Mem2Seq(nn.Module):
             topv, topvi = decoder_vacab.data.topk(1)
             all_decoder_outputs_ptr[t] = decoder_ptr
             topp, toppi = decoder_ptr.data.topk(1)
-            top_ptr_i = torch.gather(input_batches[:,:,0],0,toppi.view(1, -1))        
+            top_ptr_i = torch.gather(input_batches[:,:,0],0,Variable(toppi.view(1, -1)))    
             next_in = [top_ptr_i.squeeze()[i].data[0] if(toppi.squeeze()[i] < input_lengths[i]-1) else topvi.squeeze()[i] for i in range(batch_size)]
 
             decoder_input = Variable(torch.LongTensor(next_in)) # Chosen word is next input

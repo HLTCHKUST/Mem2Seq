@@ -355,7 +355,7 @@ class EncoderMemNN(nn.Module):
             C.weight.data.normal_(0, 0.1)
             self.add_module("C_{}".format(hop), C)
         self.C = AttrProxy(self, "C_")
-        self.softmax = nn.Softmax()
+        self.softmax = nn.Softmax(dim=1)
         
     def get_state(self,bsz):
         """Get cell states and hidden states."""

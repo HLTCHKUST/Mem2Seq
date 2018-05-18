@@ -93,7 +93,7 @@ class Mem2Seq(nn.Module):
         loss_Vocab,loss_Ptr= 0,0
 
         # Run words through encoder
-        decoder_hidden = self.encoder(conv_seqs).unsqueeze(0)
+        decoder_hidden = self.encoder(input_batches).unsqueeze(0)
         self.decoder.load_memory(input_batches.transpose(0,1))
 
         # Prepare input and output variables

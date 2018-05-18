@@ -218,26 +218,26 @@ class Mem2Seq(nn.Module):
             self.from_whichs.append(from_which)
         self.from_whichs = np.array(self.from_whichs)
 
-        indices = torch.LongTensor(range(target_gate.size(0)))
-        if USE_CUDA: indices = indices.cuda()
+        # indices = torch.LongTensor(range(target_gate.size(0)))
+        # if USE_CUDA: indices = indices.cuda()
 
-        ## acc pointer
-        y_ptr_hat = all_decoder_outputs_ptr.topk(1)[1].squeeze()
-        y_ptr_hat = torch.index_select(y_ptr_hat, 0, indices)
-        y_ptr = target_index       
-        acc_ptr = y_ptr.eq(y_ptr_hat).sum()
-        acc_ptr = acc_ptr.data[0]/(y_ptr_hat.size(0)*y_ptr_hat.size(1))
-        ## acc vocab
-        y_vac_hat = all_decoder_outputs_vocab.topk(1)[1].squeeze()
-        y_vac_hat = torch.index_select(y_vac_hat, 0, indices)        
-        y_vac = target_batches       
-        acc_vac = y_vac.eq(y_vac_hat).sum()
-        acc_vac = acc_vac.data[0]/(y_vac_hat.size(0)*y_vac_hat.size(1))
+        # ## acc pointer
+        # y_ptr_hat = all_decoder_outputs_ptr.topk(1)[1].squeeze()
+        # y_ptr_hat = torch.index_select(y_ptr_hat, 0, indices)
+        # y_ptr = target_index       
+        # acc_ptr = y_ptr.eq(y_ptr_hat).sum()
+        # acc_ptr = acc_ptr.data[0]/(y_ptr_hat.size(0)*y_ptr_hat.size(1))
+        # ## acc vocab
+        # y_vac_hat = all_decoder_outputs_vocab.topk(1)[1].squeeze()
+        # y_vac_hat = torch.index_select(y_vac_hat, 0, indices)        
+        # y_vac = target_batches       
+        # acc_vac = y_vac.eq(y_vac_hat).sum()
+        # acc_vac = acc_vac.data[0]/(y_vac_hat.size(0)*y_vac_hat.size(1))
 
         # Set back to training mode
         self.encoder.train(True)
         self.decoder.train(True)
-        return decoded_words, acc_ptr, acc_vac
+        return decoded_words #, acc_ptr, acc_vac
 
 
     def evaluate(self,dev,avg_best,BLEU=False):
@@ -256,13 +256,13 @@ class Mem2Seq(nn.Module):
         pbar = tqdm(enumerate(dev),total=len(dev))
         for j, data_dev in pbar: 
             if args['dataset']=='kvr':
-                words, acc_ptr, acc_vac = self.evaluate_batch(len(data_dev[1]),data_dev[0],data_dev[1],
+                words = self.evaluate_batch(len(data_dev[1]),data_dev[0],data_dev[1],
                                     data_dev[2],data_dev[3],data_dev[4],data_dev[5],data_dev[6], data_dev[-2], data_dev[-1]) 
             else:
-                words, acc_ptr, acc_vac = self.evaluate_batch(len(data_dev[1]),data_dev[0],data_dev[1],
+                words = self.evaluate_batch(len(data_dev[1]),data_dev[0],data_dev[1],
                         data_dev[2],data_dev[3],data_dev[4],data_dev[5],data_dev[6], data_dev[-3], data_dev[-2])          
-            acc_P += acc_ptr
-            acc_V += acc_vac
+            # acc_P += acc_ptr
+            # acc_V += acc_vac
             acc=0
             w = 0 
             temp_gen = []

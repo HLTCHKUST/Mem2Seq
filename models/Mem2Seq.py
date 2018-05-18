@@ -443,6 +443,7 @@ class DecoderrMemNN(nn.Module):
         u = [hidden[0].squeeze()]   
         for hop in range(self.max_hops):
             m_A = self.m_story[hop]
+            if(len(list(u[-1].size()))==1): u[-1] = u[-1].unsqueeze(0) ## used for bsz = 1.
             u_temp = u[-1].unsqueeze(1).expand_as(m_A)
             prob_lg = torch.sum(m_A*u_temp, 2)
             prob_   = self.softmax(prob_lg)

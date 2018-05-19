@@ -9,7 +9,7 @@ from models.enc_PTRUNK import *
 from models.Mem2Seq import *
 
 '''
-python3 main_test.py -t= -dec= -path= -bsz= -ds=
+python3 main_test.py -dec= -path= -bsz= -ds=
 '''
 
 BLEU = False
@@ -33,7 +33,7 @@ else:
 
 # Configure models
 directory = args['path'].split("/")
-task = args['task']
+task = directory[2].split('HDD')[0]
 HDD = directory[2].split('HDD')[1].split('BSZ')[0]
 L = directory[2].split('L')[1].split('lr')[0]
 
@@ -41,10 +41,10 @@ train, dev, test, testOOV, lang, max_len, max_r = prepare_data_seq(task, batch_s
 
 if args['decoder'] == "Mem2Seq":
     model = globals()[args['decoder']](
-        int(HDD),max_len,max_r,lang,args['path'],"", lr=0.0, n_layers=int(L), dropout=0.0, unk_mask=0)
+        int(HDD),max_len,max_r,lang,args['path'],task, lr=0.0, n_layers=int(L), dropout=0.0, unk_mask=0)
 else:
     model = globals()[args['decoder']](
-        int(HDD),max_len,max_r,lang,args['path'],"", lr=0.0, n_layers=int(L), dropout=0.0)
+        int(HDD),max_len,max_r,lang,args['path'],task, lr=0.0, n_layers=int(L), dropout=0.0)
 
 acc_test = model.evaluate(test, 1e6, BLEU) 
 print(acc_test)

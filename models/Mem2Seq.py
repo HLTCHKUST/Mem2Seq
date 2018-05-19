@@ -70,7 +70,7 @@ class Mem2Seq(nn.Module):
     
     def save_model(self, dec_type):
         name_data = "KVR/" if self.task=='' else "BABI/"
-        directory = 'save/mem2seq-'+name_data+str(self.task)+'HDD'+str(self.hidden_size)+'BSZ'+str(self.batch_size)+'DR'+str(self.dropout)+'L'+str(self.n_layers)+'lr'+str(self.lr)+str(dec_type)                 
+        directory = 'save/mem2seq-'+name_data+str(self.task)+'HDD'+str(self.hidden_size)+'BSZ'+str(args['batch'])+'DR'+str(self.dropout)+'L'+str(self.n_layers)+'lr'+str(self.lr)+str(dec_type)                 
         if not os.path.exists(directory):
             os.makedirs(directory)
         torch.save(self.encoder, directory+'/enc.th')
@@ -253,6 +253,7 @@ class Mem2Seq(nn.Module):
         hyp = []
         ref_s = ""
         hyp_s = ""
+        dialog_acc_dict = {}
         pbar = tqdm(enumerate(dev),total=len(dev))
         for j, data_dev in pbar: 
             if args['dataset']=='kvr':
@@ -260,7 +261,7 @@ class Mem2Seq(nn.Module):
                                     data_dev[2],data_dev[3],data_dev[4],data_dev[5],data_dev[6], data_dev[-2], data_dev[-1]) 
             else:
                 words = self.evaluate_batch(len(data_dev[1]),data_dev[0],data_dev[1],
-                        data_dev[2],data_dev[3],data_dev[4],data_dev[5],data_dev[6], data_dev[-3], data_dev[-2])          
+                        data_dev[2],data_dev[3],data_dev[4],data_dev[5],data_dev[6], data_dev[-4], data_dev[-3])          
             # acc_P += acc_ptr
             # acc_V += acc_vac
             acc=0
@@ -288,17 +289,26 @@ class Mem2Seq(nn.Module):
                     f1_true,f1_pred = computeF1(data_dev[11][i],st.lstrip().rstrip(),correct.lstrip().rstrip()) 
                     microF1_TRUE_wet += f1_true
                     microF1_PRED_wet += f1_pred  
-                elif args['dataset']=='babi' and int(args['task'])==6:
+                elif args['dataset']=='babi' and int(self.task)==6:
                     f1_true,f1_pred = computeF1(data_dev[-1][i],st.lstrip().rstrip(),correct.lstrip().rstrip())
                     microF1_TRUE += f1_true
                     microF1_PRED += f1_pred
 
-                if (correct.lstrip().rstrip() == st.lstrip().rstrip()):
-                    acc+=1
-                # else:
+                if args['dataset']=='babi':
+                    if data_dev[-1][i] not in dialog_acc_dict.keys():
+                        dialog_acc_dict[data_dev[-1][i]] = []
+                    if (correct.lstrip().rstrip() == st.lstrip().rstrip()):
+                        acc+=1
+                        dialog_acc_dict[data_dev[-1][i]].append(1)
+                    else:
+                        dialog_acc_dict[data_dev[-1][i]].append(0)
+                else:
+                    if (correct.lstrip().rstrip() == st.lstrip().rstrip()):
+                        acc+=1
                 #    print("Correct:"+str(correct.lstrip().rstrip()))
                 #    print("\tPredict:"+str(st.lstrip().rstrip()))
                 #    print("\tFrom:"+str(self.from_whichs[:,i]))
+
                 w += wer(correct.lstrip().rstrip(),st.lstrip().rstrip())
                 ref.append(str(correct.lstrip().rstrip()))
                 hyp.append(str(st.lstrip().rstrip()))
@@ -310,12 +320,20 @@ class Mem2Seq(nn.Module):
             pbar.set_description("R:{:.4f},W:{:.4f}".format(acc_avg/float(len(dev)),
                                                                     wer_avg/float(len(dev))))
 
+        # dialog accuracy
+        if args['dataset']=='babi':
+            dia_acc = 0
+            for k in dialog_acc_dict.keys():
+                if len(dialog_acc_dict[k])==sum(dialog_acc_dict[k]):
+                    dia_acc += 1
+            logging.info("Dialog Accuracy:\t"+str(dia_acc*1.0/len(dialog_acc_dict.keys())))
+
         if args['dataset']=='kvr':
             logging.info("F1 SCORE:\t"+str(f1_score(microF1_TRUE, microF1_PRED, average='micro')))
             logging.info("F1 CAL:\t"+str(f1_score(microF1_TRUE_cal, microF1_PRED_cal, average='micro')))
             logging.info("F1 WET:\t"+str(f1_score(microF1_TRUE_wet, microF1_PRED_wet, average='micro')))
             logging.info("F1 NAV:\t"+str(f1_score(microF1_TRUE_nav, microF1_PRED_nav, average='micro')))
-        elif args['dataset']=='babi' and int(args['task'])==6 :
+        elif args['dataset']=='babi' and int(self.task)==6 :
             logging.info("F1 SCORE:\t"+str(f1_score(microF1_TRUE, microF1_PRED, average='micro')))
 
               

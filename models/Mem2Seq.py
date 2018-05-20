@@ -290,7 +290,7 @@ class Mem2Seq(nn.Module):
                     microF1_TRUE_wet += f1_true
                     microF1_PRED_wet += f1_pred  
                 elif args['dataset']=='babi' and int(self.task)==6:
-                    f1_true,f1_pred = computeF1(data_dev[-1][i],st.lstrip().rstrip(),correct.lstrip().rstrip())
+                    f1_true,f1_pred = computeF1(data_dev[-2][i],st.lstrip().rstrip(),correct.lstrip().rstrip())
                     microF1_TRUE += f1_true
                     microF1_PRED += f1_pred
 

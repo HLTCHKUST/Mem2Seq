@@ -60,7 +60,7 @@ for epoch in range(300):
                             len(data[1]),10.0,0.5, data[-2], data[-1],i==0)
             else:
                 model.train_batch(data[0], data[1], data[2], data[3],data[4],data[5],
-                            len(data[1]),10.0,0.5, data[-3], data[-2],i==0)
+                            len(data[1]),10.0,0.5, data[-4], data[-3],i==0)
         else:
             model.train_batch(data[0], data[1], data[2], data[3],data[4],data[5],
                         len(data[1]),10.0,0.5,i==0) 

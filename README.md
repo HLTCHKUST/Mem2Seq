@@ -1,6 +1,8 @@
 # Mem2Seq 
 **Mem2Seq: Effectively Incorporating Knowledge Bases into End-to-End Task-Oriented Dialog Systems** (ACL 2018), Madotto, A., Wu, CS., Fung, P.. Accepted at ***ACL 2018***. Preprint available at: [http://arxiv.org/abs/1804.08217](http://arxiv.org/abs/1804.08217). [Andrea Madotto](http://andreamad8.github.io/) and [Chien-Sheng Wu](https://jasonwu0731.github.io/) contribute equally at this work.  
 
+This code has been written using Pytorch 0.3, soon we will update the code to Pytorch 0.4.
+
 If you use any source codes or datasets included in this toolkit in your work, please cite the following paper. The bibtex are listed below:
 <pre>
   @article{madotto2018mem2seq,
@@ -17,7 +19,7 @@ If you use any source codes or datasets included in this toolkit in your work, p
 </p>
 
 ## Mem2Seq in pytorch 
-In this repository we implemented Mem2Seq and several baseline in pytorch (Version 0.2). To make the code more reusable we diveded each model in a separated files (obivuosly there is a large code overlap). In the folder models you can find the following:
+In this repository we implemented Mem2Seq and several baseline in pytorch (Version 0.3). To make the code more reusable we diveded each model in a separated files (obivuosly there is a large code overlap). In the folder models you can find the following:
 - ***Mem2Seq***: Memory to Sequence (Our model)
 - ***Seq2Seq***: Vanilla seq2seq model with no attention (enc_vanilla)
 - ***+Attn***: Luong attention attention model

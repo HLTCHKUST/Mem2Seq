@@ -1,16 +1,23 @@
 # Mem2Seq 
-**Mem2Seq: Effectively Incorporating Knowledge Bases into End-to-End Task-Oriented Dialog Systems** (ACL 2018), Madotto, A., Wu, CS., Fung, P.. Accepted at ***ACL 2018***. Preprint available at: [http://arxiv.org/abs/1804.08217](http://arxiv.org/abs/1804.08217). [Andrea Madotto](http://andreamad8.github.io/) and [Chien-Sheng Wu](https://jasonwu0731.github.io/) contribute equally at this work.  
+**Mem2Seq: Effectively Incorporating Knowledge Bases into End-to-End Task-Oriented Dialog Systems** (ACL 2018), Madotto, A., Wu, CS., Fung, P.. Accepted at ***ACL 2018***. ACL anthology:[https://aclanthology.coli.uni-saarland.de/papers/P18-1136/p18-1136](https://aclanthology.coli.uni-saarland.de/papers/P18-1136/p18-1136). [Andrea Madotto](http://andreamad8.github.io/) and [Chien-Sheng Wu](https://jasonwu0731.github.io/) contribute equally at this work.  
 
 This code has been written using Pytorch 0.3, soon we will update the code to Pytorch 0.4.
 
 If you use any source codes or datasets included in this toolkit in your work, please cite the following paper. The bibtex are listed below:
 <pre>
-  @article{madotto2018mem2seq,
-    title={Mem2Seq: Effectively Incorporating Knowledge Bases into End-to-End Task-Oriented Dialog Systems},
-    author={Madotto, Andrea and Wu, Chien-Sheng and Fung, Pascale},
-    journal={arXiv preprint arXiv:1804.08217},
-    year={2018}
-  }
+@InProceedings{P18-1136,
+  author = 	"Madotto, Andrea
+		and Wu, Chien-Sheng
+		and Fung, Pascale",
+  title = 	"Mem2Seq: Effectively Incorporating Knowledge Bases into End-to-End Task-Oriented Dialog Systems",
+  booktitle = 	"Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  year = 	"2018",
+  publisher = 	"Association for Computational Linguistics",
+  pages = 	"1468--1478",
+  location = 	"Melbourne, Australia",
+  url = 	"http://aclweb.org/anthology/P18-1136"
+}
+
 </pre>
 
 

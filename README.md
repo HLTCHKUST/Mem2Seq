@@ -48,17 +48,17 @@ This version uses a flat memory instead of triple as described in the paper.
 We created  `main_train.py` to train models. You can see there is a notation, `globals()[args['decoder']]`, it is converting a string into a fuction. So to train a model you can run:
 Mem2Seq bAbI t1-t6:
 ```console
-❱❱❱ python3 main_train.py -lr=0.001 -layer=1 -hdd=12 -dr=0.0 -dec=Mem2Seq -bsz=2 -ds=babi -t=1 
-❱❱❱ python3 main_train.py -lr=0.001 -layer=1 -hdd=12 -dr=0.0 -dec=VanillaSeqToSeq -bsz=2 -ds=babi -t=1
-❱❱❱ python3 main_train.py -lr=0.001 -layer=1 -hdd=12 -dr=0.0 -dec=LuongSeqToSeq -bsz=2 -ds=babi -t=1
-❱❱❱ python3 main_train.py -lr=0.001 -layer=1 -hdd=12 -dr=0.0 -dec=PTRUNK -bsz=2 -ds=babi -t=1
+❱❱❱ python3 main_train.py -lr=0.001 -layer=1 -hdd=128 -dr=0.2 -dec=Mem2Seq -bsz=8 -ds=babi -t=1 
+❱❱❱ python3 main_train.py -lr=0.001 -layer=1 -hdd=128 -dr=0.2 -dec=VanillaSeqToSeq -bsz=8 -ds=babi -t=1
+❱❱❱ python3 main_train.py -lr=0.001 -layer=1 -hdd=128 -dr=0.2 -dec=LuongSeqToSeq -bsz=8 -ds=babi -t=1
+❱❱❱ python3 main_train.py -lr=0.001 -layer=1 -hdd=128 -dr=0.2 -dec=PTRUNK -bsz=8 -ds=babi -t=1
 ```
 or Mem2Seq In-Car
 ```console
-❱❱❱ python3 main_train.py -lr=0.001 -layer=1 -hdd=12 -dr=0.0 -dec=Mem2Seq -bsz=2 -ds=kvr -t=
-❱❱❱ python3 main_train.py -lr=0.001 -layer=1 -hdd=12 -dr=0.0 -dec=VanillaSeqToSeq -bsz=2 -ds=kvr -t=
-❱❱❱ python3 main_train.py -lr=0.001 -layer=1 -hdd=12 -dr=0.0 -dec=LuongSeqToSeq -bsz=2 -ds=kvr -t=
-❱❱❱ python3 main_train.py -lr=0.001 -layer=1 -hdd=12 -dr=0.0 -dec=PTRUNK -bsz=2 -ds=kvr -t=
+❱❱❱ python3 main_train.py -lr=0.001 -layer=1 -hdd=128 -dr=0.2 -dec=Mem2Seq -bsz=8 -ds=kvr -t=
+❱❱❱ python3 main_train.py -lr=0.001 -layer=1 -hdd=128 -dr=0.2 -dec=VanillaSeqToSeq -bsz=8 -ds=kvr -t=
+❱❱❱ python3 main_train.py -lr=0.001 -layer=1 -hdd=128 -dr=0.2 -dec=LuongSeqToSeq -bsz=8 -ds=kvr -t=
+❱❱❱ python3 main_train.py -lr=0.001 -layer=1 -hdd=128 -dr=0.2 -dec=PTRUNK -bsz=8 -ds=kvr -t=
 ```
 
 the option you can choose are:

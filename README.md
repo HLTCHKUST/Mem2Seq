@@ -1,5 +1,5 @@
 # Mem2Seq 
-**Mem2Seq: Effectively Incorporating Knowledge Bases into End-to-End Task-Oriented Dialog Systems** (ACL 2018). Andrea Madotto, Chien-Sheng Wu, Pascale Fung. Accepted at ***ACL 2018***. ACL anthology:[[PDF]](https://aclanthology.coli.uni-saarland.de/papers/P18-1136/p18-1136). [Andrea Madotto](http://andreamad8.github.io/) and [Chien-Sheng Wu](https://jasonwu0731.github.io/) contribute equally at this work.  
+**Mem2Seq: Effectively Incorporating Knowledge Bases into End-to-End Task-Oriented Dialog Systems** (ACL 2018). Andrea Madotto, Chien-Sheng Wu, Pascale Fung. Accepted at ***ACL 2018***. [[PDF]](https://aclanthology.coli.uni-saarland.de/papers/P18-1136/p18-1136) in ACL anthology. [Andrea Madotto](http://andreamad8.github.io/) and [Chien-Sheng Wu](https://jasonwu0731.github.io/) contribute equally at this work.  
 
 This code has been written using Pytorch 0.3, soon we will update the code to Pytorch 0.4.
 

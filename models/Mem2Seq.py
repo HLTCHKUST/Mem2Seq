@@ -308,23 +308,23 @@ class Mem2Seq(nn.Module):
                 if args['dataset']=='babi':
                     if data_dev[-1][i] not in dialog_acc_dict.keys():
                         dialog_acc_dict[data_dev[-1][i]] = []
-                    if (correct.lstrip().rstrip() == st.lstrip().rstrip()):
+                    if (correct == st):
                         acc+=1
                         dialog_acc_dict[data_dev[-1][i]].append(1)
                     else:
                         dialog_acc_dict[data_dev[-1][i]].append(0)
                 else:
-                    if (correct.lstrip().rstrip() == st.lstrip().rstrip()):
+                    if (correct == st):
                         acc+=1
-                #    print("Correct:"+str(correct.lstrip().rstrip()))
-                #    print("\tPredict:"+str(st.lstrip().rstrip()))
+                #    print("Correct:"+str(correct))
+                #    print("\tPredict:"+str(st))
                 #    print("\tFrom:"+str(self.from_whichs[:,i]))
 
-                w += wer(correct.lstrip().rstrip(),st.lstrip().rstrip())
-                ref.append(str(correct.lstrip().rstrip()))
-                hyp.append(str(st.lstrip().rstrip()))
-                ref_s+=str(correct.lstrip().rstrip())+ "\n"
-                hyp_s+=str(st.lstrip().rstrip()) + "\n"
+                w += wer(correct,st)
+                ref.append(str(correct))
+                hyp.append(str(st))
+                ref_s+=str(correct)+ "\n"
+                hyp_s+=str(st) + "\n"
 
             acc_avg += acc/float(len(data_dev[1]))
             wer_avg += w/float(len(data_dev[1]))            

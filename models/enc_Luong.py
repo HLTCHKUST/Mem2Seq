@@ -181,8 +181,6 @@ class LuongSeqToSeq(nn.Module):
         bleu_avg = 0.0
         acc_P = 0.0
         acc_V = 0.0
-        microF1_PRED,microF1_PRED_cal,microF1_PRED_nav,microF1_PRED_wet = [],[],[],[]
-        microF1_TRUE,microF1_TRUE_cal,microF1_TRUE_nav,microF1_TRUE_wet = [],[],[],[]
         ref = []
         hyp = []
         ref_s = ""
@@ -202,24 +200,6 @@ class LuongSeqToSeq(nn.Module):
                         st+= e + ' '
                 temp_gen.append(st)
                 correct = data_dev[7][i]  
-                ### compute F1 SCORE  
-                if(len(data_dev)>10):
-                    f1_true,f1_pred = computeF1(data_dev[8][i],st.lstrip().rstrip(),correct.lstrip().rstrip())
-                    microF1_TRUE += f1_true
-                    microF1_PRED += f1_pred
-
-                    f1_true,f1_pred = computeF1(data_dev[9][i],st.lstrip().rstrip(),correct.lstrip().rstrip())
-                    microF1_TRUE_cal += f1_true
-                    microF1_PRED_cal += f1_pred 
-
-                    f1_true,f1_pred = computeF1(data_dev[10][i],st.lstrip().rstrip(),correct.lstrip().rstrip())
-                    microF1_TRUE_nav += f1_true
-                    microF1_PRED_nav += f1_pred 
-
-                    f1_true,f1_pred = computeF1(data_dev[11][i],st.lstrip().rstrip(),correct.lstrip().rstrip()) 
-                    microF1_TRUE_wet += f1_true
-                    microF1_PRED_wet += f1_pred  
-       
 
                 if (correct.lstrip().rstrip() == st.lstrip().rstrip()):
                     acc+=1
@@ -237,11 +217,6 @@ class LuongSeqToSeq(nn.Module):
             wer_avg += w/float(len(data_dev[1]))
             pbar.set_description("R:{:.4f},W:{:.4f}".format(acc_avg/float(len(dev)),
                                                                     wer_avg/float(len(dev))))
-        if(len(data_dev)>10):
-            logging.info("F1 SCORE:\t"+str(f1_score(microF1_TRUE, microF1_PRED, average='micro')))
-            logging.info("F1 CAL:\t"+str(f1_score(microF1_TRUE_cal, microF1_PRED_cal, average='micro')))
-            logging.info("F1 WET:\t"+str(f1_score(microF1_TRUE_wet, microF1_PRED_wet, average='micro')))
-            logging.info("F1 NAV:\t"+str(f1_score(microF1_TRUE_nav, microF1_PRED_nav, average='micro')))
 
         if (BLEU):       
             bleu_score = moses_multi_bleu(np.array(hyp), np.array(ref), lowercase=True) 
@@ -258,13 +233,6 @@ class LuongSeqToSeq(nn.Module):
                 logging.info("MODEL SAVED")
             return acc_avg
 
-def computeF1(entity,st,correct):
-    y_pred = [0 for z in range(len(entity))]
-    y_true = [1 for z in range(len(entity))]
-    for k in st.lstrip().rstrip().split(' '):
-        if (k in entity):
-            y_pred[entity.index(k)] = 1
-    return y_true,y_pred
 
 class EncoderRNN(nn.Module):
     def __init__(self, input_size, hidden_size, n_layers=1, dropout=0.1):

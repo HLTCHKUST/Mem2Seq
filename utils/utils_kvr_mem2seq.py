@@ -50,7 +50,7 @@ class Lang:
 
 class Dataset(data.Dataset):
     """Custom data.Dataset compatible with data.DataLoader."""
-    def __init__(self, src_seq, trg_seq, index_seq, gate_seq,src_word2id, trg_word2id,max_len,entity,entity_cal,entity_nav,entity_wet, conv_seq):
+    def __init__(self, src_seq, trg_seq, index_seq, gate_seq,src_word2id, trg_word2id,max_len,entity,entity_cal,entity_nav,entity_wet, conv_seq, kb_arr):
         """Reads source and target sequences from txt files."""
         self.src_seqs = src_seq
         self.trg_seqs = trg_seq
@@ -65,6 +65,7 @@ class Dataset(data.Dataset):
         self.entity_nav = entity_nav
         self.entity_wet = entity_wet
         self.conv_seq = conv_seq
+        self.kb_arr = kb_arr
     
     def __getitem__(self, index):
         """Returns one data pair (source and target)."""
@@ -79,7 +80,7 @@ class Dataset(data.Dataset):
         conv_seq = self.conv_seq[index]
         conv_seq = self.preprocess(conv_seq, self.src_word2id, trg=False)
         
-        return src_seq, trg_seq, index_s, gete_s,self.max_len,self.src_seqs[index],self.trg_seqs[index],self.entity[index],self.entity_cal[index],self.entity_nav[index],self.entity_wet[index], conv_seq
+        return src_seq, trg_seq, index_s, gete_s,self.max_len,self.src_seqs[index],self.trg_seqs[index],self.entity[index],self.entity_cal[index],self.entity_nav[index],self.entity_wet[index], conv_seq, self.kb_arr[index]
 
     def __len__(self):
         return self.num_total_seqs
@@ -132,7 +133,7 @@ def collate_fn(data):
     # sort a list by sequence length (descending order) to use pack_padded_sequence
     data.sort(key=lambda x: len(x[-1]), reverse=True)
     # seperate source and target sequences
-    src_seqs, trg_seqs, ind_seqs, gete_s, max_len, src_plain,trg_plain, entity,entity_cal,entity_nav,entity_wet, conv_seq = zip(*data)
+    src_seqs, trg_seqs, ind_seqs, gete_s, max_len, src_plain,trg_plain, entity,entity_cal,entity_nav,entity_wet, conv_seq, kb_arr = zip(*data)
     # merge sequences (from tuple of 1D tensor to 2D tensor)
     src_seqs, src_lengths = merge(src_seqs,max_len)
     trg_seqs, trg_lengths = merge(trg_seqs,None)
@@ -152,7 +153,7 @@ def collate_fn(data):
         ind_seqs = ind_seqs.cuda()
         gete_s = gete_s.cuda()
         conv_seqs = conv_seqs.cuda()
-    return src_seqs, src_lengths, trg_seqs, trg_lengths, ind_seqs, gete_s, src_plain, trg_plain,entity,entity_cal,entity_nav,entity_wet, conv_seqs, conv_lengths
+    return src_seqs, src_lengths, trg_seqs, trg_lengths, ind_seqs, gete_s, src_plain, trg_plain, entity, entity_cal, entity_nav, entity_wet, conv_seqs, conv_lengths, kb_arr
 
 
 def read_langs(file_name, max_line = None):
@@ -160,6 +161,7 @@ def read_langs(file_name, max_line = None):
     data=[]
     contex_arr = []
     conversation_arr = []
+    kb_arr = []
     entity = {}
     u=None
     r=None
@@ -222,7 +224,7 @@ def read_langs(file_name, max_line = None):
                         ent_index_navigation = gold
 
                     ent_index = list(set(ent_index_calendar + ent_index_navigation + ent_index_weather))
-                    data.append([contex_arr_temp,r,r_index,gate,ent_index,list(set(ent_index_calendar)),list(set(ent_index_navigation)),list(set(ent_index_weather)), list(conversation_arr)])
+                    data.append([contex_arr_temp,r,r_index,gate,ent_index,list(set(ent_index_calendar)),list(set(ent_index_navigation)),list(set(ent_index_weather)), list(conversation_arr), list(kb_arr)])
                     
                     gen_r = generate_memory(r, "$s", str(nid)) 
                     contex_arr += gen_r
@@ -232,7 +234,9 @@ def read_langs(file_name, max_line = None):
                     r=line
                     for e in line.split(' '):
                         entity[e] = 0
-                    contex_arr += generate_memory(r, "", str(nid))
+                    kb_info = generate_memory(r, "", str(nid))
+                    contex_arr += kb_info
+                    kb_arr += kb_info
             else:
                 cnt_lin+=1
                 entity = {}
@@ -240,6 +244,7 @@ def read_langs(file_name, max_line = None):
                     break
                 contex_arr = []
                 conversation_arr = []
+                kb_arr = []
                 dialog_counter += 1
 
     max_len = max([len(d[0]) for d in data])
@@ -276,6 +281,7 @@ def get_seq(pairs,lang,batch_size,type,max_len):
     entity_nav = []
     entity_wet = []
     conv_seq = []
+    kb_arr = []
 
     for pair in pairs:
         x_seq.append(pair[0])
@@ -286,12 +292,13 @@ def get_seq(pairs,lang,batch_size,type,max_len):
         entity_cal.append(pair[5])
         entity_nav.append(pair[6])
         entity_wet.append(pair[7])
-        conv_seq.append(pair[-1])
+        conv_seq.append(pair[8])
+        kb_arr.append(pair[9])
         if(type):
             lang.index_words(pair[0])
             lang.index_words(pair[1], trg=True)
     
-    dataset = Dataset(x_seq, y_seq,ptr_seq,gate_seq,lang.word2index, lang.word2index,max_len,entity,entity_cal,entity_nav,entity_wet, conv_seq)
+    dataset = Dataset(x_seq, y_seq,ptr_seq,gate_seq,lang.word2index, lang.word2index,max_len,entity,entity_cal,entity_nav,entity_wet, conv_seq, kb_arr)
     data_loader = torch.utils.data.DataLoader(dataset=dataset,
                                               batch_size=batch_size,
                                               shuffle=type,

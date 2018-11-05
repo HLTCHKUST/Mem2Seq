@@ -17,6 +17,7 @@ import seaborn  as sns
 import nltk
 import os
 from sklearn.metrics import f1_score
+import json
 
 class Mem2Seq(nn.Module):
     def __init__(self, hidden_size, max_len, max_r, lang, path, task, lr, n_layers, dropout, unk_mask):
@@ -45,7 +46,7 @@ class Mem2Seq(nn.Module):
                 self.decoder = torch.load(str(path)+'/dec.th',lambda storage, loc: storage)
         else:
             self.encoder = EncoderMemNN(lang.n_words, hidden_size, n_layers, self.dropout, self.unk_mask)
-            self.decoder = DecoderrMemNN(lang.n_words, hidden_size, n_layers, self.dropout, self.unk_mask)
+            self.decoder = DecoderMemNN(lang.n_words, hidden_size, n_layers, self.dropout, self.unk_mask)
         # Initialize optimizers and criterion
         self.encoder_optimizer = optim.Adam(self.encoder.parameters(), lr=lr)
         self.decoder_optimizer = optim.Adam(self.decoder.parameters(), lr=lr)
@@ -247,13 +248,26 @@ class Mem2Seq(nn.Module):
         bleu_avg = 0.0
         acc_P = 0.0
         acc_V = 0.0
-        microF1_PRED,microF1_PRED_cal,microF1_PRED_nav,microF1_PRED_wet = [],[],[],[]
-        microF1_TRUE,microF1_TRUE_cal,microF1_TRUE_nav,microF1_TRUE_wet = [],[],[],[]
+        microF1_PRED,microF1_PRED_cal,microF1_PRED_nav,microF1_PRED_wet = 0, 0, 0, 0
+        microF1_TRUE,microF1_TRUE_cal,microF1_TRUE_nav,microF1_TRUE_wet = 0, 0, 0, 0
         ref = []
         hyp = []
         ref_s = ""
         hyp_s = ""
         dialog_acc_dict = {}
+
+        if args['dataset'] == 'kvr':
+            with open('data/KVR/kvret_entities.json') as f:
+                global_entity = json.load(f)
+                global_entity_list = []
+                for key in global_entity.keys():
+                    if key != 'poi':
+                        global_entity_list += [item.lower().replace(' ', '_') for item in global_entity[key]]
+                    else:
+                        for item in global_entity['poi']:
+                            global_entity_list += [item[k].lower().replace(' ', '_') for k in item.keys()]
+                global_entity_list = list(set(global_entity_list))
+
         pbar = tqdm(enumerate(dev),total=len(dev))
         for j, data_dev in pbar: 
             if args['dataset']=='kvr':
@@ -262,8 +276,7 @@ class Mem2Seq(nn.Module):
             else:
                 words = self.evaluate_batch(len(data_dev[1]),data_dev[0],data_dev[1],
                         data_dev[2],data_dev[3],data_dev[4],data_dev[5],data_dev[6], data_dev[-4], data_dev[-3])          
-            # acc_P += acc_ptr
-            # acc_V += acc_vac
+
             acc=0
             w = 0 
             temp_gen = []
@@ -276,23 +289,21 @@ class Mem2Seq(nn.Module):
                 temp_gen.append(st)
                 correct = data_dev[7][i]  
                 ### compute F1 SCORE  
+                st = st.lstrip().rstrip()
+                correct = correct.lstrip().rstrip()
                 if args['dataset']=='kvr':
-                    f1_true,f1_pred = computeF1(data_dev[8][i],st.lstrip().rstrip(),correct.lstrip().rstrip())
+                    f1_true,count = self.compute_prf(data_dev[8][i], st.split(), global_entity_list, data_dev[14][i])
                     microF1_TRUE += f1_true
-                    microF1_PRED += f1_pred
-                    f1_true,f1_pred = computeF1(data_dev[9][i],st.lstrip().rstrip(),correct.lstrip().rstrip())
+                    microF1_PRED += count
+                    f1_true,count = self.compute_prf(data_dev[9][i], st.split(), global_entity_list, data_dev[14][i])
                     microF1_TRUE_cal += f1_true
-                    microF1_PRED_cal += f1_pred 
-                    f1_true,f1_pred = computeF1(data_dev[10][i],st.lstrip().rstrip(),correct.lstrip().rstrip())
+                    microF1_PRED_cal += count 
+                    f1_true,count = self.compute_prf(data_dev[10][i], st.split(), global_entity_list, data_dev[14][i])
                     microF1_TRUE_nav += f1_true
-                    microF1_PRED_nav += f1_pred 
-                    f1_true,f1_pred = computeF1(data_dev[11][i],st.lstrip().rstrip(),correct.lstrip().rstrip()) 
+                    microF1_PRED_nav += count 
+                    f1_true, count = self.compute_prf(data_dev[11][i], st.split(), global_entity_list, data_dev[14][i]) 
                     microF1_TRUE_wet += f1_true
-                    microF1_PRED_wet += f1_pred  
-                elif args['dataset']=='babi' and int(self.task)==6:
-                    f1_true,f1_pred = computeF1(data_dev[-2][i],st.lstrip().rstrip(),correct.lstrip().rstrip())
-                    microF1_TRUE += f1_true
-                    microF1_PRED += f1_pred
+                    microF1_PRED_wet += count
 
                 if args['dataset']=='babi':
                     if data_dev[-1][i] not in dialog_acc_dict.keys():
@@ -329,13 +340,10 @@ class Mem2Seq(nn.Module):
             logging.info("Dialog Accuracy:\t"+str(dia_acc*1.0/len(dialog_acc_dict.keys())))
 
         if args['dataset']=='kvr':
-            logging.info("F1 SCORE:\t"+str(f1_score(microF1_TRUE, microF1_PRED, average='micro')))
-            logging.info("F1 CAL:\t"+str(f1_score(microF1_TRUE_cal, microF1_PRED_cal, average='micro')))
-            logging.info("F1 WET:\t"+str(f1_score(microF1_TRUE_wet, microF1_PRED_wet, average='micro')))
-            logging.info("F1 NAV:\t"+str(f1_score(microF1_TRUE_nav, microF1_PRED_nav, average='micro')))
-        elif args['dataset']=='babi' and int(self.task)==6 :
-            logging.info("F1 SCORE:\t"+str(f1_score(microF1_TRUE, microF1_PRED, average='micro')))
-
+            logging.info("F1 SCORE:\t{}".format(microF1_TRUE/float(microF1_PRED)))
+            logging.info("\tCAL F1:\t{}".format(microF1_TRUE_cal/float(microF1_PRED_cal))) 
+            logging.info("\tWET F1:\t{}".format(microF1_TRUE_wet/float(microF1_PRED_wet))) 
+            logging.info("\tNAV F1:\t{}".format(microF1_TRUE_nav/float(microF1_PRED_nav))) 
               
         bleu_score = moses_multi_bleu(np.array(hyp), np.array(ref), lowercase=True) 
         logging.info("BLEU SCORE:"+str(bleu_score))     
@@ -351,13 +359,26 @@ class Mem2Seq(nn.Module):
                 logging.info("MODEL SAVED")
             return acc_avg
 
-def computeF1(entity,st,correct):
-    y_pred = [0 for z in range(len(entity))]
-    y_true = [1 for z in range(len(entity))]
-    for k in st.lstrip().rstrip().split(' '):
-        if (k in entity):
-            y_pred[entity.index(k)] = 1
-    return y_true,y_pred
+    def compute_prf(self, gold, pred, global_entity_list, kb_plain):
+        local_kb_word = [k[0] for k in kb_plain]
+        TP, FP, FN = 0, 0, 0
+        if len(gold)!= 0:
+            count = 1
+            for g in gold:
+                if g in pred:
+                    TP += 1
+                else:
+                    FN += 1
+            for p in set(pred):
+                if p in global_entity_list or p in local_kb_word:
+                    if p not in gold:
+                        FP += 1
+            precision = TP / float(TP+FP) if (TP+FP)!=0 else 0
+            recall = TP / float(TP+FN) if (TP+FN)!=0 else 0
+            F1 = 2 * precision * recall / float(precision + recall) if (precision+recall)!=0 else 0
+        else:
+            precision, recall, F1, count = 0, 0, 0, 0
+        return F1, count
 
 
 class EncoderMemNN(nn.Module):
@@ -412,9 +433,9 @@ class EncoderMemNN(nn.Module):
             u.append(u_k)   
         return u_k
 
-class DecoderrMemNN(nn.Module):
+class DecoderMemNN(nn.Module):
     def __init__(self, vocab, embedding_dim, hop, dropout, unk_mask):
-        super(DecoderrMemNN, self).__init__()
+        super(DecoderMemNN, self).__init__()
         self.num_vocab = vocab
         self.max_hops = hop
         self.embedding_dim = embedding_dim

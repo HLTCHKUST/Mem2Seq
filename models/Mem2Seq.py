@@ -18,6 +18,7 @@ import nltk
 import os
 from sklearn.metrics import f1_score
 import json
+from utils.until_temp import entityList
 
 class Mem2Seq(nn.Module):
     def __init__(self, hidden_size, max_len, max_r, lang, path, task, lr, n_layers, dropout, unk_mask):
@@ -267,6 +268,8 @@ class Mem2Seq(nn.Module):
                         for item in global_entity['poi']:
                             global_entity_list += [item[k].lower().replace(' ', '_') for k in item.keys()]
                 global_entity_list = list(set(global_entity_list))
+        else:
+            global_entity_list = entityList('data/dialog-bAbI-tasks/dialog-babi-task6-dstc2-kb.txt',int(args["task"]))
 
         pbar = tqdm(enumerate(dev),total=len(dev))
         for j, data_dev in pbar: 
@@ -310,13 +313,13 @@ class Mem2Seq(nn.Module):
                     microF1_PRED += count
 
                 if args['dataset']=='babi':
-                    if data_dev[-1][i] not in dialog_acc_dict.keys():
-                        dialog_acc_dict[data_dev[-1][i]] = []
+                    if data_dev[11][i] not in dialog_acc_dict.keys():
+                        dialog_acc_dict[data_dev[11][i]] = []
                     if (correct == st):
                         acc+=1
-                        dialog_acc_dict[data_dev[-1][i]].append(1)
+                        dialog_acc_dict[data_dev[11][i]].append(1)
                     else:
-                        dialog_acc_dict[data_dev[-1][i]].append(0)
+                        dialog_acc_dict[data_dev[11][i]].append(0)
                 else:
                     if (correct == st):
                         acc+=1

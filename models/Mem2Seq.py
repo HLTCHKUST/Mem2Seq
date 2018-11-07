@@ -79,7 +79,7 @@ class Mem2Seq(nn.Module):
         
     def train_batch(self, input_batches, input_lengths, target_batches, 
                     target_lengths, target_index, target_gate, batch_size, clip,
-                    teacher_forcing_ratio, conv_seqs, conv_lengths, reset):  
+                    teacher_forcing_ratio, reset):  
 
         if reset:
             self.loss = 0
@@ -159,7 +159,7 @@ class Mem2Seq(nn.Module):
         self.loss_ptr += loss_Ptr.data[0]
         self.loss_vac += loss_Vocab.data[0]
         
-    def evaluate_batch(self,batch_size,input_batches, input_lengths, target_batches, target_lengths, target_index,target_gate,src_plain, conv_seqs, conv_lengths):  
+    def evaluate_batch(self,batch_size,input_batches, input_lengths, target_batches, target_lengths, target_index,target_gate,src_plain):  
         # Set to not-training mode to disable dropout
         self.encoder.train(False)
         self.decoder.train(False)  
@@ -272,10 +272,10 @@ class Mem2Seq(nn.Module):
         for j, data_dev in pbar: 
             if args['dataset']=='kvr':
                 words = self.evaluate_batch(len(data_dev[1]),data_dev[0],data_dev[1],
-                                    data_dev[2],data_dev[3],data_dev[4],data_dev[5],data_dev[6], data_dev[-2], data_dev[-1]) 
+                                    data_dev[2],data_dev[3],data_dev[4],data_dev[5],data_dev[6]) 
             else:
                 words = self.evaluate_batch(len(data_dev[1]),data_dev[0],data_dev[1],
-                        data_dev[2],data_dev[3],data_dev[4],data_dev[5],data_dev[6], data_dev[-4], data_dev[-3])          
+                        data_dev[2],data_dev[3],data_dev[4],data_dev[5],data_dev[6])          
 
             acc=0
             w = 0 
@@ -304,6 +304,10 @@ class Mem2Seq(nn.Module):
                     f1_true, count = self.compute_prf(data_dev[11][i], st.split(), global_entity_list, data_dev[14][i]) 
                     microF1_TRUE_wet += f1_true
                     microF1_PRED_wet += count
+                elif args['dataset']=='babi' and int(args["task"])==6:
+                    f1_true,count = self.compute_prf(data_dev[10][i], st.split(), global_entity_list, data_dev[12][i])
+                    microF1_TRUE += f1_true
+                    microF1_PRED += count
 
                 if args['dataset']=='babi':
                     if data_dev[-1][i] not in dialog_acc_dict.keys():
@@ -344,6 +348,8 @@ class Mem2Seq(nn.Module):
             logging.info("\tCAL F1:\t{}".format(microF1_TRUE_cal/float(microF1_PRED_cal))) 
             logging.info("\tWET F1:\t{}".format(microF1_TRUE_wet/float(microF1_PRED_wet))) 
             logging.info("\tNAV F1:\t{}".format(microF1_TRUE_nav/float(microF1_PRED_nav))) 
+        elif args['dataset']=='babi' and int(args["task"])==6:
+            logging.info("F1 SCORE:\t{}".format(microF1_TRUE/float(microF1_PRED)))
               
         bleu_score = moses_multi_bleu(np.array(hyp), np.array(ref), lowercase=True) 
         logging.info("BLEU SCORE:"+str(bleu_score))     

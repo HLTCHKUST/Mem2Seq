@@ -51,7 +51,7 @@ class Lang:
 
 class Dataset(data.Dataset):
     """Custom data.Dataset compatible with data.DataLoader."""
-    def __init__(self, src_seq, trg_seq, index_seq, gate_seq,src_word2id, trg_word2id,max_len, conv_seq,ent,ID):
+    def __init__(self, src_seq, trg_seq, index_seq, gate_seq,src_word2id, trg_word2id,max_len, conv_seq,ent,ID,kb_arr):
         """Reads source and target sequences from txt files."""
         self.src_seqs = src_seq
         self.trg_seqs = trg_seq
@@ -64,6 +64,7 @@ class Dataset(data.Dataset):
         self.conv_seq = conv_seq
         self.ent = ent
         self.ID = ID
+        self.kb_arr = kb_arr
 
     def __getitem__(self, index):
         """Returns one data pair (source and target)."""
@@ -78,8 +79,9 @@ class Dataset(data.Dataset):
         conv_seq = self.conv_seq[index]
         conv_seq = self.preprocess(conv_seq, self.src_word2id, trg=False)
         ID = self.ID[index]
+        kb_arr = self.kb_arr[index]
         
-        return src_seq, trg_seq, index_s, gete_s,self.max_len,self.src_seqs[index],self.trg_seqs[index], conv_seq,self.ent[index], ID
+        return src_seq, trg_seq, index_s, gete_s,self.max_len,self.src_seqs[index],self.trg_seqs[index], conv_seq,self.ent[index], ID, kb_arr
 
     def __len__(self):
         return self.num_total_seqs
@@ -132,7 +134,7 @@ def collate_fn(data):
     # sort a list by sequence length (descending order) to use pack_padded_sequence
     data.sort(key=lambda x: len(x[0]), reverse=True)
     # seperate source and target sequences
-    src_seqs, trg_seqs, ind_seqs, gete_s, max_len, src_plain,trg_plain, conv_seq, ent, ID = zip(*data)
+    src_seqs, trg_seqs, ind_seqs, gete_s, max_len, src_plain,trg_plain, conv_seq, ent, ID, kb_arr = zip(*data)
     # merge sequences (from tuple of 1D tensor to 2D tensor)
     src_seqs, src_lengths = merge(src_seqs,max_len)
     trg_seqs, trg_lengths = merge(trg_seqs,None)
@@ -152,13 +154,14 @@ def collate_fn(data):
         ind_seqs = ind_seqs.cuda()
         gete_s = gete_s.cuda()
         conv_seqs = conv_seqs.cuda()
-    return src_seqs, src_lengths, trg_seqs, trg_lengths, ind_seqs, gete_s, src_plain, trg_plain, conv_seqs, conv_lengths,ent,ID
+    return src_seqs, src_lengths, trg_seqs, trg_lengths, ind_seqs, gete_s, src_plain, trg_plain, conv_seqs, conv_lengths, ent, ID, kb_arr
 
 def read_langs(file_name, entity, max_line = None):
     logging.info(("Reading lines from {}".format(file_name)))
     data=[]
     contex_arr = []
     conversation_arr = []
+    kb_arr = []
     u=None
     r=None
     user_counter = 0
@@ -224,7 +227,7 @@ def read_langs(file_name, entity, max_line = None):
                         if(key in entity):
                             ent.append(key)
 
-                    data.append([contex_arr_temp,r,r_index,gate,list(conversation_arr),ent,dialog_counter])
+                    data.append([contex_arr_temp,r,r_index,gate,list(conversation_arr),ent,dialog_counter, kb_arr])
                     gen_r = generate_memory(r, "$s", str(time_counter)) 
                     contex_arr += gen_r
                     conversation_arr += gen_r
@@ -234,13 +237,16 @@ def read_langs(file_name, entity, max_line = None):
                     KB_counter += 1
                     r=line
                     if USEKB:
-                        contex_arr += generate_memory(r, "", "")  
+                        temp = generate_memory(r, "", "")  
+                        contex_arr += temp
+                        kb_arr += temp
             else:
                 cnt_lin+=1
                 if(max_line and cnt_lin>=max_line):
                     break
                 contex_arr=[]
                 conversation_arr = []
+                kb_arr = []
                 time_counter = 1
                 dialog_counter += 1
     max_len = max([len(d[0]) for d in data])
@@ -278,6 +284,7 @@ def get_seq(pairs,lang,batch_size,type,max_len):
     conv_seq = []
     ent = []
     ID = []
+    kb_arr = []
     for pair in pairs:
         x_seq.append(pair[0])
         y_seq.append(pair[1])
@@ -286,11 +293,12 @@ def get_seq(pairs,lang,batch_size,type,max_len):
         conv_seq.append(pair[4])
         ent.append(pair[5])
         ID.append(pair[6])
+        kb_arr.append(pair[7])
         if(type):
             lang.index_words(pair[0])
             lang.index_words(pair[1], trg=True)
     
-    dataset = Dataset(x_seq, y_seq,ptr_seq,gate_seq,lang.word2index, lang.word2index,max_len, conv_seq,ent,ID)
+    dataset = Dataset(x_seq, y_seq,ptr_seq,gate_seq,lang.word2index, lang.word2index,max_len, conv_seq,ent,ID,kb_arr)
     data_loader = torch.utils.data.DataLoader(dataset=dataset,
                                               batch_size=batch_size,
                                               shuffle=type,

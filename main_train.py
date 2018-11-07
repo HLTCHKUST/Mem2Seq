@@ -54,15 +54,7 @@ for epoch in range(300):
     # Run the train function
     pbar = tqdm(enumerate(train),total=len(train))
     for i, data in pbar: 
-        if args['decoder'] == "Mem2Seq":
-            if args['dataset']=='kvr':
-                model.train_batch(data[0], data[1], data[2], data[3],data[4],data[5],
-                            len(data[1]),10.0,0.5,i==0)
-            else:
-                model.train_batch(data[0], data[1], data[2], data[3],data[4],data[5],
-                            len(data[1]),10.0,0.5,i==0)
-        else:
-            model.train_batch(data[0], data[1], data[2], data[3],data[4],data[5],
+        model.train_batch(data[0], data[1], data[2], data[3],data[4],data[5],
                         len(data[1]),10.0,0.5,i==0) 
         pbar.set_description(model.print_loss())
     

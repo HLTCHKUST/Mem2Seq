@@ -269,7 +269,10 @@ class Mem2Seq(nn.Module):
                             global_entity_list += [item[k].lower().replace(' ', '_') for k in item.keys()]
                 global_entity_list = list(set(global_entity_list))
         else:
-            global_entity_list = entityList('data/dialog-bAbI-tasks/dialog-babi-task6-dstc2-kb.txt',int(args["task"]))
+            if int(args["task"])!=6:
+                global_entity_list = entityList('data/dialog-bAbI-tasks/dialog-babi-kb-all.txt',int(args["task"]))
+            else:
+                global_entity_list = entityList('data/dialog-bAbI-tasks/dialog-babi-task6-dstc2-kb.txt',int(args["task"]))
 
         pbar = tqdm(enumerate(dev),total=len(dev))
         for j, data_dev in pbar: 

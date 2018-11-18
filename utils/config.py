@@ -30,7 +30,7 @@ parser.add_argument('-test','--test', help='Testing mode', required=False)
 parser.add_argument('-sample','--sample', help='Number of Samples', required=False,default=None)
 parser.add_argument('-useKB','--useKB', help='Put KB in the input or not', required=False, default=1)
 parser.add_argument('-ep','--entPtr', help='Restrict Ptr only point to entity', required=False, default=0)
-parser.add_argument('-evalp','--evalp', help='evaluation period', required=False, default=3)
+parser.add_argument('-evalp','--evalp', help='evaluation period', required=False, default=2)
 parser.add_argument('-an','--addName', help='An add name for the save folder', required=False, default='')
 
 args = vars(parser.parse_args())

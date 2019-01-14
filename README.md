@@ -26,7 +26,7 @@ If you use any source codes or datasets included in this toolkit in your work, p
 </p>
 
 ## Mem2Seq in pytorch 
-In this repository we implemented Mem2Seq and several baseline in pytorch (Version 0.3). To make the code more reusable we diveded each model in a separated files (obivuosly there is a large code overlap). In the folder models you can find the following:
+In this repository we implemented Mem2Seq and several baseline in pytorch (Version 0.3). To make the code more reusable we diveded each model in a separated files (obviusly there is a large code overlap). In the folder models you can find the following:
 - ***Mem2Seq***: Memory to Sequence (Our model)
 - ***Seq2Seq***: Vanilla seq2seq model with no attention (enc_vanilla)
 - ***+Attn***: Luong attention attention model

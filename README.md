@@ -26,7 +26,7 @@ If you use any source codes or datasets included in this toolkit in your work, p
 </p>
 
 ## Mem2Seq in pytorch 
-In this repository we implemented Mem2Seq and several baseline in pytorch (Version 0.3). To make the code more reusable we diveded each model in a separated files (obivuosly there is a large code overlap). In the folder models you can find the following:
+In this repository we implemented Mem2Seq and several baseline in pytorch (Version 0.3). To make the code more reusable we diveded each model in a separated files (obviusly there is a large code overlap). In the folder models you can find the following:
 - ***Mem2Seq***: Memory to Sequence (Our model)
 - ***Seq2Seq***: Vanilla seq2seq model with no attention (enc_vanilla)
 - ***+Attn***: Luong attention attention model
@@ -80,3 +80,12 @@ While training, the model with the best validation is saved. If you want to reus
 <p align="center">
 <img src="img/viz.png" width="75%" />
 </p>
+
+## Notes
+For hyper-parameter search of Mem2Seq, our suggestions are:
+* Try to use a higher dropout rate (dr >= 0.2) and larger hidden size (hdd>=256) to get better performance when training with small hop (H<=3). 
+* While training Mem2Seq with larger hops (H>3), it may perform better with smaller hidden size (hdd<256) and higher dropout rate.
+* Since there are some variances between runs, so it's better to run several times or run different seeds to get the best performance.
+
+## Enjoy! :)
+
